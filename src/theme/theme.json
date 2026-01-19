@@ -1,0 +1,25 @@
+{
+  "name": "cost-calculator-v2",
+  "colors": {
+    "brand": "#F6EDE8",
+    "accent": "#F6C344",
+    "bg": "#F7F7F8",
+    "card": "#FFFFFF",
+    "border": "#E6E6E8",
+    "mutedText": "#666666",
+    "danger": "#D64545"
+  },
+  "radius": {
+    "card": 14,
+    "control": 10
+  },
+  "spacing": {
+    "pagePad": "medium",
+    "cardPad": "medium",
+    "gap": "medium"
+  },
+  "typography": {
+    "font": "system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif",
+    "monospace": "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+  }
+}
