@@ -12,6 +12,8 @@ import {
   deleteMaterial,
 } from "../../client/endpoints/materials.api.js";
 
+import { useAuth } from "../../hooks/auth/AuthProvider.jsx";
+
 const MaterialsContext = createContext(null);
 
 const initialState = { items: [], loading: true };
@@ -29,6 +31,8 @@ function reducer(state, action) {
 
 export function MaterialsProvider({ children }) {
   const [state, dispatch] = useReducer(reducer, initialState);
+  const auth = useAuth();
+  const authenticated = auth.isAuthed && !auth.booting;
 
   const refresh = async () => {
     dispatch({ type: "loading" });
@@ -38,6 +42,7 @@ export function MaterialsProvider({ children }) {
   };
 
   useEffect(() => {
+    // if (authenticated)
     refresh();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);

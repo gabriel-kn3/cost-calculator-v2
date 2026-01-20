@@ -10,6 +10,7 @@ export function createHttpClient({ baseUrl = "" } = {}) {
   async function request(path, { method = "GET", headers = {}, body } = {}) {
     const res = await fetch(`${baseUrl}${path}`, {
       method,
+      credentials: "include",
       headers: {
         "Content-Type": "application/json",
         ...headers,

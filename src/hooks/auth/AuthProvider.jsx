@@ -9,7 +9,7 @@ export function AuthProvider({ children }) {
   const [booting, setBooting] = useState(true);
 
   const refreshMe = async () => {
-    const { data } = await http.get("/auth/me");
+    const data = await http.get("/auth/me");
     setUser(data.user);
     return data.user;
   };
@@ -64,7 +64,8 @@ export function AuthProvider({ children }) {
       isAuthed: !!user,
 
       login: async (email, password) => {
-        const { data } = await http.post("/auth/login", { email, password });
+        const data = await http.post("/auth/login", { email, password });
+        console.debug("Log in response => ", data);
         setUser(data.user);
         return data.user;
       },
