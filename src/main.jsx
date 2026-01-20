@@ -16,9 +16,9 @@ import { AuthProvider } from "./hooks/auth/AuthProvider.jsx";
 const theme = buildTheme(themeJson);
 
 createRoot(document.getElementById("root")).render(
-  <Grommet theme={theme} full>
-    <BrowserRouter>
-      <AuthProvider>
+  <Grommet theme={theme} full themeMode="dark">
+    <AuthProvider>
+      <BrowserRouter>
         <AppProvider>
           <MaterialsProvider>
             <ProductsProvider>
@@ -28,7 +28,7 @@ createRoot(document.getElementById("root")).render(
             </ProductsProvider>
           </MaterialsProvider>
         </AppProvider>
-      </AuthProvider>
-    </BrowserRouter>
+      </BrowserRouter>
+    </AuthProvider>
   </Grommet>
 );

@@ -44,13 +44,13 @@ export function AuthProvider({ children }) {
     };
 
     const onActivity = () => ping();
-    window.addEventListener("mousemove", onActivity);
+    // window.addEventListener("mousemove", onActivity);
     window.addEventListener("keydown", onActivity);
     window.addEventListener("click", onActivity);
     window.addEventListener("scroll", onActivity);
 
     return () => {
-      window.removeEventListener("mousemove", onActivity);
+      // window.removeEventListener("mousemove", onActivity);
       window.removeEventListener("keydown", onActivity);
       window.removeEventListener("click", onActivity);
       window.removeEventListener("scroll", onActivity);

@@ -33,6 +33,8 @@ export function MaterialsProvider({ children }) {
   const [state, dispatch] = useReducer(reducer, initialState);
   const auth = useAuth();
   const authenticated = auth.isAuthed && !auth.booting;
+  console.log("Auth object => ", auth);
+  console.log("Authenticated => ", authenticated);
 
   const refresh = async () => {
     dispatch({ type: "loading" });
@@ -42,10 +44,9 @@ export function MaterialsProvider({ children }) {
   };
 
   useEffect(() => {
-    // if (authenticated)
-    refresh();
+    if (authenticated) refresh();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [authenticated]);
 
   const api = useMemo(() => {
     const common = state.items.filter((m) =>

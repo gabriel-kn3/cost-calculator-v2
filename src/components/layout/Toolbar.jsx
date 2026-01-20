@@ -9,7 +9,7 @@ export default function Toolbar({ left, right }) {
       justify="between"
       gap="medium"
       wrap
-      margin={{ bottom: "small" }}
+      margin={{ bottom: "medium" }}
     >
       <Box direction="row" align="center" gap="small" wrap>
         {left}
