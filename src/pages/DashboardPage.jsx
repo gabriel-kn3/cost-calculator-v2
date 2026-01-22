@@ -22,7 +22,8 @@ export default function DashboardPage() {
           Dashboard
         </Text>
         <Text color="text-muted">
-          A clean, business-agnostic cost calculator.
+          Handmade by Bet tool for calculating prouct costs and warehousing
+          materials.
         </Text>
       </Box>
 
