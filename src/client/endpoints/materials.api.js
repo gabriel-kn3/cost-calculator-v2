@@ -20,5 +20,5 @@ export async function updateMaterial(id, payload) {
 
 // DELETE /api/materials/:id
 export async function deleteMaterial(id) {
-  await http.delete(`/materials/${id}`);
+  await http.del(`/materials/${id}`);
 }

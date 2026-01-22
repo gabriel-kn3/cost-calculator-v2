@@ -89,8 +89,9 @@ export function MaterialsProvider({ children }) {
       },
 
       remove: async (id) => {
-        await deleteMaterial(id);
+        const message = await deleteMaterial(id);
         await refresh();
+        return message;
       },
 
       // Keep API compatible with your UI, but implement as "replace" client-side
