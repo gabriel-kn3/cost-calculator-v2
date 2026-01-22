@@ -26,5 +26,6 @@ export async function updateProduct(id, payload) {
 
 // DELETE /api/products/:id
 export async function deleteProduct(id) {
-  await http.delete(`/products/${id}`);
+  const data = await http.del(`/products/${id}`);
+  return data;
 }

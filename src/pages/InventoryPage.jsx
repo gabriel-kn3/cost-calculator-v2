@@ -69,7 +69,7 @@ export default function InventoryPage() {
             const ok = window.confirm(`Delete material: ${m.name}?`);
             if (!ok) return;
             await materials.remove(m.id);
-            app.toast("Material deleted.");
+            app.toast("Material deleted.", "ok");
           }}
         />
       </SectionCard>

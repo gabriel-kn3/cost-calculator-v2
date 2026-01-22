@@ -49,7 +49,7 @@ export default function AppShell() {
               mode: "import",
               onComplete: async ({ imported }) => {
                 await materials.replaceAll(imported);
-                app.toast(`Imported ${imported.length} materials.`);
+                app.toast(`Imported ${imported.length} materials.`, "ok");
               },
             }),
         },
@@ -66,7 +66,7 @@ export default function AppShell() {
                   kind: IO_KINDS.MATERIALS,
                   data: materials.materials,
                 });
-                app.toast("Exported materials JSON.");
+                app.toast("Exported materials JSON.", "ok");
               },
             }),
         }
@@ -79,7 +79,7 @@ export default function AppShell() {
           hotkey: "C",
           onClick: () => {
             calc.addCommonMaterials(materials.commonMaterials);
-            app.toast("Added common materials.");
+            app.toast("Added common materials.", "ok");
           },
         },
         {
@@ -98,7 +98,7 @@ export default function AppShell() {
               mode: "export",
               onComplete: async () => {
                 exportJSON({ kind: IO_KINDS.CALCULATION, data: calc.state });
-                app.toast("Exported draft JSON.");
+                app.toast("Exported draft JSON.", "ok");
               },
             }),
         }
@@ -121,7 +121,7 @@ export default function AppShell() {
               mode: "import",
               onComplete: async ({ imported }) => {
                 await products.replaceAll(imported);
-                app.toast(`Imported ${imported.length} products.`);
+                app.toast(`Imported ${imported.length} products.`, "ok");
               },
             }),
         },
@@ -138,7 +138,7 @@ export default function AppShell() {
                   kind: IO_KINDS.PRODUCTS,
                   data: products.products,
                 });
-                app.toast("Exported products JSON.");
+                app.toast("Exported products JSON.", "ok");
               },
             }),
         }
@@ -188,7 +188,7 @@ export default function AppShell() {
       <AppDock />
 
       {/* tiny padding so content never hides behind dock */}
-      <Box height="86px" />
+      {/* <Box height="86px" /> */}
     </Box>
   );
 }

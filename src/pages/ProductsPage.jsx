@@ -1,15 +1,15 @@
-import React from 'react';
-import { Box, Button, Text } from 'grommet';
-import { useNavigate } from 'react-router-dom';
+import React from "react";
+import { Box, Button, Text } from "grommet";
+import { useNavigate } from "react-router-dom";
 
-import PageContainer from '../components/layout/PageContainer.jsx';
-import Toolbar from '../components/layout/Toolbar.jsx';
-import ProductsGrid from '../components/products/ProductsGrid.jsx';
+import PageContainer from "../components/layout/PageContainer.jsx";
+import Toolbar from "../components/layout/Toolbar.jsx";
+import ProductsGrid from "../components/products/ProductsGrid.jsx";
 
-import { useApp } from '../hooks/app/AppProvider.jsx';
-import { useProducts } from '../hooks/products/ProductsProvider.jsx';
-import { useCalculation } from '../hooks/calculation/CalculationProvider.jsx';
-import { IO_KINDS, exportJSON } from '../utils/io/ioAdapters.js';
+import { useApp } from "../hooks/app/AppProvider.jsx";
+import { useProducts } from "../hooks/products/ProductsProvider.jsx";
+import { useCalculation } from "../hooks/calculation/CalculationProvider.jsx";
+import { IO_KINDS, exportJSON } from "../utils/io/ioAdapters.js";
 
 export default function ProductsPage() {
   const app = useApp();
@@ -20,7 +20,11 @@ export default function ProductsPage() {
   return (
     <PageContainer>
       <Toolbar
-        left={<Text size="xxlarge" weight={700}>Saved Products</Text>}
+        left={
+          <Text size="xxlarge" weight={700}>
+            Saved Products
+          </Text>
+        }
         right={
           <Box direction="row" gap="small" wrap>
             <Button
@@ -28,11 +32,11 @@ export default function ProductsPage() {
               onClick={() =>
                 app.openIO({
                   kind: IO_KINDS.PRODUCTS,
-                  mode: 'import',
+                  mode: "import",
                   onComplete: async ({ imported }) => {
                     await products.replaceAll(imported);
-                    app.toast(`Imported ${imported.length} products.`);
-                  }
+                    app.toast(`Imported ${imported.length} products.`, "ok");
+                  },
                 })
               }
             />
@@ -41,11 +45,14 @@ export default function ProductsPage() {
               onClick={() =>
                 app.openIO({
                   kind: IO_KINDS.PRODUCTS,
-                  mode: 'export',
+                  mode: "export",
                   onComplete: async () => {
-                    exportJSON({ kind: IO_KINDS.PRODUCTS, data: products.products });
-                    app.toast('Exported products JSON.');
-                  }
+                    exportJSON({
+                      kind: IO_KINDS.PRODUCTS,
+                      data: products.products,
+                    });
+                    app.toast("Exported products JSON.", "ok");
+                  },
                 })
               }
             />
@@ -57,14 +64,14 @@ export default function ProductsPage() {
         products={products.products}
         onLoad={(p) => {
           calc.loadFromProduct(p);
-          navigate('/calculator');
-          app.toast('Loaded product into calculator.');
+          navigate("/calculator");
+          app.toast("Loaded product into calculator.", "ok");
         }}
         onDelete={async (p) => {
           const ok = window.confirm(`Delete product: ${p.name}?`);
           if (!ok) return;
-          await products.remove(p.id);
-          app.toast('Product deleted.');
+          const { message } = await products.remove(p.id);
+          app.toast(message, "ok");
         }}
       />
     </PageContainer>

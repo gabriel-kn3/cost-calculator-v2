@@ -1,6 +1,18 @@
-import React from 'react';
-import { Box, Notification } from 'grommet';
-import { useApp } from '../../hooks/app/AppProvider.jsx';
+import { Box, Notification } from "grommet";
+import {
+  StatusCriticalSmall,
+  StatusWarningSmall,
+  StatusUnknownSmall,
+  Checkmark,
+} from "grommet-icons";
+import { useApp } from "../../hooks/app/AppProvider.jsx";
+
+const toastIconsByStatus = {
+  ok: <Checkmark color="status-ok" />,
+  warning: <StatusWarningSmall color="status-warning" />,
+  error: <StatusCriticalSmall color="status-critical" />,
+  unknown: <StatusUnknownSmall color="grey" />,
+};
 
 export default function Toasts() {
   const app = useApp();
@@ -10,16 +22,17 @@ export default function Toasts() {
 
   return (
     <Box
-      style={{ position: 'fixed', top: 16, right: 16, zIndex: 20 }}
+      style={{ position: "fixed", top: 16, right: 16, zIndex: 20 }}
       gap="small"
     >
       {toasts.map((t) => (
         <Notification
           key={t.id}
           toast
-          status={t.status || 'normal'}
+          status={t.status || "normal"}
+          icon={toastIconsByStatus[t.status] || toastIconsByStatus.unknown}
           message={t.message}
-          onClose={() => {}} 
+          onClose={() => {}}
         />
       ))}
     </Box>

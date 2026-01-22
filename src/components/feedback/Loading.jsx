@@ -16,7 +16,7 @@ export default function LoadingCard({ label = "Loading…" }) {
     >
       <CardBody pad="medium">
         <Box align="center" justify="center" gap="small" height="small">
-          <Spinner />
+          <Spinner color={"brand"} />
           <Text size="small" color="text-muted">
             {label}
           </Text>

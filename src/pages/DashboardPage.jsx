@@ -66,16 +66,16 @@ export default function DashboardPage() {
         title="Quick Tips"
         cardStyleProps={{
           minHeight: "100px",
+          maxHeight: "200px",
         }}
       >
         <Text size="small">• Ctrl + / opens the dock command legend.</Text>
         <Text size="small">
           • Ctrl + (I/E/S/C) trigger dock actions per page.
         </Text>
-        <Text size="small">
-          • Import/export uses the same JSON format across
-          materials/products/draft.
-        </Text>
+        {/* <Text size="small">
+          • Import/export uses the same JSON format across materials/products.
+        </Text> */}
       </SectionCard>
     </PageContainer>
   );

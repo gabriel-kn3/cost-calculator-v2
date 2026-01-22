@@ -174,8 +174,9 @@ export function ProductsProvider({ children }) {
       },
 
       remove: async (id) => {
-        await deleteProduct(id);
+        const deleteMsg = await deleteProduct(id);
         await refresh();
+        return deleteMsg;
       },
 
       // Same comment as materials: true replace requires backend support.
