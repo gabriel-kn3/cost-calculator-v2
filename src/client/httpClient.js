@@ -2,6 +2,13 @@
 // Uses fetch to avoid extra dependencies (axios optional).
 
 function defaultApiBaseUrl() {
+  // const isLocal =
+  //   window.location.hostname === "localhost" ||
+  //   window.location.hostname === "127.0.0.1";
+  // // local dev: FastAPI running on :8000
+  // if (isLocal) return "http://localhost:8000";
+  // // production (Vercel): same origin, route API under /api
+  // return "/api";
   const { protocol, hostname } = window.location;
   return `${protocol}//${hostname}:8000`;
 }
