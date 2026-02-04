@@ -13,7 +13,7 @@ export default function ProductsGrid({ products, onLoad, onDelete }) {
 
   return (
     <Grid
-      columns={{ count: 'fit', size: 'small' }}
+      columns={{ count: 'fit', size: 'medium' }}
       gap="medium"
     >
       {products.map((p) => (

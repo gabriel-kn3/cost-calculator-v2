@@ -22,7 +22,7 @@ export default function ProductsPage() {
       <Toolbar
         left={
           <Text size="xxlarge" weight={700}>
-            Saved Products
+            Saved Products ({products.products.length})
           </Text>
         }
         right={

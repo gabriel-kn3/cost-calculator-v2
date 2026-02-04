@@ -13,7 +13,7 @@ export default function CalcTable({
     <Box gap="xsmall">
       {/* toolbar */}
       <Box direction="row" justify="end" align="center">
-        <Button label="Add Row" onClick={onAddEmptyRow} />
+        <Button label="Add Material" onClick={onAddEmptyRow} />
       </Box>
 
       {/* horizontal scroll container */}

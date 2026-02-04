@@ -19,7 +19,7 @@ export default function InventoryPage() {
       <Toolbar
         left={
           <Text size="xxlarge" weight={700}>
-            Inventory
+            Inventory ({materials.materials.length})
           </Text>
         }
         right={

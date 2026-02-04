@@ -13,8 +13,8 @@ export default function ProductCard({ product, onLoad, onDelete }) {
         product.lastUpdated
           ? new Date(product.lastUpdated).toLocaleString("en-US", {
               timeZone: "America/New_York",
-              dateStyle: "medium",
-              timeStyle: "short",
+              dateStyle: "short",
+              // timeStyle: "short",
             })
           : "-"
       }`}
