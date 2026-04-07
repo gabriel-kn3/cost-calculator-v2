@@ -10,6 +10,7 @@ export default function Toolbar({ left, right }) {
       gap="medium"
       wrap
       margin={{ bottom: "medium" }}
+      pad={"small"}
     >
       <Box direction="row" align="center" gap="small" wrap>
         {left}

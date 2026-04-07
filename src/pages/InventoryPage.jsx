@@ -1,5 +1,5 @@
-import React from "react";
-import { Box, Button, Text } from "grommet";
+import React, { useState, useMemo } from "react";
+import { Box, Button, Text, TextInput } from "grommet";
 
 import PageContainer from "../components/layout/PageContainer.jsx";
 import Toolbar from "../components/layout/Toolbar.jsx";
@@ -11,8 +11,20 @@ import { useMaterials } from "../hooks/materials/MaterialsProvider.jsx";
 import { IO_KINDS, exportJSON } from "../utils/io/ioAdapters.js";
 
 export default function InventoryPage() {
-  const app = useApp();
+  const app       = useApp();
   const materials = useMaterials();
+
+  const [search, setSearch] = useState("");
+
+  const filteredMaterials = useMemo(() => {
+    const q = search.trim().toLowerCase();
+    if (!q) return materials.materials;
+    return materials.materials.filter(
+      (m) =>
+        (m.name     || "").toLowerCase().includes(q) ||
+        (m.supplier || "").toLowerCase().includes(q)
+    );
+  }, [materials.materials, search]);
 
   return (
     <PageContainer>
@@ -61,9 +73,19 @@ export default function InventoryPage() {
       <SectionCard
         title="Materials"
         subtitle="Base cost & base quantity. Use * in name for common items."
+        actions={
+          <Box width="220px">
+            <TextInput
+              placeholder="Search by name or supplier…"
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              size="small"
+            />
+          </Box>
+        }
       >
         <MaterialTable
-          items={materials.materials}
+          items={filteredMaterials}
           onEdit={(m) => app.openModal("edit_material", m)}
           onDelete={async (m) => {
             const ok = window.confirm(`Delete material: ${m.name}?`);

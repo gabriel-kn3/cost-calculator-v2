@@ -4,7 +4,7 @@ export default function PageContainer({ children }) {
   return (
     <Box
       pad={{ horizontal: "medium", vertical: "medium" }}
-      gap="small"
+      gap="medium"
       style={{
         maxWidth: 1350,
         width: "100%",

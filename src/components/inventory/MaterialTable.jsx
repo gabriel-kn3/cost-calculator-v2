@@ -67,6 +67,7 @@ export default function MaterialTable({ items, onEdit, onDelete }) {
       data={items}
       sortable
       resizable
+      paginate
       step={14}
     />
   );

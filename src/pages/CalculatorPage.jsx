@@ -153,10 +153,11 @@ export default function CalculatorPage() {
         {/* Profits section */}
         <Box>
           <ProfitsCard
+            totalProductCost={calc.totals.total}
             profitPercent={calc.state.profitPercent}
-            salePrice={calc.totals.total}
-            // onChangeProfit={(v) => calc.setMeta("profitPercent", v)}
-            // onChangeSalePrice={(v) => calc.setMeta("salePrice", v)}
+            salePrice={calc.state.salePrice}
+            onChangeProfit={(v) => calc.setMeta("profitPercent", v)}
+            onChangeSalePrice={(v) => calc.setMeta("salePrice", v)}
           />
         </Box>
       </Box>
