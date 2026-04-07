@@ -1,17 +1,32 @@
-import React, { useEffect, useState } from 'react';
-import { Layer, Box, Text, Button, Form, FormField, TextInput, TextArea, CheckBox } from 'grommet';
+import React, { useEffect, useState } from "react";
+import {
+  Layer,
+  Box,
+  Text,
+  Button,
+  Form,
+  FormField,
+  TextInput,
+  TextArea,
+  CheckBox,
+} from "grommet";
 
 const empty = {
   id: null,
-  name: '',
+  name: "",
   base_cost: 0,
   base_qty: 1,
-  supplier: '',
-  description: '',
-  active: true
+  supplier: "",
+  description: "",
+  active: true,
 };
 
-export default function MaterialFormModal({ open, initialMaterial, onClose, onSave }) {
+export default function MaterialFormModal({
+  open,
+  initialMaterial,
+  onClose,
+  onSave,
+}) {
   const [value, setValue] = useState(empty);
 
   useEffect(() => {
@@ -25,10 +40,13 @@ export default function MaterialFormModal({ open, initialMaterial, onClose, onSa
   const close = () => onClose?.();
 
   return (
-    <Layer onEsc={close} onClickOutside={close}>
-      <Box pad="medium" width={{ min: '560px', max: '720px' }} gap="medium">
+    <Layer
+      onEsc={close}
+      // onClickOutside={close}
+    >
+      <Box pad="medium" width={{ min: "560px", max: "720px" }} gap="medium">
         <Text weight={700} size="large">
-          {value.id ? 'Edit Material' : 'Add Material'}
+          {value.id ? "Edit Material" : "Add Material"}
         </Text>
 
         <Form
@@ -38,7 +56,7 @@ export default function MaterialFormModal({ open, initialMaterial, onClose, onSa
             const payload = {
               ...value,
               base_cost: Number(value.base_cost || 0),
-              base_qty: Number(value.base_qty || 1)
+              base_qty: Number(value.base_qty || 1),
             };
             await onSave?.(payload);
           }}
@@ -72,10 +90,12 @@ export default function MaterialFormModal({ open, initialMaterial, onClose, onSa
           <CheckBox
             label="Active"
             checked={!!value.active}
-            onChange={(e) => setValue((v) => ({ ...v, active: e.target.checked }))}
+            onChange={(e) =>
+              setValue((v) => ({ ...v, active: e.target.checked }))
+            }
           />
 
-          <Box direction="row" gap="small" justify="end" pad={{ top: 'small' }}>
+          <Box direction="row" gap="small" justify="end" pad={{ top: "small" }}>
             <Button label="Cancel" onClick={close} />
             <Button primary type="submit" label="Save" />
           </Box>

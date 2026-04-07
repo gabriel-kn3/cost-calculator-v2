@@ -1,6 +1,10 @@
 import { createContext, useContext, useMemo, useReducer } from "react";
 import { uid } from "../../utils/ids.js";
-import { totalCost } from "../../utils/calc/costMath.js";
+import {
+  totalCost,
+  salePriceFromProfitPercent,
+  profitPercentFromSalePrice,
+} from "../../utils/calc/costMath.js";
 
 const CalculationContext = createContext(null);
 
@@ -11,8 +15,17 @@ const initialState = {
   name: "Untitled Product",
   notes: "",
   workedHours: 0,
-  laborRate: 0,
+  laborRate: 12,
+  tax: 7.5, // FL based tax - TODO move to property file
   salePrice: 0,
+  profitPercent: 20,
+  additionalFees: [
+    {
+      serviceName: "Shopify",
+      percentage: 2.9,
+    },
+    { serviceName: "Credit Card", percentage: 2.9 },
+  ], // % based fees to include in products (shopify, credit cards)
 
   rowsById: {},
   rowOrder: [],
@@ -73,11 +86,28 @@ export function CalculationProvider({ children }) {
 
   const api = useMemo(() => {
     const rows = state.rowOrder.map((id) => state.rowsById[id]).filter(Boolean);
-    const totals = totalCost({
-      rows,
-      workedHours: state.workedHours,
-      laborRate: state.laborRate,
-    });
+    const totals = totalCost(
+      {
+        rows,
+        workedHours: state.workedHours,
+        laborRate: state.laborRate,
+        additionalFees: state.additionalFees,
+      },
+      {
+        taxPercent: state.tax,
+        salePrice: state.salePrice,
+        taxBasis: "subtotal",
+      } //basis for profit = "subtotal"
+    );
+    // const suggestedSalePrice = salePriceFromProfitPercent(
+    //   totals.total,
+    //   state.profitPercent
+    // );
+
+    // const suggestedProfitPercent = profitPercentFromSalePrice(
+    //   totals.total,
+    //   state.salePrice
+    // );
 
     const addRowFromMaterial = (material) => {
       const rowId = uid("row");
@@ -89,7 +119,7 @@ export function CalculationProvider({ children }) {
           name: material?.name || "Material",
           base_cost: material?.base_cost ?? 0,
           base_qty: material?.base_qty ?? 1,
-          used_qty: 0,
+          used_qty: 1, // default to 1 per user request
         },
       });
     };
@@ -98,6 +128,8 @@ export function CalculationProvider({ children }) {
       state,
       rows,
       totals,
+      // suggestedProfitPercent,
+      // suggestedSalePrice,
 
       // meta
       setMeta: (key, value) => dispatch({ type: "setMeta", key, value }),

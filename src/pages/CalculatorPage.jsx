@@ -6,6 +6,7 @@ import SectionCard from "../components/layout/SectionCard.jsx";
 import CalcTable from "../components/calculator/CalcTable.jsx";
 import WorkedHoursCard from "../components/calculator/WorkedHoursCard.jsx";
 import TotalsCard from "../components/calculator/TotalsCard.jsx";
+import ProfitsCard from "../components/calculator/ProfitsCard.jsx";
 
 import { useApp } from "../hooks/app/AppProvider.jsx";
 import { useMaterials } from "../hooks/materials/MaterialsProvider.jsx";
@@ -147,7 +148,16 @@ export default function CalculatorPage() {
           />
         </Box>
         <Box width={{ min: "320px" }} pad={{ bottom: "small" }}>
-          <TotalsCard totals={calc.totals} />
+          <TotalsCard totals={calc.totals} taxPercent={calc.state.tax} />
+        </Box>
+        {/* Profits section */}
+        <Box>
+          <ProfitsCard
+            profitPercent={calc.state.profitPercent}
+            salePrice={calc.totals.total}
+            // onChangeProfit={(v) => calc.setMeta("profitPercent", v)}
+            // onChangeSalePrice={(v) => calc.setMeta("salePrice", v)}
+          />
         </Box>
       </Box>
     </PageContainer>

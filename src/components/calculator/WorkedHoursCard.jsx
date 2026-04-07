@@ -1,16 +1,19 @@
-import React from 'react';
-import { Box, Text, TextInput } from 'grommet';
-import SectionCard from '../layout/SectionCard.jsx';
+import { Box, Text, TextInput } from "grommet";
+import SectionCard from "../layout/SectionCard.jsx";
 
-export default function WorkedHoursCard({ workedHours, laborRate, onChangeWorkedHours, onChangeLaborRate }) {
+export default function WorkedHoursCard({
+  workedHours,
+  laborRate,
+  onChangeWorkedHours,
+  onChangeLaborRate,
+}) {
   return (
-    <SectionCard
-      title="Labor"
-      subtitle="Optional add-on: worked hours and labor rate"
-    >
+    <SectionCard title="Labor" subtitle="Optional: worked hours and labor rate">
       <Box direction="row" gap="medium" wrap>
         <Box width="200px">
-          <Text size="small" color="text-muted">Worked Hours</Text>
+          <Text size="small" color="text-muted">
+            Worked Hours
+          </Text>
           <TextInput
             type="number"
             value={workedHours}
@@ -18,7 +21,9 @@ export default function WorkedHoursCard({ workedHours, laborRate, onChangeWorked
           />
         </Box>
         <Box width="200px">
-          <Text size="small" color="text-muted">Labor Rate (per hour)</Text>
+          <Text size="small" color="text-muted">
+            Labor Rate (per hour)
+          </Text>
           <TextInput
             type="number"
             value={laborRate}
