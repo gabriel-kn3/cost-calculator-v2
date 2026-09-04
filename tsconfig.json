@@ -25,6 +25,6 @@
       "@/*": ["./client/src/*"]
     }
   },
-  "include": ["shared/**/*", "server/**/*", "client/src/**/*", "tests/**/*"],
+  "include": ["shared/**/*", "server/**/*", "client/src/**/*", "tests/**/*", "vite.config.ts", "drizzle.config.ts"],
   "exclude": ["node_modules", "dist", "src"]
 }

@@ -7,13 +7,18 @@ import path from "node:path";
 import express, { type Express } from "express";
 import { env } from "./env.js";
 
-const root = path.resolve(import.meta.dirname, "..");
+const projectRoot = path.resolve(import.meta.dirname, "..");
+/** Vite serves client/; the built bundle lands in dist/. */
+const clientRoot = path.join(projectRoot, "client");
 
 export async function attachVite(app: Express) {
   const { createServer } = await import("vite");
 
   const vite = await createServer({
-    root,
+    // Vite looks for its config inside `root` by default; ours lives at the
+    // project root, so point at it explicitly or the @ alias will not resolve.
+    configFile: path.join(projectRoot, "vite.config.ts"),
+    root: clientRoot,
     appType: "spa",
     server: {
       middlewareMode: true,
@@ -29,7 +34,7 @@ export async function attachVite(app: Express) {
 }
 
 export function serveStatic(app: Express) {
-  const dist = path.join(root, "dist");
+  const dist = path.join(projectRoot, "dist");
   if (!fs.existsSync(dist)) {
     throw new Error(`No build found at ${dist}. Run \`npm run build\` first.`);
   }
