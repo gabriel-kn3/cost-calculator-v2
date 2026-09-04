@@ -10,7 +10,10 @@
     "preview": "vite preview",
     "check": "tsc --noEmit",
     "baseline:generate": "node tests/characterization/generate-baseline.mjs",
-    "test:math": "tsx tests/characterization/verify-port.ts"
+    "test:math": "tsx tests/characterization/verify-port.ts",
+    "db:generate": "drizzle-kit generate",
+    "db:seed": "tsx server/scripts/seed-from-csv.ts",
+    "db:verify": "tsx server/scripts/verify-migration.ts"
   },
   "dependencies": {
     "@node-rs/argon2": "^2.2.0",

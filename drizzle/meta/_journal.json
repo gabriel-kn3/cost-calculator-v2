@@ -1,0 +1,13 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1788539624447,
+      "tag": "0000_legal_hemingway",
+      "breakpoints": true
+    }
+  ]
+}
