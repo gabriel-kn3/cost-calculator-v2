@@ -1,0 +1,7436 @@
+[
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3,
+        "baseQty": 1,
+        "material": "Cordon anaranjado 7mm Amazon 90 feet TECEUM",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 40,
+        "material": "Campanas plateadas varios tamanos UNICRAFTALE 7mm",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 70,
+        "material": "Jump 7mm plata ",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 12,
+        "material": "Hook earring plata Waggon Beads Olsazabal",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 25,
+        "material": "Rubber clear",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 50,
+        "material": "Bolsita Organza blanca pequena*",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 5,
+        "material": "Bolsa de entrega*",
+        "usedQty": "1"
+      }
+    ],
+    "favorite": false,
+    "id": 1,
+    "name": "Pantallas 2 campanas. Plata. Pinterest",
+    "notes": null,
+    "summary": {
+      "laborCost": 11,
+      "materialCost": 5.683809523809524,
+      "total": 16.683809523809522
+    },
+    "time": "2/23/2025, 12:03:27 PM",
+    "total": 16.683809523809522,
+    "workedHours": 0.5
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3,
+        "baseQty": 1,
+        "material": "Cordon anaranjado 7mm Amazon 90 feet TECEUM",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 8,
+        "baseQty": 24,
+        "material": "Cap plata Amazon UNICRAFTALE 6mm inner",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 1.7,
+        "baseQty": 1,
+        "material": "Llaveros plateado Temu 5 piezas Key Rings and Keychain",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": "4",
+        "baseQty": "1",
+        "material": "Charm",
+        "usedQty": "1"
+      }
+    ],
+    "favorite": false,
+    "id": 2,
+    "name": "Llavero anaranjado ",
+    "notes": null,
+    "summary": {
+      "laborCost": 5.5,
+      "materialCost": 7.366666666666666,
+      "total": 12.866666666666667
+    },
+    "time": "2/20/2025, 2:58:16 PM",
+    "total": 12.866666666666667,
+    "workedHours": 0.5
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3,
+        "baseQty": 1,
+        "material": "Cordon azul royal 7mm Amazon 90 feet TECEUM",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 8,
+        "baseQty": 24,
+        "material": "Cap plata Amazon UNICRAFTALE 6mm inner",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 1.7,
+        "baseQty": 1,
+        "material": "Llaveros plateado Temu 5 piezas Key Rings and Keychain",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": "2",
+        "baseQty": "1",
+        "material": "Charm",
+        "usedQty": "1"
+      }
+    ],
+    "favorite": false,
+    "id": 3,
+    "name": "Llavero azul royal",
+    "notes": null,
+    "summary": {
+      "laborCost": 5.5,
+      "materialCost": 7.366666666666666,
+      "total": 12.866666666666667
+    },
+    "time": "2/20/2025, 3:00:52 PM",
+    "total": 12.866666666666667,
+    "workedHours": 0.5
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3,
+        "baseQty": 1,
+        "material": "Cordon anaranjado 7mm Amazon 90 feet TECEUM",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 8,
+        "baseQty": 24,
+        "material": "Cap plata Amazon UNICRAFTALE 6mm inner",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 1.7,
+        "baseQty": 1,
+        "material": "Llaveros plateado Temu 5 piezas Key Rings and Keychain",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": "4",
+        "baseQty": "1",
+        "material": "Charm",
+        "usedQty": "1"
+      }
+    ],
+    "favorite": false,
+    "id": 4,
+    "name": "Llavero anaranjado María ",
+    "notes": null,
+    "summary": {
+      "laborCost": 5.5,
+      "materialCost": 7.366666666666666,
+      "total": 12.866666666666667
+    },
+    "time": "2/20/2025, 3:02:38 PM",
+    "total": 12.866666666666667,
+    "workedHours": 0.5
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon azul cielo 7mm Amazon 90 feet TECEUM",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 8,
+        "baseQty": 24,
+        "material": "Cap plata Amazon UNICRAFTALE 6mm inner",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 1.7,
+        "baseQty": 1,
+        "material": "Llaveros plateado Temu 5 piezas Key Rings and Keychain",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": "4",
+        "baseQty": "1",
+        "material": "Charm",
+        "usedQty": "1"
+      }
+    ],
+    "favorite": false,
+    "id": 5,
+    "name": "Llavero azul turquesa",
+    "notes": null,
+    "summary": {
+      "laborCost": 5.5,
+      "materialCost": 6.366666666666666,
+      "total": 11.866666666666667
+    },
+    "time": "2/20/2025, 3:03:01 PM",
+    "total": 11.866666666666667,
+    "workedHours": 0.5
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3,
+        "baseQty": 1,
+        "material": "Cordon crema 7mm Amazon 90 feet TECEUM",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 8,
+        "baseQty": 24,
+        "material": "Cap plata Amazon UNICRAFTALE 6mm inner",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 1.7,
+        "baseQty": 1,
+        "material": "Llaveros plateado Temu 5 piezas Key Rings and Keychain",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": "4",
+        "baseQty": "1",
+        "material": "Charm",
+        "usedQty": "1"
+      }
+    ],
+    "favorite": false,
+    "id": 6,
+    "name": "Llavero crema",
+    "notes": null,
+    "summary": {
+      "laborCost": 5.5,
+      "materialCost": 9.366666666666667,
+      "total": 14.866666666666667
+    },
+    "time": "2/20/2025, 3:03:49 PM",
+    "total": 14.866666666666667,
+    "workedHours": 0.5
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 15,
+        "baseQty": 6,
+        "material": "Piedras Waterdrop Amazon LE SKY 6pcs",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 1,
+        "material": "Cordon azul royal 7mm Amazon 90 feet TECEUM",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 40,
+        "material": "Campanas plateadas varios tamanos UNICRAFTALE 8mm",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 70,
+        "material": "Jump 7mm plata ",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 4.75,
+        "baseQty": 20,
+        "material": "Hook 9mm plateado Waggon Beads",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 9,
+        "baseQty": 1000,
+        "material": "Jump 10mm  PH Panda Hall Amazon varios tamaños",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 6,
+        "material": "Bolsita Organza blanca grande*",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 5,
+        "material": "Bolsa de entrega*",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": "1"
+      }
+    ],
+    "favorite": false,
+    "id": 7,
+    "name": "Collar largo azul royal. Piedra. Plata.",
+    "notes": null,
+    "summary": {
+      "laborCost": 22,
+      "materialCost": 8.45697619047619,
+      "total": 30.45697619047619
+    },
+    "time": "2/23/2025, 11:40:48 AM",
+    "total": 30.45697619047619,
+    "workedHours": 1
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3.2,
+        "baseQty": 1,
+        "material": "Cordon marron 4mm Alonso Sobrino",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 9,
+        "baseQty": 60,
+        "material": "Conectores ovalados plata AMAZON UNICRAFTALE",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 9,
+        "baseQty": 1000,
+        "material": "Jump 10mm  PH Panda Hall Amazon varios tamaños",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 15,
+        "baseQty": 6,
+        "material": "Piedras Waterdrop Amazon LE SKY 6pcs",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 40,
+        "material": "Campanas plateadas varios tamanos UNICRAFTALE 7mm",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 70,
+        "material": "Jump 7mm plata ",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 15,
+        "baseQty": 120,
+        "material": "Hook 12mm plateado Amazon Cadikez",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 12,
+        "material": "Bolsita Organza blanca mediana*",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 5,
+        "material": "Bolsa de entrega*",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": "1"
+      }
+    ],
+    "favorite": false,
+    "id": 8,
+    "name": "Collar cordon marrón doble. Piedra. Plata.",
+    "notes": null,
+    "summary": null,
+    "time": "2/23/2025, 11:50:14 AM",
+    "total": 0,
+    "workedHours": 0
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3.2,
+        "baseQty": 1,
+        "material": "Cordon gris 4mm Alonso Sobrino",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": "10",
+        "baseQty": "10",
+        "material": "Charm*",
+        "usedQty": "3"
+      },
+      {
+        "baseCost": "700",
+        "baseQty": "2",
+        "material": "Pokemon",
+        "usedQty": "1"
+      }
+    ],
+    "favorite": false,
+    "id": 9,
+    "name": "Prueba Gaby ",
+    "notes": null,
+    "summary": {
+      "laborCost": 110,
+      "materialCost": 356.2,
+      "total": 466.2
+    },
+    "time": "3/4/2025, 12:57:47 PM",
+    "total": 466.2,
+    "workedHours": 10
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3.2,
+        "baseQty": 1,
+        "material": "Cordon gris 4mm Alonso Sobrino",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": "10",
+        "baseQty": "10",
+        "material": "Charm*",
+        "usedQty": "3"
+      },
+      {
+        "baseCost": "700",
+        "baseQty": "2",
+        "material": "Pokemon",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 9,
+        "baseQty": 1000,
+        "material": "Jump 4mm  PH Panda Hall Amazon varios tamaños",
+        "usedQty": "15"
+      },
+      {
+        "baseCost": 2.5,
+        "baseQty": 1,
+        "material": "Cordon fucsia 4mm Amazon 100 feet HOKINETY",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon azul cielo 7mm Amazon 90 feet TECEUM",
+        "usedQty": "1"
+      }
+    ],
+    "favorite": false,
+    "id": 10,
+    "name": "Prueba Gaby 2",
+    "notes": null,
+    "summary": {
+      "laborCost": 16.5,
+      "materialCost": 360.835,
+      "total": 377.335
+    },
+    "time": "2/21/2025, 8:17:41 PM",
+    "total": 377.335,
+    "workedHours": 2
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2.5,
+        "baseQty": 1,
+        "material": "Cordon azul royal 4mm Casa de la Costurera",
+        "usedQty": "1"
+      }
+    ],
+    "favorite": false,
+    "id": 11,
+    "name": "Prueba BETTT",
+    "notes": null,
+    "summary": null,
+    "time": "2/21/2025, 8:18:56 PM",
+    "total": 0,
+    "workedHours": 30
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": "1",
+        "baseQty": 1,
+        "material": "Cordon crema 7mm Amazon 90 feet TECEUM",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 8,
+        "baseQty": 24,
+        "material": "Cap plata Amazon UNICRAFTALE 6mm inner",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": ".70",
+        "baseQty": 1,
+        "material": "Llaveros plateado Temu 5 piezas Key Rings and Keychain",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 12,
+        "material": "Bolsita Organza blanca mediana*",
+        "usedQty": "1"
+      }
+    ],
+    "favorite": false,
+    "id": 12,
+    "name": "Llavero crema económico ",
+    "notes": null,
+    "summary": {
+      "laborCost": 5.5,
+      "materialCost": 2.878333333333333,
+      "total": 8.378333333333334
+    },
+    "time": "2/21/2025, 8:42:41 PM",
+    "total": 8.378333333333334,
+    "workedHours": 0.5
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2,
+        "baseQty": 6,
+        "material": "Bolsita Organza blanca grande*",
+        "usedQty": ""
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 5,
+        "material": "Bolsa de entrega*",
+        "usedQty": ""
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": ""
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": ""
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon blanco 4mm Amazon 100 feet WEREWOLVES",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 2.5,
+        "baseQty": 1,
+        "material": "Cordon negro 4mm Casa de la Costurera",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 9,
+        "baseQty": 60,
+        "material": "Conectores ovalados plata AMAZON UNICRAFTALE",
+        "usedQty": "4"
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 40,
+        "material": "Campanas plateadas varios tamanos UNICRAFTALE 8mm",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 70,
+        "material": "Jump 7mm plata ",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 15,
+        "baseQty": 120,
+        "material": "Hook 12mm plateado Amazon Cadikez",
+        "usedQty": "1"
+      }
+    ],
+    "favorite": false,
+    "id": 13,
+    "name": "Collar blanco y negro. 4 cordones. Plata.",
+    "notes": null,
+    "summary": {
+      "laborCost": 11,
+      "materialCost": 5.782142857142857,
+      "total": 16.78214285714286
+    },
+    "time": "2/21/2025, 8:54:13 PM",
+    "total": 16.78214285714286,
+    "workedHours": 1
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3,
+        "baseQty": 5,
+        "material": "Bolsa de entrega*",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 70,
+        "material": "Jump 7mm plata ",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 15,
+        "baseQty": 120,
+        "material": "Hook 12mm plateado Amazon Cadikez",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 1,
+        "material": "Cordon anaranjado 7mm Amazon 90 feet TECEUM",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 40,
+        "material": "Campanas plateadas varios tamanos UNICRAFTALE 8mm",
+        "usedQty": "3"
+      },
+      {
+        "baseCost": 1.25,
+        "baseQty": 100,
+        "material": "Jump 5mm plata ",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 15,
+        "baseQty": 120,
+        "material": "Hook 12mm plateado Amazon Cadikez",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 12,
+        "material": "Hook earring plata Waggon Beads Olsazabal",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 25,
+        "material": "Rubber clear",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 12,
+        "material": "Bolsita Organza blanca mediana*",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena plata",
+        "usedQty": "1"
+      }
+    ],
+    "favorite": false,
+    "id": 14,
+    "name": "Set Collar en cadena stainless steel. Plata. Pantallas Cordon anaranjado.",
+    "notes": null,
+    "summary": {
+      "laborCost": 11,
+      "materialCost": 10.732142857142858,
+      "total": 21.732142857142858
+    },
+    "time": "2/21/2025, 9:00:39 PM",
+    "total": 21.732142857142858,
+    "workedHours": 1
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon blanco 4mm Amazon 100 feet WEREWOLVES",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": "2.50",
+        "baseQty": "1",
+        "material": "Cordon crema 4mm TECEUM Amazon 100 feet",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 12,
+        "material": "Hook earring plata Waggon Beads Olsazabal",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 25,
+        "material": "Rubber clear",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 1.25,
+        "baseQty": 100,
+        "material": "Jump 5mm plata ",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 12,
+        "material": "Bolsita Organza blanca mediana*",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 5,
+        "material": "Bolsa de entrega*",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": "1"
+      }
+    ],
+    "favorite": false,
+    "id": 15,
+    "name": "Pantallas flor Isabel. Plata. ",
+    "notes": null,
+    "summary": {
+      "laborCost": 18.7,
+      "materialCost": 6.883333333333334,
+      "total": 25.583333333333332
+    },
+    "time": "2/26/2025, 11:22:15 PM",
+    "total": 25.583333333333332,
+    "workedHours": 0
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2.5,
+        "baseQty": 1,
+        "material": "Cordon negro 4mm Casa de la Costurera",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 15,
+        "baseQty": 6,
+        "material": "Piedras Waterdrop Amazon LE SKY 6pcs",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 12,
+        "material": "Bolsita Organza blanca mediana*",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 100,
+        "material": "Bolsita entrega plastica rosita TEMU*",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 40,
+        "material": "Campanas plateadas varios tamanos UNICRAFTALE 8mm",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 9,
+        "baseQty": 1000,
+        "material": "Jump 10mm  PH Panda Hall Amazon varios tamaños",
+        "usedQty": "1"
+      }
+    ],
+    "favorite": false,
+    "id": 16,
+    "name": "Collar marinero sin cierre Annette. Plata.",
+    "notes": null,
+    "summary": {
+      "laborCost": 11,
+      "materialCost": 5.5856666666666674,
+      "total": 16.58566666666667
+    },
+    "time": "2/28/2025, 12:42:18 PM",
+    "total": 16.58566666666667,
+    "workedHours": 1
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon blanco 4mm Amazon 100 feet WEREWOLVES",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 2.5,
+        "baseQty": 1,
+        "material": "Cordon negro 4mm Casa de la Costurera",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 40,
+        "material": "Campanas plateadas varios tamanos UNICRAFTALE 8mm",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 70,
+        "material": "Jump 7mm plata ",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 4.75,
+        "baseQty": 20,
+        "material": "Hook 9mm plateado Waggon Beads",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 6,
+        "material": "Bolsita Organza blanca grande*",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 5,
+        "material": "Bolsa de entrega*",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": "1"
+      }
+    ],
+    "favorite": false,
+    "id": 17,
+    "name": "Collar Griselle. Blanco y negro. Plata.",
+    "notes": null,
+    "summary": {
+      "laborCost": 11,
+      "materialCost": 7.447976190476189,
+      "total": 18.44797619047619
+    },
+    "time": "2/28/2025, 7:54:21 PM",
+    "total": 18.44797619047619,
+    "workedHours": 1
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3.2,
+        "baseQty": 1,
+        "material": "Cordon marron 4mm Alonso Sobrino",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 1,
+        "material": "Cordon crema 7mm Amazon 90 feet TECEUM",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 30,
+        "material": "Campanas doradas UNICRAFTALE 5mm",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 10,
+        "material": "Jump 7mm dorado  Waggon Beads Olazabal",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Hook collar 12mm dorado Waggon Beads",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 6,
+        "material": "Bolsita Organza blanca grande*",
+        "usedQty": "1"
+      }
+    ],
+    "favorite": false,
+    "id": 18,
+    "name": "Collar Griselle. Crema y marron. Dorado.",
+    "notes": null,
+    "summary": null,
+    "time": "2/28/2025, 7:56:20 PM",
+    "total": 0,
+    "workedHours": 1
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2.5,
+        "baseQty": 1,
+        "material": "Cordon azul royal 4mm Casa de la Costurera",
+        "usedQty": ""
+      },
+      {
+        "baseCost": "10",
+        "baseQty": "2",
+        "material": "Charm*",
+        "usedQty": "1"
+      }
+    ],
+    "favorite": false,
+    "id": 19,
+    "name": "Prueba again",
+    "notes": null,
+    "summary": null,
+    "time": "3/1/2025, 11:02:28 AM",
+    "total": 0,
+    "workedHours": 1
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3.2,
+        "baseQty": 1,
+        "material": "Cordon gris 4mm Alonso Sobrino",
+        "usedQty": "1"
+      }
+    ],
+    "favorite": false,
+    "id": 20,
+    "name": "Prueba again2",
+    "notes": null,
+    "summary": {
+      "laborCost": 11,
+      "materialCost": 3.2,
+      "total": 14.2
+    },
+    "time": "3/1/2025, 11:04:27 AM",
+    "total": 14.2,
+    "workedHours": 1
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3.2,
+        "baseQty": 1,
+        "material": "Cordon gris 4mm Alonso Sobrino",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": "1",
+        "baseQty": "1",
+        "material": "Charm ovalado resina",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": "2",
+        "baseQty": "20",
+        "material": "Spacer plateado large TEMU 20 piezas ",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 40,
+        "material": "Campanas plateadas varios tamanos UNICRAFTALE 7mm",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 9,
+        "baseQty": 1000,
+        "material": "Jump 6mm  PH Panda Hall Amazon varios tamaños",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena plata",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 12,
+        "material": "Bolsita Organza blanca mediana*",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 100,
+        "material": "Bolsita entrega plastica rosita TEMU*",
+        "usedQty": "1"
+      }
+    ],
+    "favorite": false,
+    "id": 21,
+    "name": "Pulseras en nudo alondra con resina ovalada en el centro. Plata. ",
+    "notes": null,
+    "summary": {
+      "laborCost": 5.5,
+      "materialCost": 6.464666666666667,
+      "total": 11.964666666666666
+    },
+    "time": "3/4/2025, 11:20:14 AM",
+    "total": 11.964666666666666,
+    "workedHours": 0
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3.2,
+        "baseQty": 1,
+        "material": "Cordon gris 4mm Alonso Sobrino",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": "1",
+        "baseQty": "1",
+        "material": "Charm ovalado resina",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": "3",
+        "baseQty": "20",
+        "material": "Spacer dorado large TEMU 20 piezas ",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 30,
+        "material": "Campanas doradas UNICRAFTALE 5mm",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 10,
+        "material": "Jump 7mm dorado  Waggon Beads Olazabal",
+        "usedQty": "2"
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena dorada",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 12,
+        "material": "Bolsita Organza blanca mediana*",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": "1"
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 100,
+        "material": "Bolsita entrega plastica rosita TEMU*",
+        "usedQty": "1"
+      }
+    ],
+    "favorite": false,
+    "id": 22,
+    "name": "Pulseras en nudo alondra con resina ovalada en el centro. Dorada. ",
+    "notes": null,
+    "summary": {
+      "laborCost": 5.5,
+      "materialCost": 7.313333333333334,
+      "total": 12.813333333333334
+    },
+    "time": "3/4/2025, 11:21:14 AM",
+    "total": 12.813333333333334,
+    "workedHours": 0.5
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3.2,
+        "baseQty": 1,
+        "material": "Cordon marron 4mm Alonso Sobrino",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 7,
+        "baseQty": 104,
+        "material": "Charm letras pequenas stainless steel",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon negro,gris, azul cielo y blanco 5mm Waggon Beads Olazabal",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 23,
+    "name": "Cordon Marron de prueba",
+    "notes": "<p>Es chiquito</p>",
+    "summary": {
+      "laborCost": 22,
+      "materialCost": 5.469230769230769,
+      "total": 27.46923076923077
+    },
+    "time": "3/9/2025, 6:44:25 PM",
+    "total": 27.46923076923077,
+    "workedHours": 2
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3.2,
+        "baseQty": 1,
+        "material": "Cordon marron 4mm Alonso Sobrino",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 7,
+        "baseQty": 104,
+        "material": "Charm letras pequenas stainless steel",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon negro,gris, azul cielo y blanco 5mm Waggon Beads Olazabal",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 24,
+    "name": "Cordon Marron de prueba 2",
+    "notes": "<h1>Es chiquitoaaaaaaaaa</h1>",
+    "summary": {
+      "laborCost": 22,
+      "materialCost": 5.469230769230769,
+      "total": 27.46923076923077
+    },
+    "time": "3/9/2025, 6:54:12 PM",
+    "total": 27.46923076923077,
+    "workedHours": 2
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3.5,
+        "baseQty": 12,
+        "material": "Bolsita Organza blanca mediana*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 100,
+        "material": "Bolsita entrega plastica rosita TEMU*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.2,
+        "baseQty": 1,
+        "material": "Cordon gris 4mm Alonso Sobrino",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 20,
+        "material": "Spacer dorado large TEMU 20 piezas",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena dorada",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 30,
+        "material": "Campanas doradas UNICRAFTALE 5mm",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1.25,
+        "baseQty": 100,
+        "material": "Jump 5mm dorado Waggon Beads Olazabal",
+        "usedQty": 2
+      }
+    ],
+    "favorite": false,
+    "id": 25,
+    "name": "Pulsera nudo alondra",
+    "notes": "<h1>Cordon 18cm c/u</h1><h1>Cadena 2cm</h1>",
+    "summary": {
+      "laborCost": 5.5,
+      "materialCost": 6.738333333333333,
+      "total": 12.238333333333333
+    },
+    "time": "3/11/2025, 9:25:30 PM",
+    "total": 12.238333333333333,
+    "workedHours": 0.5
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3.5,
+        "baseQty": 12,
+        "material": "Bolsita Organza blanca mediana*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 100,
+        "material": "Bolsita entrega plastica rosita TEMU*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.2,
+        "baseQty": 1,
+        "material": "Cordon gris 4mm Alonso Sobrino",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 20,
+        "material": "Spacer dorado large TEMU 20 piezas",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena dorada",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 30,
+        "material": "Campanas doradas UNICRAFTALE 5mm",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1.25,
+        "baseQty": 100,
+        "material": "Jump 5mm dorado Waggon Beads Olazabal",
+        "usedQty": 2
+      }
+    ],
+    "favorite": false,
+    "id": 26,
+    "name": "Pulsera nudo alondra con corazón de charm en el centro. Dorado.",
+    "notes": "<h1>Cordon 18cm c/u</h1><h1>Cadena 2cm</h1><h2>Charm de corazon: Jasper Beads </h2>",
+    "summary": {
+      "laborCost": 5.5,
+      "materialCost": 6.738333333333333,
+      "total": 12.238333333333333
+    },
+    "time": "3/11/2025, 9:26:41 PM",
+    "total": 12.238333333333333,
+    "workedHours": 0.5
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2,
+        "baseQty": 6,
+        "material": "Bolsita Organza blanca grande*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 5,
+        "material": "Bolsa de entrega*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1.5,
+        "baseQty": 1,
+        "material": "",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1.5,
+        "baseQty": 1,
+        "material": "Cordon navy blue 4mm 5 yardas TEMU",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 20,
+        "material": "Spacer plateado large TEMU 20 piezas ",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 9,
+        "baseQty": 1000,
+        "material": "Jump 5mm  PH Panda Hall Amazon varios tamaños",
+        "usedQty": 3
+      },
+      {
+        "baseCost": 15,
+        "baseQty": 120,
+        "material": "Hook 12mm plateado Amazon Cadikez",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 40,
+        "material": "Campanas plateadas varios tamanos UNICRAFTALE 7mm",
+        "usedQty": 2
+      }
+    ],
+    "favorite": false,
+    "id": 27,
+    "name": "Collar Faith. Cordones crema y Navy. Plata.",
+    "notes": "<h1>Charm Capri</h1>",
+    "summary": {
+      "laborCost": 5.5,
+      "materialCost": 9.005333333333331,
+      "total": 14.505333333333331
+    },
+    "time": "3/11/2025, 10:09:50 PM",
+    "total": 14.505333333333331,
+    "workedHours": 0.5
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2,
+        "baseQty": 6,
+        "material": "Bolsita Organza blanca grande*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 5,
+        "material": "Bolsa de entrega*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 4,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon verde esmeralda oscuro 4mm Amazon  50 feet TECEUM",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1.5,
+        "baseQty": 1,
+        "material": "Cordon verde monte 4mm 5 yardas TEMU",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1.25,
+        "baseQty": 100,
+        "material": "Jump 5mm dorado Waggon Beads Olazabal",
+        "usedQty": 3
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 30,
+        "material": "Campanas doradas UNICRAFTALE 5mm",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Hook collar 12mm dorado Waggon Beads",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 9,
+        "baseQty": 60,
+        "material": "",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 30,
+        "material": "Campanas doradas UNICRAFTALE 5mm",
+        "usedQty": 2
+      }
+    ],
+    "favorite": false,
+    "id": 28,
+    "name": "Collar Faith. Cordones verdes. Piezas ovaladas a ambos lados. Dorado.",
+    "notes": "<h1>Charm Capri </h1>",
+    "summary": {
+      "laborCost": 11,
+      "materialCost": 11.584166666666665,
+      "total": 22.584166666666665
+    },
+    "time": "3/11/2025, 9:41:10 PM",
+    "total": 22.584166666666665,
+    "workedHours": 1
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2,
+        "baseQty": 6,
+        "material": "Bolsita Organza blanca grande*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 5,
+        "material": "Bolsa de entrega*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2.25,
+        "baseQty": 1,
+        "material": "Cordon verde monte HOKINETY 4mm 100 feet",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 30,
+        "material": "Campanas doradas UNICRAFTALE 5mm",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 9,
+        "baseQty": 60,
+        "material": "Spacer Beads Amazon Loprome 8x4.5mm plata (4.5mm hole)",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 40,
+        "material": "Campanas plateadas varios tamanos UNICRAFTALE 8mm",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 70,
+        "material": "Jump 7mm plata ",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 4.75,
+        "baseQty": 20,
+        "material": "Hook 9mm plateado Waggon Beads",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 29,
+    "name": "Collar verde 4 cordones. Plata.",
+    "notes": "<h1>Cordones 40, 45, 50, 55, 60cm</h1>",
+    "summary": {
+      "laborCost": 11,
+      "materialCost": 8.714642857142858,
+      "total": 19.714642857142856
+    },
+    "time": "3/11/2025, 9:51:08 PM",
+    "total": 19.714642857142856,
+    "workedHours": 1
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1.25,
+        "baseQty": 1,
+        "material": "Campanas redonditas set de 2 Waggon Beads Olazabal",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 10,
+        "material": "Jump 7mm dorado  Waggon Beads Olazabal",
+        "usedQty": 3
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.6,
+        "baseQty": 20,
+        "material": "",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 6,
+        "material": "Bolsita Organza blanca grande*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 5,
+        "material": "Bolsa de entrega*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 4.75,
+        "baseQty": 20,
+        "material": "Hook 9mm plateado Waggon Beads",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 30,
+    "name": "Collar blanco cuero. Charm shell ola. Dorado.",
+    "notes": "",
+    "summary": {
+      "laborCost": 7.699999999999999,
+      "materialCost": 6.680833333333333,
+      "total": 14.380833333333332
+    },
+    "time": "3/15/2025, 3:23:16 PM",
+    "total": 14.380833333333332,
+    "workedHours": 0
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon blanco 4mm Amazon 100 feet WEREWOLVES",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 30,
+        "material": "Campanas doradas UNICRAFTALE 5mm",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 10,
+        "material": "Jump 7mm dorado  Waggon Beads Olazabal",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 6,
+        "material": "Bolsita Organza blanca grande*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 5,
+        "material": "Bolsa de entrega*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 10,
+        "material": "Hook earring dorado Waggon Beads Olazabal",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 9,
+        "baseQty": 60,
+        "material": "Oval Linking Rings Amazon UNICRAFTALE 10x3.5x2mm plata, dorado y rose gold",
+        "usedQty": 2
+      }
+    ],
+    "favorite": false,
+    "id": 31,
+    "name": "Collar blanco con cruz dorada",
+    "notes": "",
+    "summary": {
+      "laborCost": 11,
+      "materialCost": 8.82,
+      "total": 19.82
+    },
+    "time": "3/15/2025, 3:21:01 PM",
+    "total": 19.82,
+    "workedHours": 1
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon rojo 4mm Amazon  100 feet WEREWOLVES",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 32,
+        "material": "Campanas doradas con diseño Amazon UNICRAFTALE 4 estilos 3,4,5mm",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1.25,
+        "baseQty": 100,
+        "material": "Jump 5mm dorado Waggon Beads Olazabal",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Hook collar 12mm dorado Waggon Beads",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 12,
+        "material": "Bolsita Organza blanca mediana*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena dorada",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 4,
+        "baseQty": 24,
+        "material": "Bolsita entrega Kraft Paper TEMU*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 32,
+    "name": "Collar rojo. Dorado. Charm garita. ",
+    "notes": "",
+    "summary": {
+      "laborCost": 13.75,
+      "materialCost": 9.613333333333333,
+      "total": 23.363333333333333
+    },
+    "time": "5/7/2025, 9:22:22 PM",
+    "total": 23.363333333333333,
+    "workedHours": 1.25
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon rojo 4mm Amazon  100 feet WEREWOLVES",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 32,
+        "material": "Campanas doradas con diseño Amazon UNICRAFTALE 4 estilos 3,4,5mm",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon rojo 4mm Amazon  100 feet WEREWOLVES",
+        "usedQty": 3
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1.25,
+        "baseQty": 100,
+        "material": "Jump 5mm dorado Waggon Beads Olazabal",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Hook collar 12mm dorado Waggon Beads",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 12,
+        "material": "Bolsita Organza blanca mediana*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 5,
+        "material": "Bolsa de entrega*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 33,
+    "name": "Collar en reverse verde menta ",
+    "notes": "",
+    "summary": {
+      "laborCost": 11,
+      "materialCost": 15.021666666666667,
+      "total": 26.02166666666667
+    },
+    "time": "3/15/2025, 3:36:25 PM",
+    "total": 26.02166666666667,
+    "workedHours": 1
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 1.5,
+        "baseQty": 1,
+        "material": "",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 12,
+        "material": "Hook earring plata Waggon Beads Olsazabal",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 25,
+        "material": "Rubber clear",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 50,
+        "material": "Bolsita Organza blanca pequena*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 100,
+        "material": "Bolsita entrega plastica rosita TEMU*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 34,
+    "name": "Pantallas Maria flor lila tornasol con cordon verda menta. Plata. ",
+    "notes": "<p>Flores paquete de 3 por 1$ Waggon Beads Bayamon</p>",
+    "summary": {
+      "laborCost": 11,
+      "materialCost": 3.841666666666667,
+      "total": 14.841666666666667
+    },
+    "time": "3/15/2025, 3:52:00 PM",
+    "total": 14.841666666666667,
+    "workedHours": 0
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon rojo 7mm Amazon TECEUM 90 pies ",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 7,
+        "baseQty": 10,
+        "material": "Pieza redonda o spring para llaveros plateados",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cap 4mm dorado",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 100,
+        "material": "Bolsita entrega plastica rosita TEMU*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 35,
+    "name": "Llavero Natalia. Cordon rojo 7mm. Dorado. ",
+    "notes": "<p><br></p>",
+    "summary": {
+      "laborCost": 5.5,
+      "materialCost": 4.955,
+      "total": 10.455
+    },
+    "time": "3/16/2025, 10:53:32 AM",
+    "total": 10.455,
+    "workedHours": 0.7
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3.2,
+        "baseQty": 1,
+        "material": "Cordon marron 4mm Alonso Sobrino",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 4.25,
+        "baseQty": 1,
+        "material": "Cordon nautica lila con glitter ",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Charms de oceano dorado 5 estilos delfin, estrella de mar, pez, caballo de par y shell Amazon PH Panda Hall",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 36,
+    "name": "Prube",
+    "notes": "<p>notas pre-liminares</p>",
+    "summary": {
+      "laborCost": 110,
+      "materialCost": 7.71,
+      "total": 117.71
+    },
+    "time": "4/5/2025, 9:52:25 PM",
+    "total": 117.71,
+    "workedHours": 10
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2.5,
+        "baseQty": 1,
+        "material": "Cordon navy blue 4mm 100 feet TECEUM Amazon",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 10,
+        "material": "Campanas doradas 8mm UNICRAFTALE Amazon",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Hook collar 12mm dorado Waggon Beads",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cordon cuero",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 10,
+        "material": "Jump 7mm dorado  Waggon Beads Olazabal",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 6,
+        "material": "Bolsita Organza blanca grande*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 5,
+        "material": "Bolsa de entrega*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 37,
+    "name": "Collar trenzado navy y royal blue cordon cuero y paracord. Dorado.",
+    "notes": "<p>cordon cuero Lolas Carolina.</p>",
+    "summary": {
+      "laborCost": 13.75,
+      "materialCost": 8.513333333333334,
+      "total": 22.263333333333335
+    },
+    "time": "3/18/2025, 11:34:10 AM",
+    "total": 22.263333333333335,
+    "workedHours": 1.5
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 1.5,
+        "baseQty": 1,
+        "material": "Cordon anaranjado 4mm 5 yardas TEMU",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 10,
+        "material": "Campanas doradas 8mm UNICRAFTALE Amazon",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Hook collar 12mm dorado Waggon Beads",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cordon cuero",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 10,
+        "material": "Jump 7mm dorado  Waggon Beads Olazabal",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 6,
+        "material": "Bolsita Organza blanca grande*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 5,
+        "material": "Bolsa de entrega*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1.25,
+        "baseQty": 100,
+        "material": "Jump 5mm dorado Waggon Beads Olazabal",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 50,
+        "material": "Bolsita Organza blanca pequena*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 10,
+        "material": "Hook earring dorado Waggon Beads Olazabal",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena dorada",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 38,
+    "name": "Collar trenzado anranjado en set con pulsera y pantallas gota. Dorado.",
+    "notes": "<p>cordon cuero Lolas Carolina.</p>",
+    "summary": {
+      "laborCost": 22,
+      "materialCost": 12.158333333333333,
+      "total": 34.15833333333333
+    },
+    "time": "3/18/2025, 11:37:30 AM",
+    "total": 34.15833333333333,
+    "workedHours": 2
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 1.5,
+        "baseQty": 1,
+        "material": "Cordon anaranjado 4mm 5 yardas TEMU",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 10,
+        "material": "Campanas doradas 8mm UNICRAFTALE Amazon",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Hook collar 12mm dorado Waggon Beads",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cordon cuero",
+        "usedQty": 3
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 10,
+        "material": "Jump 7mm dorado  Waggon Beads Olazabal",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 6,
+        "material": "Bolsita Organza blanca grande*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 5,
+        "material": "Bolsa de entrega*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1.25,
+        "baseQty": 100,
+        "material": "Jump 5mm dorado Waggon Beads Olazabal",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 50,
+        "material": "Bolsita Organza blanca pequena*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 10,
+        "material": "Hook earring dorado Waggon Beads Olazabal",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena dorada",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 30,
+        "material": "Campanas doradas UNICRAFTALE 5mm",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 25,
+        "material": "Rubber clear",
+        "usedQty": 2
+      }
+    ],
+    "favorite": false,
+    "id": 39,
+    "name": "Collar trenzado anaranjado forforescente en set con pulsera y pantallas gota. Dorado.",
+    "notes": "<p>cordon cuero Lolas Carolina.</p>",
+    "summary": {
+      "laborCost": 22,
+      "materialCost": 15.905,
+      "total": 37.905
+    },
+    "time": "3/18/2025, 11:45:52 AM",
+    "total": 37.905,
+    "workedHours": 2
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2.5,
+        "baseQty": 1,
+        "material": "Cordon navy blue 4mm 100 feet TECEUM Amazon",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2.25,
+        "baseQty": 1,
+        "material": "Cadena dorada ancha 1 yarda Waggon Beads",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 10,
+        "material": "Jump 7mm dorado  Waggon Beads Olazabal",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 60,
+        "material": "Spacer beads doradas 4mm inner Loprome Amazon",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 32,
+        "material": "Campanas doradas con diseño Amazon UNICRAFTALE 4 estilos 3,4,5mm",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Hook collar 12mm dorado Waggon Beads",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 12,
+        "material": "Bolsita Organza blanca mediana*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 5,
+        "material": "Bolsa de entrega*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 40,
+    "name": "Collar en reverse. Cadena dorada y cordon. Pieza en resina. Dorado.",
+    "notes": "<p>Cadena dorada Waggon Beads 1 yarda 6.75$</p><p>Me salieron 3 collares con 14cm de cadena c/u.</p><p>Cordon es de 22cm.</p>",
+    "summary": {
+      "laborCost": 13.75,
+      "materialCost": 11.379999999999999,
+      "total": 25.13
+    },
+    "time": "3/18/2025, 1:57:16 PM",
+    "total": 25.13,
+    "workedHours": 1.25
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3.5,
+        "baseQty": 12,
+        "material": "Bolsita Organza blanca mediana*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 100,
+        "material": "Bolsita entrega plastica rosita TEMU*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.2,
+        "baseQty": 1,
+        "material": "Cordon gris 4mm Alonso Sobrino",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 40,
+        "material": "Campanas plateadas varios tamanos UNICRAFTALE 4mm",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 1.25,
+        "baseQty": 100,
+        "material": "Jump 5mm plata ",
+        "usedQty": 5
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 70,
+        "material": "Jump 7mm plata ",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 15,
+        "baseQty": 120,
+        "material": "Hook 12mm plateado Amazon Cadikez",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena plata",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 30,
+        "material": "Charm redondo plateado oceano, montana y nube UNICRAFTALE AMAZON",
+        "usedQty": 3
+      }
+    ],
+    "favorite": false,
+    "id": 41,
+    "name": "Collar 3 charms en reverse. Plata.",
+    "notes": "",
+    "summary": {
+      "laborCost": 16.5,
+      "materialCost": 7.291309523809524,
+      "total": 23.791309523809524
+    },
+    "time": "3/24/2025, 5:42:41 PM",
+    "total": 23.791309523809524,
+    "workedHours": 1.5
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon blanco 4mm Amazon 100 feet WEREWOLVES",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Charm dorado océano caballo de mar, pez, estrella mar, delfin y seashell",
+        "usedQty": 5
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 12,
+        "material": "Bolsita Organza blanca mediana*",
+        "usedQty": 0
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 100,
+        "material": "Bolsita entrega plastica rosita TEMU*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 42,
+    "name": "Pulsera ajustable Zoe 5 charms. Dorada.",
+    "notes": "",
+    "summary": {
+      "laborCost": 8.8,
+      "materialCost": 3.335,
+      "total": 12.135000000000002
+    },
+    "time": "3/24/2025, 6:04:59 PM",
+    "total": 12.135000000000002,
+    "workedHours": 0
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2.5,
+        "baseQty": 1,
+        "material": "Cordon negro 4mm Casa de la Costurera",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 4,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 40,
+        "material": "Campanas plateadas varios tamanos UNICRAFTALE 8mm",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 70,
+        "material": "Jump 7mm plata ",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 6,
+        "material": "Bolsita Organza blanca grande*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 100,
+        "material": "Bolsita entrega plastica rosita TEMU*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 43,
+    "name": "Collar sin cierre nudo marinero. Plata.",
+    "notes": "",
+    "summary": {
+      "laborCost": 7.699999999999999,
+      "materialCost": 7.146904761904762,
+      "total": 14.84690476190476
+    },
+    "time": "3/24/2025, 6:22:27 PM",
+    "total": 14.84690476190476,
+    "workedHours": 0.7
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2.5,
+        "baseQty": 1,
+        "material": "Cordon negro 4mm Casa de la Costurera",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 4,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 40,
+        "material": "Campanas plateadas varios tamanos UNICRAFTALE 8mm",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 70,
+        "material": "Jump 7mm plata ",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 6,
+        "material": "Bolsita Organza blanca grande*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 100,
+        "material": "Bolsita entrega plastica rosita TEMU*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 44,
+    "name": "Collar sin cierre nudo marinero. ChaPlata.",
+    "notes": "",
+    "summary": {
+      "laborCost": 7.699999999999999,
+      "materialCost": 7.146904761904762,
+      "total": 14.84690476190476
+    },
+    "time": "3/24/2025, 6:22:36 PM",
+    "total": 14.84690476190476,
+    "workedHours": 0.7
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2.5,
+        "baseQty": 1,
+        "material": "Cordon negro 4mm Casa de la Costurera",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 4,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 40,
+        "material": "Campanas plateadas varios tamanos UNICRAFTALE 8mm",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 70,
+        "material": "Jump 7mm plata ",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 6,
+        "material": "Bolsita Organza blanca grande*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 100,
+        "material": "Bolsita entrega plastica rosita TEMU*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 45,
+    "name": "Collar sin cierre nudo marinero. Charm libelula. Plata.",
+    "notes": "<p>Charm Alonso Sobrino</p>",
+    "summary": {
+      "laborCost": 5.5,
+      "materialCost": 7.146904761904762,
+      "total": 12.64690476190476
+    },
+    "time": "3/24/2025, 6:27:35 PM",
+    "total": 12.64690476190476,
+    "workedHours": 0.7
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon blanco 4mm Amazon 100 feet WEREWOLVES",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 15,
+        "baseQty": 6,
+        "material": "Piedras Waterdrop Amazon LE SKY 6pcs",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 40,
+        "material": "Campanas plateadas varios tamanos UNICRAFTALE 8mm",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 9,
+        "baseQty": 1000,
+        "material": "Jump 9mm  PH Panda Hall Amazon varios tamaños",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 8,
+        "baseQty": 24,
+        "material": "Cap plata Amazon UNICRAFTALE 3mm inner",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 12,
+        "material": "Hook earring plata Waggon Beads Olsazabal",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 25,
+        "material": "Rubber clear",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1.25,
+        "baseQty": 100,
+        "material": "Jump 5mm plata ",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 50,
+        "material": "Bolsita Organza blanca pequena*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 12,
+        "material": "Bolsita Organza blanca mediana*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 5,
+        "material": "Bolsa de entrega*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 46,
+    "name": "Set Collar blanco nudo marinero. Pantallas nudo marinero. Charm Piedra violeta. Plata. ",
+    "notes": "",
+    "summary": {
+      "laborCost": 16.5,
+      "materialCost": 10.535666666666668,
+      "total": 27.035666666666668
+    },
+    "time": "3/24/2025, 8:05:37 PM",
+    "total": 27.035666666666668,
+    "workedHours": 1.5
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2.5,
+        "baseQty": 1,
+        "material": "Cordon crema 4mm TECEUM Amazon 100 pies",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 9,
+        "baseQty": 1000,
+        "material": "Jump 9mm  PH Panda Hall Amazon varios tamaños",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 70,
+        "material": "Jump 7mm plata ",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1.25,
+        "baseQty": 100,
+        "material": "Jump 5mm plata ",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 15,
+        "baseQty": 120,
+        "material": "Hook 12mm plateado Amazon Cadikez",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena plata",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 40,
+        "material": "Campanas plateadas varios tamanos UNICRAFTALE 8mm",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 16,
+        "baseQty": 40,
+        "material": "Perla dorada o plata Beebeecraft Amazon",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 6,
+        "material": "Bolsita Organza blanca grande*",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 5,
+        "material": "Bolsa de entrega*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 47,
+    "name": "Set collar y pulsera trenzada.  Charm perla plata y estrella shell.",
+    "notes": "<p>estrellas shell de Bead Squad.  Perlas Amazon.</p>",
+    "summary": {
+      "laborCost": 16.5,
+      "materialCost": 13.636809523809523,
+      "total": 30.136809523809525
+    },
+    "time": "3/25/2025, 8:36:17 PM",
+    "total": 30.136809523809525,
+    "workedHours": 1.5
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon blanco 4mm Amazon 100 feet WEREWOLVES",
+        "usedQty": 3
+      },
+      {
+        "baseCost": 1.25,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 24,
+        "material": "Cap dorado 3,4,5,6mm UNICRAFTALE Amazon",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 10,
+        "material": "Jump 7mm dorado  Waggon Beads Olazabal",
+        "usedQty": 6
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 10,
+        "material": "Hook earring dorado Waggon Beads Olazabal",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 25,
+        "material": "Rubber clear",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 9,
+        "baseQty": 60,
+        "material": "Oval Linking Rings Amazon UNICRAFTALE 10x3.5x2mm plata, dorado y rose gold",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 30,
+        "material": "Campanas doradas UNICRAFTALE 5mm",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Hook collar 12mm dorado Waggon Beads",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena dorada",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 50,
+        "material": "Bolsita Organza blanca pequena*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 6,
+        "material": "Bolsita Organza blanca grande*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 5,
+        "material": "Bolsa de entrega*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 48,
+    "name": "Set collar y pulsera. Pantallas marinero Ana Iris. Cordon blanco con cherry en collar. Dorado.",
+    "notes": "<p>Cherry enchapada y cristal de Waggon Beads $1.25</p>",
+    "summary": {
+      "laborCost": 33,
+      "materialCost": 16.66333333333333,
+      "total": 49.66333333333333
+    },
+    "time": "3/27/2025, 9:25:54 PM",
+    "total": 49.66333333333333,
+    "workedHours": 0
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon blanco 4mm Amazon 100 feet WEREWOLVES",
+        "usedQty": 3
+      },
+      {
+        "baseCost": 1.25,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 24,
+        "material": "Cap dorado 3,4,5,6mm UNICRAFTALE Amazon",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 10,
+        "material": "Jump 7mm dorado  Waggon Beads Olazabal",
+        "usedQty": 6
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 10,
+        "material": "Hook earring dorado Waggon Beads Olazabal",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 25,
+        "material": "Rubber clear",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 9,
+        "baseQty": 60,
+        "material": "Oval Linking Rings Amazon UNICRAFTALE 10x3.5x2mm plata, dorado y rose gold",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 30,
+        "material": "Campanas doradas UNICRAFTALE 5mm",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Hook collar 12mm dorado Waggon Beads",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena dorada",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 50,
+        "material": "Bolsita Organza blanca pequena*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 6,
+        "material": "Bolsita Organza blanca grande*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 5,
+        "material": "Bolsa de entrega*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 49,
+    "name": "Set collar y pulsera trenzad",
+    "notes": "<p>Cherry enchapada y cristal de Waggon Beads $1.25</p>",
+    "summary": {
+      "laborCost": 29.700000000000003,
+      "materialCost": 16.66333333333333,
+      "total": 46.36333333333333
+    },
+    "time": "3/27/2025, 8:09:22 PM",
+    "total": 46.36333333333333,
+    "workedHours": 2.7
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon blanco 4mm Amazon 100 feet WEREWOLVES",
+        "usedQty": 3
+      },
+      {
+        "baseCost": 1.25,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 24,
+        "material": "Cap dorado 3,4,5,6mm UNICRAFTALE Amazon",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 10,
+        "material": "Jump 7mm dorado  Waggon Beads Olazabal",
+        "usedQty": 6
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 10,
+        "material": "Hook earring dorado Waggon Beads Olazabal",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 25,
+        "material": "Rubber clear",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 9,
+        "baseQty": 60,
+        "material": "Oval Linking Rings Amazon UNICRAFTALE 10x3.5x2mm plata, dorado y rose gold",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 30,
+        "material": "Campanas doradas UNICRAFTALE 5mm",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Hook collar 12mm dorado Waggon Beads",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena dorada",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 50,
+        "material": "Bolsita Organza blanca pequena*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 6,
+        "material": "Bolsita Organza blanca grande*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 5,
+        "material": "Bolsa de entrega*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 50,
+    "name": "Set collar y pulsera trenzado cordon negro",
+    "notes": "<p>Cherry enchapada y cristal de Waggon Beads $1.25</p>",
+    "summary": {
+      "laborCost": 29.700000000000003,
+      "materialCost": 16.66333333333333,
+      "total": 46.36333333333333
+    },
+    "time": "3/27/2025, 8:09:31 PM",
+    "total": 46.36333333333333,
+    "workedHours": 2.7
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon negro 4mm Amazon 100 feet WEREWOLVES",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 10,
+        "material": "Jump 7mm dorado  Waggon Beads Olazabal",
+        "usedQty": 6
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 30,
+        "material": "Campanas doradas UNICRAFTALE 5mm",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Hook collar 12mm dorado Waggon Beads",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena dorada",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 30,
+        "material": "Campanas doradas UNICRAFTALE 5mm",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 6,
+        "material": "Bolsita Organza blanca grande*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 5,
+        "material": "Bolsa de entrega*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 51,
+    "name": "Set collar y pulsera trenzado cordon negro. Charm dorado con perla. Dorado. Yadira.",
+    "notes": "<p>Lazo dorado de Bead Squad en Carolina $2 c/u</p>",
+    "summary": {
+      "laborCost": 29.700000000000003,
+      "materialCost": 12.473333333333333,
+      "total": 42.17333333333333
+    },
+    "time": "3/27/2025, 9:30:25 PM",
+    "total": 42.17333333333333,
+    "workedHours": 2.7
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon negro 4mm Amazon 100 feet WEREWOLVES",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 70,
+        "material": "Jump 7mm plata ",
+        "usedQty": 3
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 40,
+        "material": "Campanas plateadas varios tamanos UNICRAFTALE 8mm",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 15,
+        "baseQty": 120,
+        "material": "Hook 12mm plateado Amazon Cadikez",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena plata",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 16,
+        "baseQty": 40,
+        "material": "Perla dorada o plata Beebeecraft Amazon",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 52,
+    "name": "Pulsera trenzada. Charm luna o estrella. Perla plata. ",
+    "notes": "<p>Perla Amazon. </p><p>Estrela shell Bead Squad en Carolina.</p>",
+    "summary": {
+      "laborCost": 11,
+      "materialCost": 5.110714285714286,
+      "total": 16.110714285714288
+    },
+    "time": "3/27/2025, 8:24:20 PM",
+    "total": 16.110714285714288,
+    "workedHours": 1
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon negro 4mm Amazon 100 feet WEREWOLVES",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 70,
+        "material": "Jump 7mm plata ",
+        "usedQty": 3
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 40,
+        "material": "Campanas plateadas varios tamanos UNICRAFTALE 8mm",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 15,
+        "baseQty": 120,
+        "material": "Hook 12mm plateado Amazon Cadikez",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena plata",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 16,
+        "baseQty": 40,
+        "material": "Perla dorada o plata Beebeecraft Amazon",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 53,
+    "name": "Pulsera trenzada. Charm luna o estrella. Perla plata. Plata.",
+    "notes": "<p>Perla Amazon. </p><p>Estrela shell Bead Squad en Carolina.</p>",
+    "summary": {
+      "laborCost": 11,
+      "materialCost": 5.110714285714286,
+      "total": 16.110714285714288
+    },
+    "time": "3/27/2025, 8:25:13 PM",
+    "total": 16.110714285714288,
+    "workedHours": 1
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3.2,
+        "baseQty": 1,
+        "material": "Cordon gris 4mm Alonso Sobrino",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Campanas redonditas set de 2 Waggon Beads Olazabal",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 30,
+        "material": "Charm redondo plateado oceano, montana y nube UNICRAFTALE AMAZON",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Charm dorado océano caballo de mar, pez, estrella mar, delfin y seashell",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena dorada",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Hook collar 12mm dorado Waggon Beads",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 10,
+        "material": "Jump 7mm dorado  Waggon Beads Olazabal",
+        "usedQty": 6
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 12,
+        "material": "Bolsita Organza blanca mediana*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 5,
+        "material": "Bolsa de entrega*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 54,
+    "name": "Pulsera trenzada cordon gris. Charms amapola, caballo de mar, pez, ola dorado. Regalo Maria a Lyan. ",
+    "notes": "",
+    "summary": {
+      "laborCost": 13.2,
+      "materialCost": 12.325000000000001,
+      "total": 25.525
+    },
+    "time": "3/31/2025, 3:46:49 PM",
+    "total": 25.525,
+    "workedHours": 1.2
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3,
+        "baseQty": 1,
+        "material": "Cordon crema 7mm Amazon 90 feet TECEUM",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 16,
+        "baseQty": 100,
+        "material": "Cap plata con diseño 5 tamaños UNICRAFTALE Amazon",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 7,
+        "baseQty": 16,
+        "material": "Pieza redonda o spring para llaveros plateados",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 12,
+        "material": "Bolsita Organza blanca mediana*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 55,
+    "name": "Colab llavero combinacion plata",
+    "notes": "",
+    "summary": {
+      "laborCost": 5.5,
+      "materialCost": 4.269166666666667,
+      "total": 9.769166666666667
+    },
+    "time": "4/1/2025, 7:45:28 PM",
+    "total": 9.769166666666667,
+    "workedHours": 0.5
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon verde esmeralda oscuro 4mm Amazon  50 feet TECEUM",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 15,
+        "baseQty": 6,
+        "material": "Piedras Waterdrop Amazon LE SKY 6pcs",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 9,
+        "baseQty": 1000,
+        "material": "Jump 10mm  PH Panda Hall Amazon varios tamaños",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 70,
+        "material": "Jump 7mm plata ",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 12,
+        "material": "Hook earring plata Waggon Beads Olsazabal",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 25,
+        "material": "Rubber clear",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 12,
+        "material": "Bolsita Organza blanca mediana*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 50,
+        "material": "Bolsita Organza blanca pequena*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 8,
+        "baseQty": 24,
+        "material": "Cap plata Amazon UNICRAFTALE 4mm inner",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 40,
+        "material": "Campanas plateadas varios tamanos UNICRAFTALE 8mm",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 4,
+        "baseQty": 24,
+        "material": "Bolsita entrega Kraft Paper TEMU*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 56,
+    "name": "Colab Set Best Mom Nudo Marinero. Pantallas y collar. Plata.",
+    "notes": "",
+    "summary": {
+      "laborCost": 22,
+      "materialCost": 9.13447619047619,
+      "total": 31.134476190476192
+    },
+    "time": "4/1/2025, 7:50:42 PM",
+    "total": 31.134476190476192,
+    "workedHours": 2
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3.2,
+        "baseQty": 1,
+        "material": "Cordon gris 4mm Alonso Sobrino",
+        "usedQty": 3
+      },
+      {
+        "baseCost": 15,
+        "baseQty": 6,
+        "material": "Piedras Waterdrop Amazon LE SKY 6pcs",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 9,
+        "baseQty": 1000,
+        "material": "Jump 10mm  PH Panda Hall Amazon varios tamaños",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 70,
+        "material": "Jump 7mm plata ",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 12,
+        "material": "Hook earring plata Waggon Beads Olsazabal",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 25,
+        "material": "Rubber clear",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 12,
+        "material": "Bolsita Organza blanca mediana*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 50,
+        "material": "Bolsita Organza blanca pequena*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 8,
+        "baseQty": 24,
+        "material": "Cap plata Amazon UNICRAFTALE 4mm inner",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 40,
+        "material": "Campanas plateadas varios tamanos UNICRAFTALE 8mm",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 4,
+        "baseQty": 24,
+        "material": "Bolsita entrega Kraft Paper TEMU*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 30,
+        "material": "Spacer a presion plata Mollensiuer Amazon",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 9,
+        "baseQty": 50,
+        "material": "Campanas plata 5mm UNICRAFTALE Amazon",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena plata",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 4.75,
+        "baseQty": 20,
+        "material": "Hook 9mm plateado Waggon Beads",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 57,
+    "name": "Colab Set Best Mom Nudo Marinero. Pantallas, collar y pulsera. Plata.",
+    "notes": "",
+    "summary": {
+      "laborCost": 27.5,
+      "materialCost": 18.055785714285715,
+      "total": 45.55578571428572
+    },
+    "time": "4/1/2025, 8:26:15 PM",
+    "total": 45.55578571428572,
+    "workedHours": 2
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3.2,
+        "baseQty": 1,
+        "material": "Cordon gris 4mm Alonso Sobrino",
+        "usedQty": 3
+      },
+      {
+        "baseCost": 15,
+        "baseQty": 10,
+        "material": "Charm de corazon grande dorado Beebeecraft Amazon",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 30,
+        "material": "Campanas doradas UNICRAFTALE 5mm",
+        "usedQty": 3
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 10,
+        "material": "Jump 7mm dorado  Waggon Beads Olazabal",
+        "usedQty": 5
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 10,
+        "material": "Hook earring dorado Waggon Beads Olazabal",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 25,
+        "material": "Rubber clear",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 50,
+        "material": "Bolsita Organza blanca pequena*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 6,
+        "material": "Bolsita Organza blanca grande*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 48,
+        "material": "Spacer o slidder negro,plata,dorado 48 pcs 2 tamaños Amazon UNICRAFTALE",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena dorada",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Hook collar 12mm dorado Waggon Beads",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cap 4mm dorado",
+        "usedQty": 4
+      }
+    ],
+    "favorite": false,
+    "id": 58,
+    "name": "Colab Set Best Mom Nudo Marinero. Pantallas, collar y pulsera. Dorado.",
+    "notes": "",
+    "summary": {
+      "laborCost": 27.5,
+      "materialCost": 20.075000000000003,
+      "total": 47.575
+    },
+    "time": "4/1/2025, 8:04:26 PM",
+    "total": 47.575,
+    "workedHours": 2.5
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3.2,
+        "baseQty": 1,
+        "material": "Cordon gris 4mm Alonso Sobrino",
+        "usedQty": 3
+      },
+      {
+        "baseCost": 15,
+        "baseQty": 10,
+        "material": "Charm de corazon grande dorado Beebeecraft Amazon",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 30,
+        "material": "Campanas doradas UNICRAFTALE 5mm",
+        "usedQty": 3
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 10,
+        "material": "Jump 7mm dorado  Waggon Beads Olazabal",
+        "usedQty": 5
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 10,
+        "material": "Hook earring dorado Waggon Beads Olazabal",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 25,
+        "material": "Rubber clear",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 50,
+        "material": "Bolsita Organza blanca pequena*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 6,
+        "material": "Bolsita Organza blanca grande*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 48,
+        "material": "Spacer o slidder negro,plata,dorado 48 pcs 2 tamaños Amazon UNICRAFTALE",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena dorada",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Hook collar 12mm dorado Waggon Beads",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cap 4mm dorado",
+        "usedQty": 4
+      }
+    ],
+    "favorite": false,
+    "id": 59,
+    "name": "Colab Set Best Mom Nudo Marinero. Pantallas, collar y pulsera. Charm dorado corazon.",
+    "notes": "",
+    "summary": {
+      "laborCost": 27.5,
+      "materialCost": 20.075000000000003,
+      "total": 47.575
+    },
+    "time": "4/1/2025, 8:05:45 PM",
+    "total": 47.575,
+    "workedHours": 2.5
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3.2,
+        "baseQty": 1,
+        "material": "Cordon gris 4mm Alonso Sobrino",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 15,
+        "baseQty": 10,
+        "material": "Charm de corazon grande dorado Beebeecraft Amazon",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 30,
+        "material": "Campanas doradas UNICRAFTALE 5mm",
+        "usedQty": 3
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 10,
+        "material": "Jump 7mm dorado  Waggon Beads Olazabal",
+        "usedQty": 5
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 10,
+        "material": "Hook earring dorado Waggon Beads Olazabal",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 25,
+        "material": "Rubber clear",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 50,
+        "material": "Bolsita Organza blanca pequena*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 12,
+        "material": "Bolsita Organza blanca mediana*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cap 4mm dorado",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 60,
+    "name": "Colab Set Best Mom Nudo Marinero. Pantallas, collar. Charm dorado corazon.",
+    "notes": "",
+    "summary": {
+      "laborCost": 22,
+      "materialCost": 16.031666666666666,
+      "total": 38.031666666666666
+    },
+    "time": "4/1/2025, 8:20:15 PM",
+    "total": 38.031666666666666,
+    "workedHours": 2
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3.2,
+        "baseQty": 1,
+        "material": "Cordon rosa claro Alonso Sobrino",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 70,
+        "material": "Jump 7mm plata ",
+        "usedQty": 3
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 40,
+        "material": "Campanas plateadas varios tamanos UNICRAFTALE 7mm",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 15,
+        "baseQty": 120,
+        "material": "Hook 12mm plateado Amazon Cadikez",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena plata",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 12,
+        "material": "Bolsita Organza blanca mediana*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 4,
+        "baseQty": 24,
+        "material": "Bolsita entrega Kraft Paper TEMU*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 61,
+    "name": "Colab pulsera en nudo de macramé. Frutas.",
+    "notes": "",
+    "summary": {
+      "laborCost": 11,
+      "materialCost": 9.789047619047619,
+      "total": 20.78904761904762
+    },
+    "time": "4/1/2025, 8:32:54 PM",
+    "total": 20.78904761904762,
+    "workedHours": 1
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3.2,
+        "baseQty": 1,
+        "material": "Cordon gris 4mm Alonso Sobrino",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cap 4mm dorado",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 10,
+        "material": "Hook earring dorado Waggon Beads Olazabal",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 25,
+        "material": "Rubber clear",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 10,
+        "material": "Jump 7mm dorado  Waggon Beads Olazabal",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 50,
+        "material": "Bolsita Organza blanca pequena*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 4,
+        "baseQty": 24,
+        "material": "Bolsita entrega Kraft Paper TEMU*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 62,
+    "name": "Pantallas nudo marinero. Dorado.",
+    "notes": "",
+    "summary": {
+      "laborCost": 11,
+      "materialCost": 9.526666666666667,
+      "total": 20.526666666666667
+    },
+    "time": "4/1/2025, 8:36:01 PM",
+    "total": 20.526666666666667,
+    "workedHours": 1
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3.2,
+        "baseQty": 1,
+        "material": "Cordon gris 4mm Alonso Sobrino",
+        "usedQty": 0
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 40,
+        "material": "Campanas plateadas varios tamanos UNICRAFTALE 4mm",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 9,
+        "baseQty": 1000,
+        "material": "Jump 6mm  PH Panda Hall Amazon varios tamaños",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 12,
+        "material": "Hook earring plata Waggon Beads Olsazabal",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 25,
+        "material": "Rubber clear",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 50,
+        "material": "Bolsita Organza blanca pequena*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 4,
+        "baseQty": 24,
+        "material": "Bolsita entrega Kraft Paper TEMU*",
+        "usedQty": 0
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 63,
+    "name": "Colab Pantallas en U. Plata.",
+    "notes": "",
+    "summary": {
+      "laborCost": 11,
+      "materialCost": 2.0446666666666666,
+      "total": 13.044666666666666
+    },
+    "time": "4/1/2025, 8:39:04 PM",
+    "total": 13.044666666666666,
+    "workedHours": 1
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3.2,
+        "baseQty": 1,
+        "material": "Cordon gris 4mm Alonso Sobrino",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 12,
+        "material": "Bolsita Organza blanca mediana*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 4,
+        "baseQty": 24,
+        "material": "Bolsita entrega Kraft Paper TEMU*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 1,
+        "material": "Iman elegante pulsera hombre",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 64,
+    "name": "Colab Pulsera hombre. Plata.",
+    "notes": "",
+    "summary": {
+      "laborCost": 11,
+      "materialCost": 11.578333333333335,
+      "total": 22.578333333333333
+    },
+    "time": "4/1/2025, 8:42:20 PM",
+    "total": 22.578333333333333,
+    "workedHours": 1
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2,
+        "baseQty": 0,
+        "material": "Charm*",
+        "usedQty": 0
+      },
+      {
+        "baseCost": 4,
+        "baseQty": 1,
+        "material": "",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 70,
+        "material": "Jump 7mm plata ",
+        "usedQty": 3
+      },
+      {
+        "baseCost": 15,
+        "baseQty": 120,
+        "material": "Hook 12mm plateado Amazon Cadikez",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 100,
+        "material": "Bolsita entrega plastica rosita TEMU*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 50,
+        "material": "Bolsita Organza blanca pequena*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 65,
+    "name": "Collar Pablo. Charm cruz plata. ",
+    "notes": "",
+    "summary": {
+      "laborCost": 11,
+      "materialCost": 4.305714285714285,
+      "total": 15.305714285714284
+    },
+    "time": "4/3/2025, 6:05:18 PM",
+    "total": 15.305714285714284,
+    "workedHours": 1
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3.5,
+        "baseQty": 1,
+        "material": "Iman elegante pulsera hombre",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon camouflage marron, crema, verde monte",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 100,
+        "material": "Bolsita entrega plastica rosita TEMU*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 12,
+        "material": "Bolsita Organza blanca mediana*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 66,
+    "name": "Pulsera de hombre cordon camouflage. Pulsera Pablo. Iman silver",
+    "notes": "<p>Cordon camouflage de Home Depot</p>",
+    "summary": {
+      "laborCost": 5.5,
+      "materialCost": 5.826666666666667,
+      "total": 11.326666666666668
+    },
+    "time": "4/3/2025, 9:45:17 PM",
+    "total": 11.326666666666668,
+    "workedHours": 0.5
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2.25,
+        "baseQty": 1,
+        "material": "Cordon verde monte HOKINETY 4mm 100 feet",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 50,
+        "material": "Bolsita Organza blanca pequena*",
+        "usedQty": 0
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 6,
+        "material": "Bolsita Organza blanca grande*",
+        "usedQty": 0
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 12,
+        "material": "Bolsita Organza blanca mediana*",
+        "usedQty": 0
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 5,
+        "material": "Bolsa de entrega*",
+        "usedQty": 0
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 0
+      },
+      {
+        "baseCost": 0,
+        "baseQty": 0,
+        "material": "Charm*",
+        "usedQty": 0
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 0
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 100,
+        "material": "Bolsita entrega plastica rosita TEMU*",
+        "usedQty": 0
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 100,
+        "material": "Bolsita pequena organza TEMU*",
+        "usedQty": 0
+      },
+      {
+        "baseCost": 5.5,
+        "baseQty": 100,
+        "material": "Bolsita grande organza TEMU*",
+        "usedQty": 0
+      },
+      {
+        "baseCost": 4,
+        "baseQty": 24,
+        "material": "Bolsita entrega Kraft Paper TEMU*",
+        "usedQty": 0
+      }
+    ],
+    "favorite": false,
+    "id": 67,
+    "name": "Collar trenzado cordon verde monte.  Combinacion en dorado.  Charm de perlas. Mami.",
+    "notes": "",
+    "summary": {
+      "laborCost": 11,
+      "materialCost": 4.5,
+      "total": 15.5
+    },
+    "time": "4/10/2025, 9:04:57 PM",
+    "total": 15.5,
+    "workedHours": 0
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2.25,
+        "baseQty": 1,
+        "material": "Cordon verde monte HOKINETY 4mm 100 feet",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 11,
+        "baseQty": 100,
+        "material": "Stud flat round blank pad dorado",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 4.5,
+        "baseQty": 200,
+        "material": "Rubber clear 200pcs Beebeecraft Amazon 6mm",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 16,
+        "baseQty": 40,
+        "material": "Perla dorada o plata Beebeecraft Amazon",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 10,
+        "material": "Jump 7mm dorado  Waggon Beads Olazabal",
+        "usedQty": 6
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena dorada",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 4.75,
+        "baseQty": 20,
+        "material": "Hook 9mm plateado Waggon Beads",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 10,
+        "material": "Campanas doradas 8mm UNICRAFTALE Amazon",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 50,
+        "material": "Bolsita Organza blanca pequena*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 6,
+        "material": "Bolsita Organza blanca grande*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 5,
+        "material": "Bolsa de entrega*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 68,
+    "name": "Collar trenzado cordon verde monte.  Combinacion en dorado.  Charm de perlas. Mami..",
+    "notes": "",
+    "summary": {
+      "laborCost": 22,
+      "materialCost": 13.395833333333334,
+      "total": 35.395833333333336
+    },
+    "time": "4/10/2025, 9:25:59 PM",
+    "total": 35.395833333333336,
+    "workedHours": 1
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2.5,
+        "baseQty": 1,
+        "material": "Cordon navy blue 4mm 100 feet TECEUM Amazon",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 30,
+        "material": "Campanas doradas UNICRAFTALE 5mm",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1.25,
+        "baseQty": 100,
+        "material": "Jump 5mm dorado Waggon Beads Olazabal",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 10,
+        "material": "Hook earring dorado Waggon Beads Olazabal",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 25,
+        "material": "Rubber clear",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 50,
+        "material": "Bolsita Organza blanca pequena*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 69,
+    "name": "Pantallas jefa Zoe Navy blue con una bead dorada.",
+    "notes": "",
+    "summary": {
+      "laborCost": 5.5,
+      "materialCost": 3.5316666666666667,
+      "total": 9.031666666666666
+    },
+    "time": "4/10/2025, 10:38:13 PM",
+    "total": 9.031666666666666,
+    "workedHours": 0.5
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3.2,
+        "baseQty": 1,
+        "material": "Cordon gris 4mm Alonso Sobrino",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 30,
+        "material": "Campanas doradas UNICRAFTALE 5mm",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 10,
+        "material": "Jump 7mm dorado  Waggon Beads Olazabal",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena dorada",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Hook collar 12mm dorado Waggon Beads",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 50,
+        "material": "Bolsita Organza blanca pequena*",
+        "usedQty": 0
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 6,
+        "material": "Bolsita Organza blanca grande*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 12,
+        "material": "Bolsita Organza blanca mediana*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 5,
+        "material": "Bolsa de entrega*",
+        "usedQty": 0
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 70,
+    "name": "Set de Pulsera y Collar Lily. Dorado.",
+    "notes": "",
+    "summary": {
+      "laborCost": 18.7,
+      "materialCost": 13.298333333333334,
+      "total": 31.998333333333335
+    },
+    "time": "4/13/2025, 9:49:49 PM",
+    "total": 31.998333333333335,
+    "workedHours": 1.7
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3.2,
+        "baseQty": 1,
+        "material": "Cordon gris 4mm Alonso Sobrino",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 30,
+        "material": "Campanas doradas UNICRAFTALE 5mm",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 10,
+        "material": "Jump 7mm dorado  Waggon Beads Olazabal",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena dorada",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Hook collar 12mm dorado Waggon Beads",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 6,
+        "material": "Bolsita Organza blanca grande*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 12,
+        "material": "Bolsita Organza blanca mediana*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 5,
+        "material": "Bolsa de entrega*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 4.5,
+        "baseQty": 200,
+        "material": "Stud flat dorado Beebeecraft Amazon 6mm",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 25,
+        "material": "Rubber clear",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 50,
+        "material": "Bolsita Organza blanca pequena*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 48,
+        "material": "Spacer o slidder negro,plata,dorado 48 pcs 2 tamaños Amazon UNICRAFTALE",
+        "usedQty": 4
+      }
+    ],
+    "favorite": false,
+    "id": 71,
+    "name": "Set de Pulsera, Collar y pantallas stud Lily. Dorado.",
+    "notes": "",
+    "summary": {
+      "laborCost": 22,
+      "materialCost": 15.166666666666668,
+      "total": 37.16666666666667
+    },
+    "time": "5/5/2025, 6:01:00 PM",
+    "total": 37.16666666666667,
+    "workedHours": 2
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2.5,
+        "baseQty": 1,
+        "material": "Cordon navy blue 4mm 100 feet TECEUM Amazon",
+        "usedQty": 3
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon azul cielo TEMU 5 yardas",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 10,
+        "material": "Campanas doradas 8mm UNICRAFTALE Amazon",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Hook collar 12mm dorado Waggon Beads",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena dorada",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 10,
+        "material": "Jump 7mm dorado  Waggon Beads Olazabal",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1.25,
+        "baseQty": 100,
+        "material": "Jump 5mm dorado Waggon Beads Olazabal",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 10,
+        "material": "Hook earring dorado Waggon Beads Olazabal",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 25,
+        "material": "Rubber clear",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 3,
+        "material": "Aro dorado Alonso Sobrino",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Charms de oceano dorado 5 estilos delfin, estrella de mar, pez, caballo de par y shell Amazon PH Panda Hall",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 16,
+        "baseQty": 40,
+        "material": "Perla dorada o plata Beebeecraft Amazon",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 8,
+        "baseQty": 100,
+        "material": "Mini shell dorado o plata UNICRAFTALE ",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 11,
+        "baseQty": 30,
+        "material": "Spacer/Stopper Beads Rubber Inside 6mm dorada Amazon UNICRAFTALE",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 9,
+        "baseQty": 100,
+        "material": "Spacer Beads Amazon platas BEADIA 6x2mm",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 12,
+        "baseQty": 50,
+        "material": "Spacer Beads Amazon doradas DICOSMETIC 6mm",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 24,
+        "material": "Cap dorado Amazon 3, 4, 5, 6mm UNICRAFTALE",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 50,
+        "material": "Bolsita Organza blanca pequena*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 6,
+        "material": "Bolsita Organza blanca grande*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 12,
+        "material": "Bolsita Organza blanca mediana*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 5,
+        "material": "Bolsa de entrega*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 72,
+    "name": "Set collar, pantallas y pulsera Natalia. Dorado",
+    "notes": "",
+    "summary": {
+      "laborCost": 35.2,
+      "materialCost": 26.276666666666664,
+      "total": 61.47666666666667
+    },
+    "time": "4/15/2025, 11:50:49 AM",
+    "total": 61.47666666666667,
+    "workedHours": 3
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 0,
+        "baseQty": 0,
+        "material": "Charm*",
+        "usedQty": 5
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cap 4mm dorado",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 10,
+        "material": "Hook earring dorado Waggon Beads Olazabal",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 25,
+        "material": "Rubber clear",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 30,
+        "material": "Campanas doradas UNICRAFTALE 5mm",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 10,
+        "material": "Jump 7mm dorado  Waggon Beads Olazabal",
+        "usedQty": 3
+      },
+      {
+        "baseCost": 1.25,
+        "baseQty": 100,
+        "material": "Jump 5mm dorado Waggon Beads Olazabal",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Hook collar 12mm dorado Waggon Beads",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 50,
+        "material": "Bolsita Organza blanca pequena*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 12,
+        "material": "Bolsita Organza blanca mediana*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 4,
+        "baseQty": 24,
+        "material": "Bolsita entrega Kraft Paper TEMU*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 73,
+    "name": "Colab Annette y Yadira.  Dorado.  ",
+    "notes": "",
+    "summary": {
+      "laborCost": 16.5,
+      "materialCost": 7.870000000000001,
+      "total": 24.37
+    },
+    "time": "4/15/2025, 12:37:24 PM",
+    "total": 24.37,
+    "workedHours": 1.5
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon verde esmeralda oscuro 4mm Amazon  50 feet TECEUM",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 2.25,
+        "baseQty": 1,
+        "material": "Cordon verde monte HOKINETY 4mm 100 feet",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 0,
+        "baseQty": 0,
+        "material": "Charm*",
+        "usedQty": 7
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 48,
+        "material": "Spacer o slidder negro,plata,dorado 48 pcs 2 tamaños Amazon UNICRAFTALE",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 10,
+        "material": "Jump 7mm dorado  Waggon Beads Olazabal",
+        "usedQty": 3
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Hook collar 12mm dorado Waggon Beads",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 10,
+        "material": "Hook earring dorado Waggon Beads Olazabal",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 25,
+        "material": "Rubber clear",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1.25,
+        "baseQty": 100,
+        "material": "Jump 5mm dorado Waggon Beads Olazabal",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena dorada",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 10,
+        "material": "Campanas doradas 8mm UNICRAFTALE Amazon",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 50,
+        "material": "Bolsita Organza blanca pequena*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 12,
+        "material": "Bolsita Organza blanca mediana*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 5,
+        "material": "Bolsa de entrega*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 74,
+    "name": "Set de collar y pantallas Maria para Pascua 2025. Dorado.",
+    "notes": "",
+    "summary": {
+      "laborCost": 22,
+      "materialCost": 17.458333333333332,
+      "total": 39.45833333333333
+    },
+    "time": "4/15/2025, 12:44:46 PM",
+    "total": 39.45833333333333,
+    "workedHours": 2
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 7,
+        "baseQty": 16,
+        "material": "Pieza redonda o spring para llaveros plateados",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 16,
+        "baseQty": 100,
+        "material": "Cap plata con diseño 5 tamaños UNICRAFTALE Amazon",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon Green Wave TECEUM Amazon 90 feet",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1.5,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 12,
+        "material": "Bolsita Organza blanca mediana*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 4,
+        "baseQty": 24,
+        "material": "Bolsita entrega Kraft Paper TEMU*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 75,
+    "name": "Llavero Jane. Betsabe. Plata.",
+    "notes": "",
+    "summary": {
+      "laborCost": 5.5,
+      "materialCost": 5.935833333333334,
+      "total": 11.435833333333335
+    },
+    "time": "4/15/2025, 9:27:44 PM",
+    "total": 11.435833333333335,
+    "workedHours": 0.5
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3.2,
+        "baseQty": 1,
+        "material": "Cordon gris 4mm Alonso Sobrino",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 16,
+        "baseQty": 40,
+        "material": "Perla dorada o plata Beebeecraft Amazon",
+        "usedQty": 5
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 10,
+        "material": "Campanas doradas 8mm UNICRAFTALE Amazon",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Hook collar 12mm dorado Waggon Beads",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 10,
+        "material": "Jump 7mm dorado  Waggon Beads Olazabal",
+        "usedQty": 6
+      }
+    ],
+    "favorite": false,
+    "id": 76,
+    "name": "Collar corto claro trenzado con perlas y lazo dorado Bead Squead. Betsabe",
+    "notes": "<p>Lazo dorado Bead Squad Carolina</p>",
+    "summary": {
+      "laborCost": 22,
+      "materialCost": 11.259999999999998,
+      "total": 33.26
+    },
+    "time": "4/15/2025, 9:05:53 PM",
+    "total": 33.26,
+    "workedHours": 2
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3,
+        "baseQty": 1,
+        "material": "Cadena plata",
+        "usedQty": 0
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 24,
+        "material": "Cristales redondos de colores UNICRAFTALE Amazon 12 colores",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 11,
+        "baseQty": 10,
+        "material": "Charm de océano flat plata SUNNYCLUE ",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Charms de oceano dorado 5 estilos delfin, estrella de mar, pez, caballo de par y shell Amazon PH Panda Hall",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 1,
+        "material": "Charm ola dorada redonda Amazon UNICRAFTALE",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1.75,
+        "baseQty": 2,
+        "material": "Charm amapola dorada",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 77,
+    "name": "Cadena stainless steel de PR. Plata. Betsabe.",
+    "notes": "",
+    "summary": {
+      "laborCost": 11,
+      "materialCost": 17.401666666666664,
+      "total": 28.401666666666664
+    },
+    "time": "4/15/2025, 9:16:17 PM",
+    "total": 28.401666666666664,
+    "workedHours": 1
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon blanco 4mm Amazon 100 feet WEREWOLVES",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 24,
+        "material": "Cap dorado Amazon 3, 4, 5, 6mm UNICRAFTALE",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 10,
+        "material": "Hook earring dorado Waggon Beads Olazabal",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 25,
+        "material": "Rubber clear",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1.25,
+        "baseQty": 100,
+        "material": "Jump 5mm dorado Waggon Beads Olazabal",
+        "usedQty": 2
+      }
+    ],
+    "favorite": false,
+    "id": 78,
+    "name": "Pantallas en nudo marinero. Betsabe. Dorado",
+    "notes": "",
+    "summary": {
+      "laborCost": 11,
+      "materialCost": 3.9716666666666667,
+      "total": 14.971666666666668
+    },
+    "time": "4/15/2025, 9:17:49 PM",
+    "total": 14.971666666666668,
+    "workedHours": 1
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon negro 4mm Amazon 100 feet WEREWOLVES",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2.5,
+        "baseQty": 1,
+        "material": "Cordon navy blue 4mm 100 feet TECEUM Amazon",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 40,
+        "material": "Campanas plateadas varios tamanos UNICRAFTALE 8mm",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 70,
+        "material": "Jump 7mm plata ",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 15,
+        "baseQty": 120,
+        "material": "Hook 12mm plateado Amazon Cadikez",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena plata",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 79,
+    "name": "Pulsera trenzada Betsabe. Plata.",
+    "notes": "",
+    "summary": {
+      "laborCost": 11,
+      "materialCost": 6.182142857142857,
+      "total": 17.182142857142857
+    },
+    "time": "4/15/2025, 9:25:08 PM",
+    "total": 17.182142857142857,
+    "workedHours": 1
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3.2,
+        "baseQty": 1,
+        "material": "Cordon violeta Alonso Sobrino",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon blanco 4mm Amazon 100 feet WEREWOLVES",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 9,
+        "baseQty": 300,
+        "material": "Charm hojitas dorada y plata Amazon SUNNYCLUE",
+        "usedQty": 3
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 70,
+        "material": "Jump 7mm plata ",
+        "usedQty": 5
+      },
+      {
+        "baseCost": 15,
+        "baseQty": 120,
+        "material": "Hook 12mm plateado Amazon Cadikez",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena plata",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 24,
+        "material": "Cristales redondos de colores UNICRAFTALE Amazon 12 colores",
+        "usedQty": 3
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 12,
+        "material": "Bolsita Organza blanca mediana*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 4,
+        "baseQty": 24,
+        "material": "Bolsita entrega Kraft Paper TEMU*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 80,
+    "name": "Pulsera trenzada para Nickolle. Betsabe. Plata",
+    "notes": "",
+    "summary": {
+      "laborCost": 11,
+      "materialCost": 9.861190476190476,
+      "total": 20.861190476190476
+    },
+    "time": "4/15/2025, 9:36:25 PM",
+    "total": 20.861190476190476,
+    "workedHours": 0.7
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2.5,
+        "baseQty": 1,
+        "material": "Cordón burgundy marron rojizo 4mm TECEUM Amazon",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1.25,
+        "baseQty": 100,
+        "material": "Jump 5mm dorado Waggon Beads Olazabal",
+        "usedQty": 3
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Hook collar 12mm dorado Waggon Beads",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena dorada",
+        "usedQty": 0
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 30,
+        "material": "Campanas doradas UNICRAFTALE 5mm",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 12,
+        "material": "Bolsita Organza blanca mediana*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 4,
+        "baseQty": 24,
+        "material": "Bolsita entrega Kraft Paper TEMU*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 81,
+    "name": "Collar Iliannette. Charm lazo dorado",
+    "notes": "",
+    "summary": {
+      "laborCost": 11,
+      "materialCost": 8.1425,
+      "total": 19.1425
+    },
+    "time": "5/7/2025, 8:56:23 PM",
+    "total": 19.1425,
+    "workedHours": 1
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3,
+        "baseQty": 1,
+        "material": "Cordon crema 7mm Amazon 90 feet TECEUM",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 7,
+        "baseQty": 16,
+        "material": "Pieza redonda o spring para llaveros plateados",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 70,
+        "material": "Jump 7mm plata ",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 16,
+        "baseQty": 100,
+        "material": "Cap plata con diseño 5 tamaños UNICRAFTALE Amazon",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 100,
+        "material": "Bolsita entrega plastica rosita TEMU*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 82,
+    "name": "Llavero Maria charm caracol en acrilico",
+    "notes": "",
+    "summary": {
+      "laborCost": 5.5,
+      "materialCost": 5.821071428571429,
+      "total": 11.321071428571429
+    },
+    "time": "5/7/2025, 9:07:08 PM",
+    "total": 11.321071428571429,
+    "workedHours": 0.5
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cordon crema 7mm Amazon 90 feet TECEUM",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 8,
+        "baseQty": 10,
+        "material": "Spring de llavero dorado",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1.25,
+        "baseQty": 100,
+        "material": "Jump 5mm dorado Waggon Beads Olazabal",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 4,
+        "baseQty": 24,
+        "material": "Bolsita entrega Kraft Paper TEMU*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cap 4mm dorado",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 83,
+    "name": "Llavero Maria regalo para Isabel. Charm cherry",
+    "notes": "",
+    "summary": {
+      "laborCost": 5.5,
+      "materialCost": 6.199166666666666,
+      "total": 11.699166666666667
+    },
+    "time": "5/7/2025, 9:15:47 PM",
+    "total": 11.699166666666667,
+    "workedHours": 0.5
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 7,
+        "baseQty": 16,
+        "material": "Pieza redonda o spring para llaveros plateados",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 9,
+        "baseQty": 1000,
+        "material": "Jump 8mm  PH Panda Hall Amazon varios tamaños",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 100,
+        "material": "Bolsita entrega plastica rosita TEMU*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1.25,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cordon generico",
+        "usedQty": 3
+      }
+    ],
+    "favorite": false,
+    "id": 84,
+    "name": "Llavero con los colores de la bandera de PR. Zoe.",
+    "notes": "<p>Charm en acrilico de Ponce laser cut.</p>",
+    "summary": {
+      "laborCost": 2.75,
+      "materialCost": 8.5085,
+      "total": 11.2585
+    },
+    "time": "5/18/2025, 10:20:37 AM",
+    "total": 11.2585,
+    "workedHours": 0.25
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon rosa 7mm TECEUM Amazon 90 pies",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 2,
+        "material": "Spacer straps celu rectangulares plata Waggon Beads",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 7,
+        "baseQty": 16,
+        "material": "Pieza redonda o spring para llaveros plateados",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 7,
+        "baseQty": 10,
+        "material": "Pestaña clear strap celu o Phone tether tab clear",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 16,
+        "baseQty": 100,
+        "material": "Cap plata con diseño 5 tamaños UNICRAFTALE Amazon",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 100,
+        "material": "Bolsita entrega plastica rosita TEMU*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 85,
+    "name": "Strap ajustable de celular Maria cordon rosa",
+    "notes": "",
+    "summary": {
+      "laborCost": 2.75,
+      "materialCost": 5.492500000000001,
+      "total": 8.2425
+    },
+    "time": "5/18/2025, 10:34:08 AM",
+    "total": 8.2425,
+    "workedHours": 0.25
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon blanco 4mm Amazon 100 feet WEREWOLVES",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1.25,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 9,
+        "baseQty": 1000,
+        "material": "Jump 10mm  PH Panda Hall Amazon varios tamaños",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 4,
+        "baseQty": 24,
+        "material": "Bolsita entrega Kraft Paper TEMU*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 86,
+    "name": "Collar ajustable colab de verano charm silla blanca y amapola peq en laser cut",
+    "notes": "",
+    "summary": {
+      "laborCost": 5.5,
+      "materialCost": 5.895666666666667,
+      "total": 11.395666666666667
+    },
+    "time": "5/18/2025, 10:48:19 AM",
+    "total": 11.395666666666667,
+    "workedHours": 0.5
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon rosa 7mm TECEUM Amazon 90 pies",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 2,
+        "material": "Spacer straps celu rectangulares plata Waggon Beads",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 7,
+        "baseQty": 16,
+        "material": "Pieza redonda o spring para llaveros plateados",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 7,
+        "baseQty": 10,
+        "material": "Pestaña clear strap celu o Phone tether tab clear",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 16,
+        "baseQty": 100,
+        "material": "Cap plata con diseño 5 tamaños UNICRAFTALE Amazon",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 4,
+        "baseQty": 24,
+        "material": "Bolsita entrega Kraft Paper TEMU*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 87,
+    "name": "Colab de verano Strap ajustable de celular ",
+    "notes": "",
+    "summary": {
+      "laborCost": 2.75,
+      "materialCost": 6.844166666666667,
+      "total": 9.594166666666666
+    },
+    "time": "5/18/2025, 10:50:09 AM",
+    "total": 9.594166666666666,
+    "workedHours": 0.25
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 7,
+        "baseQty": 16,
+        "material": "Pieza redonda o spring para llaveros plateados",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 9,
+        "baseQty": 1000,
+        "material": "Jump 8mm  PH Panda Hall Amazon varios tamaños",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 1.25,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 3
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cordon generico",
+        "usedQty": 3
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 4,
+        "baseQty": 24,
+        "material": "Bolsita entrega Kraft Paper TEMU*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 88,
+    "name": "Colab de verano Llavero con los colores de la bandera de PR 3 charms",
+    "notes": "<p>Charm en acrilico de Ponce laser cut.</p>",
+    "summary": {
+      "laborCost": 2.75,
+      "materialCost": 8.610166666666666,
+      "total": 11.360166666666666
+    },
+    "time": "5/18/2025, 10:51:55 AM",
+    "total": 11.360166666666666,
+    "workedHours": 0.25
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena plata",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 70,
+        "material": "Jump 7mm plata ",
+        "usedQty": 6
+      },
+      {
+        "baseCost": 4.75,
+        "baseQty": 20,
+        "material": "Hook 9mm plateado Waggon Beads",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 50,
+        "material": "Bolsita Organza blanca pequena*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 100,
+        "material": "Bolsita entrega plastica rosita TEMU*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2.5,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 89,
+    "name": "Pulsera charms de PR. Plata",
+    "notes": "",
+    "summary": {
+      "laborCost": 2.75,
+      "materialCost": 8.00392857142857,
+      "total": 10.75392857142857
+    },
+    "time": "5/20/2025, 7:11:10 PM",
+    "total": 10.75392857142857,
+    "workedHours": 0.25
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon blanco 4mm Amazon 100 feet WEREWOLVES",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 8,
+        "baseQty": 24,
+        "material": "Cap plata Amazon UNICRAFTALE 3mm inner",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 70,
+        "material": "Jump 7mm plata ",
+        "usedQty": 3
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 12,
+        "material": "Hook earring plata Waggon Beads Olsazabal",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 7,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 90,
+    "name": "Pantallas nudo marinero. collar ajustable blanco charm flor plata",
+    "notes": "",
+    "summary": {
+      "laborCost": 11,
+      "materialCost": 12.585714285714285,
+      "total": 23.585714285714285
+    },
+    "time": "5/31/2025, 7:12:24 PM",
+    "total": 23.585714285714285,
+    "workedHours": 1
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena dorada",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 6,
+        "material": "Bolsita Organza blanca grande*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 5,
+        "material": "Bolsa de entrega*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 4,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena dorada",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Bandana",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 5
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 10,
+        "material": "Campanas doradas 8mm UNICRAFTALE Amazon",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Hook collar 12mm dorado Waggon Beads",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 10,
+        "material": "Jump 7mm dorado  Waggon Beads Olazabal",
+        "usedQty": 11
+      }
+    ],
+    "favorite": false,
+    "id": 91,
+    "name": "Bandana lemonade fuscia Zoe. Dorado",
+    "notes": "<p>Charm prncipal Waggon Beads $3</p><p>Bandana Hobby Lobby</p>",
+    "summary": {
+      "laborCost": 16.5,
+      "materialCost": 20.713333333333335,
+      "total": 37.21333333333334
+    },
+    "time": "7/27/2025, 7:55:55 PM",
+    "total": 37.21333333333334,
+    "workedHours": 1.5
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena plata",
+        "usedQty": 3
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 70,
+        "material": "Jump 7mm plata ",
+        "usedQty": 5
+      },
+      {
+        "baseCost": 15,
+        "baseQty": 120,
+        "material": "Hook 12mm plateado Amazon Cadikez",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 40,
+        "material": "Campanas plateadas varios tamanos UNICRAFTALE 8mm",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 12,
+        "material": "Bolsita Organza blanca mediana*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 5,
+        "material": "Bolsa de entrega*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 92,
+    "name": "Collar de bandana flores rojas Zoe. Plata",
+    "notes": "<p>Bandana Hobby Lobby</p>",
+    "summary": {
+      "laborCost": 16.5,
+      "materialCost": 7.87952380952381,
+      "total": 24.37952380952381
+    },
+    "time": "7/27/2025, 8:00:40 PM",
+    "total": 24.37952380952381,
+    "workedHours": 1.5
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2,
+        "baseQty": 6,
+        "material": "Bolsita Organza blanca grande*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 5,
+        "material": "Bolsa de entrega*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena plata",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1.5,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Bandana",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 70,
+        "material": "Jump 7mm plata ",
+        "usedQty": 9
+      },
+      {
+        "baseCost": 15,
+        "baseQty": 120,
+        "material": "Hook 12mm plateado Amazon Cadikez",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 40,
+        "material": "Campanas plateadas varios tamanos UNICRAFTALE 8mm",
+        "usedQty": 2
+      }
+    ],
+    "favorite": false,
+    "id": 93,
+    "name": "Collar en bandana lemonade fucsia Mami. Plata.",
+    "notes": "<p>Bandana Hobby Lobby</p>",
+    "summary": {
+      "laborCost": 16.5,
+      "materialCost": 13.535476190476189,
+      "total": 30.03547619047619
+    },
+    "time": "7/27/2025, 8:08:04 PM",
+    "total": 30.03547619047619,
+    "workedHours": 1.5
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3.5,
+        "baseQty": 12,
+        "material": "Bolsita Organza blanca mediana*",
+        "usedQty": 0
+      },
+      {
+        "baseCost": 1.25,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 100,
+        "material": "Bolsita entrega plastica rosita TEMU*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 70,
+        "material": "Jump 7mm plata ",
+        "usedQty": 12
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 10,
+        "material": "Campanas doradas 8mm UNICRAFTALE Amazon",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 15,
+        "baseQty": 120,
+        "material": "Hook 12mm plateado Amazon Cadikez",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Bandana",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 94,
+    "name": "Collar en bandana leopard print Cata. Plata",
+    "notes": "<p>Bandana Hobby Lobby</p>",
+    "summary": {
+      "laborCost": 16.5,
+      "materialCost": 8.972857142857142,
+      "total": 25.472857142857144
+    },
+    "time": "7/27/2025, 8:12:43 PM",
+    "total": 25.472857142857144,
+    "workedHours": 1.5
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3.5,
+        "baseQty": 1,
+        "material": "Iman elegante pulsera hombre",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2.5,
+        "baseQty": 1,
+        "material": "Cordon navy blue 4mm 100 feet TECEUM Amazon",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2.25,
+        "baseQty": 1,
+        "material": "Cordon verde monte HOKINETY 4mm 100 feet",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 100,
+        "material": "Bolsita entrega plastica rosita TEMU*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 95,
+    "name": "Pulsera de iman para hombre",
+    "notes": "<p>Vender en $18</p>",
+    "summary": {
+      "laborCost": 5.5,
+      "materialCost": 9.505,
+      "total": 15.005
+    },
+    "time": "8/20/2025, 8:05:31 PM",
+    "total": 15.005,
+    "workedHours": 0.5
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Bandana",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena plata",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 40,
+        "material": "Campanas plateadas varios tamanos UNICRAFTALE 8mm",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 70,
+        "material": "Jump 7mm plata ",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 15,
+        "baseQty": 120,
+        "material": "Hook 12mm plateado Amazon Cadikez",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Spacer o slidder negro,plata,dorado 48 pcs 2 tamaños Amazon UNICRAFTALE",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 100,
+        "material": "Bolsita entrega plastica rosita TEMU*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 96,
+    "name": "Set Choker y pulsera en bandana anaranjado. plata",
+    "notes": "<p>Vender en 28$??</p>",
+    "summary": {
+      "laborCost": 18.7,
+      "materialCost": 6.937142857142857,
+      "total": 25.637142857142855
+    },
+    "time": "8/20/2025, 8:10:56 PM",
+    "total": 25.637142857142855,
+    "workedHours": 1.7
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 1.25,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Bandana",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena plata",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 40,
+        "material": "Campanas plateadas varios tamanos UNICRAFTALE 8mm",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 70,
+        "material": "Jump 7mm plata ",
+        "usedQty": 6
+      },
+      {
+        "baseCost": 15,
+        "baseQty": 120,
+        "material": "Hook 12mm plateado Amazon Cadikez",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 100,
+        "material": "Bolsita entrega plastica rosita TEMU*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 97,
+    "name": "Set collar y pulsera en bandana multicolor. plata",
+    "notes": "<p>Vender en 30$??</p>",
+    "summary": {
+      "laborCost": 18.7,
+      "materialCost": 6.926428571428572,
+      "total": 25.62642857142857
+    },
+    "time": "8/20/2025, 8:14:27 PM",
+    "total": 25.62642857142857,
+    "workedHours": 1.7
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Bandana",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 5,
+        "material": "Charm*",
+        "usedQty": 5
+      },
+      {
+        "baseCost": 1.25,
+        "baseQty": 100,
+        "material": "Jump 5mm dorado Waggon Beads Olazabal",
+        "usedQty": 5
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 30,
+        "material": "Jump 8mm dorado",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cadena dorada",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 10,
+        "material": "Campanas doradas 8mm UNICRAFTALE Amazon",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 30,
+        "material": "Campanas doradas UNICRAFTALE 5mm",
+        "usedQty": 4
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Hook collar 12mm dorado Waggon Beads",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 100,
+        "material": "Bolsita entrega plastica rosita TEMU*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 98,
+    "name": "Set collar y pulsera bandana anaranjada. dorado. charms acrilico frutas",
+    "notes": "<p>Vender en 35$??</p>",
+    "summary": {
+      "laborCost": 22,
+      "materialCost": 9.570833333333335,
+      "total": 31.570833333333333
+    },
+    "time": "8/20/2025, 8:21:47 PM",
+    "total": 31.570833333333333,
+    "workedHours": 2
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon rosa 7mm TECEUM Amazon 90 pies",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 5,
+        "baseQty": 1,
+        "material": "Jump 7mm dorado  Waggon Beads Olazabal",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 100,
+        "material": "Bolsita entrega plastica rosita TEMU*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 99,
+    "name": "Collar ajustable rosa con charm grande rosa estrella mar",
+    "notes": "<p>Vender en 18$</p>",
+    "summary": {
+      "laborCost": 11,
+      "materialCost": 8.255,
+      "total": 19.255000000000003
+    },
+    "time": "8/20/2025, 8:28:22 PM",
+    "total": 19.255000000000003,
+    "workedHours": 1
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 10,
+        "baseQty": 40,
+        "material": "Campanas plateadas varios tamanos UNICRAFTALE 8mm",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 12,
+        "material": "Hook earring plata Waggon Beads Olsazabal",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 70,
+        "material": "Jump 7mm plata ",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 25,
+        "material": "Rubber clear",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 100,
+        "material": "Bolsita entrega plastica rosita TEMU*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2.5,
+        "baseQty": 1,
+        "material": "Cordon crema 4mm TECEUM Amazon 100 pies",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 100,
+    "name": "Pantallas peq colgante forma gota azul claro cordon Waggon",
+    "notes": "<p>Vender en 8$</p>",
+    "summary": {
+      "laborCost": 5.5,
+      "materialCost": 3.558809523809524,
+      "total": 9.058809523809524
+    },
+    "time": "8/20/2025, 8:43:15 PM",
+    "total": 9.058809523809524,
+    "workedHours": 0.5
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3,
+        "baseQty": 1,
+        "material": "Cordon anaranjado 7mm Amazon 90 feet TECEUM",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2.75,
+        "baseQty": 1,
+        "material": "",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 12,
+        "baseQty": 50,
+        "material": "Spacer Beads Amazon doradas DICOSMETIC 6mm",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 100,
+        "material": "Bolsita entrega plastica rosita TEMU*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 101,
+    "name": "Pulsera ajustable anaranjada con slidder estrella dorado de jasper",
+    "notes": "<p>vender 12$</p>",
+    "summary": {
+      "laborCost": 5.5,
+      "materialCost": 7.265000000000001,
+      "total": 12.765
+    },
+    "time": "8/20/2025, 8:56:10 PM",
+    "total": 12.765,
+    "workedHours": 0.5
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3.2,
+        "baseQty": 1,
+        "material": "Cordon gris 4mm Alonso Sobrino",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cap 4mm dorado",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 1,
+        "material": "Charm ola dorada redonda Amazon UNICRAFTALE",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 16,
+        "baseQty": 40,
+        "material": "Perla dorada o plata Beebeecraft Amazon",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Charms de oceano dorado 5 estilos delfin, estrella de mar, pez, caballo de par y shell Amazon PH Panda Hall",
+        "usedQty": 2
+      }
+    ],
+    "favorite": false,
+    "id": 102,
+    "name": "Pulsera ajustable con nudo alondra. dorado. charms oceano",
+    "notes": "<p>vender $25</p>",
+    "summary": {
+      "laborCost": 7.699999999999999,
+      "materialCost": 15.12,
+      "total": 22.82
+    },
+    "time": "8/20/2025, 9:15:36 PM",
+    "total": 22.82,
+    "workedHours": 0.7
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 3.2,
+        "baseQty": 1,
+        "material": "Cordon gris 4mm Alonso Sobrino",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Cap 4mm dorado",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 1,
+        "material": "Charm ola dorada redonda Amazon UNICRAFTALE",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 16,
+        "baseQty": 40,
+        "material": "Perla dorada o plata Beebeecraft Amazon",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Charms de oceano dorado 5 estilos delfin, estrella de mar, pez, caballo de par y shell Amazon PH Panda Hall",
+        "usedQty": 2
+      }
+    ],
+    "favorite": false,
+    "id": 103,
+    "name": "Pulsera ajustable con nudo cuadrado. dorado. charms oceano",
+    "notes": "<p>vender $25</p>",
+    "summary": {
+      "laborCost": 7.699999999999999,
+      "materialCost": 15.12,
+      "total": 22.82
+    },
+    "time": "8/20/2025, 9:17:51 PM",
+    "total": 22.82,
+    "workedHours": 0.7
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 7,
+        "baseQty": 16,
+        "material": "Pieza redonda o spring para llaveros plateados",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Bandana",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Cordon rojo 4mm Amazon  100 feet WEREWOLVES",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.2,
+        "baseQty": 1,
+        "material": "Cordon violeta Alonso Sobrino",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 100,
+        "material": "Bolsita entrega plastica rosita TEMU*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 104,
+    "name": "Llavero cordon y bandana ",
+    "notes": "<p><br></p>",
+    "summary": {
+      "laborCost": 5.5,
+      "materialCost": 9.8925,
+      "total": 15.3925
+    },
+    "time": "8/20/2025, 9:25:53 PM",
+    "total": 15.3925,
+    "workedHours": 0.5
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Bandana",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 2,
+        "material": "Charm*",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 8,
+        "baseQty": 10,
+        "material": "Spring de llavero dorado",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 10,
+        "material": "Jump 7mm dorado  Waggon Beads Olazabal",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 100,
+        "material": "Bolsita entrega plastica rosita TEMU*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Papel triturado*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 105,
+    "name": "Llavero bandana trenzada",
+    "notes": "<p><br></p>",
+    "summary": {
+      "laborCost": 7.699999999999999,
+      "materialCost": 4.655,
+      "total": 12.355
+    },
+    "time": "8/20/2025, 9:30:10 PM",
+    "total": 12.355,
+    "workedHours": 0.7
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 4,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 100,
+        "material": "Bolsita entrega plastica rosita TEMU*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 10,
+        "material": "Jump 7mm dorado  Waggon Beads Olazabal",
+        "usedQty": 3
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 30,
+        "material": "Campanas doradas UNICRAFTALE 5mm",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Hook collar 12mm dorado Waggon Beads",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Bandana",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 3,
+        "material": "Cadena dorada",
+        "usedQty": 3
+      }
+    ],
+    "favorite": false,
+    "id": 106,
+    "name": "Collar en bandana amarilla mostaza",
+    "notes": "<p>Bandana Hobby Lobby</p><p>vender 22$</p>",
+    "summary": {
+      "laborCost": 11,
+      "materialCost": 8.081666666666667,
+      "total": 19.081666666666667
+    },
+    "time": "8/20/2025, 9:38:31 PM",
+    "total": 19.081666666666667,
+    "workedHours": 1
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 100,
+        "material": "Bolsita entrega plastica rosita TEMU*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 10,
+        "material": "Jump 7mm dorado  Waggon Beads Olazabal",
+        "usedQty": 8
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 30,
+        "material": "Campanas doradas UNICRAFTALE 5mm",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Hook collar 12mm dorado Waggon Beads",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Bandana",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 3,
+        "material": "Cadena dorada",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 107,
+    "name": "Collar en bandana azul royal con sirena",
+    "notes": "<p>Bandana Hobby Lobby</p><p>vender 22$</p>",
+    "summary": {
+      "laborCost": 11,
+      "materialCost": 7.915,
+      "total": 18.915
+    },
+    "time": "8/20/2025, 9:41:15 PM",
+    "total": 18.915,
+    "workedHours": 1
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 1,
+        "baseQty": 3,
+        "material": "Charm*",
+        "usedQty": 3
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 100,
+        "material": "Bolsita entrega plastica rosita TEMU*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 10,
+        "material": "Jump 7mm dorado  Waggon Beads Olazabal",
+        "usedQty": 5
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 30,
+        "material": "Campanas doradas UNICRAFTALE 5mm",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Hook collar 12mm dorado Waggon Beads",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Bandana",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 3,
+        "material": "Cadena dorada",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 4,
+        "material": "Charm*",
+        "usedQty": 4
+      }
+    ],
+    "favorite": false,
+    "id": 108,
+    "name": "Collar en bandana rojo-blanco picnic con frutitas. dorado",
+    "notes": "<p>Bandana Hobby Lobby</p><p>vender 20$</p>",
+    "summary": {
+      "laborCost": 11,
+      "materialCost": 6.015,
+      "total": 17.015
+    },
+    "time": "8/20/2025, 9:44:34 PM",
+    "total": 17.015,
+    "workedHours": 1
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 4,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 100,
+        "material": "Bolsita entrega plastica rosita TEMU*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3,
+        "baseQty": 10,
+        "material": "Jump 7mm dorado  Waggon Beads Olazabal",
+        "usedQty": 8
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 30,
+        "material": "Campanas doradas UNICRAFTALE 5mm",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 13,
+        "baseQty": 50,
+        "material": "Hook collar 12mm dorado Waggon Beads",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 1,
+        "material": "Bandana",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 1,
+        "baseQty": 2,
+        "material": "Charm*",
+        "usedQty": 2
+      }
+    ],
+    "favorite": false,
+    "id": 109,
+    "name": "Collar en bandana rosa",
+    "notes": "<p>Bandana Hobby Lobby</p><p>vender 22$</p>",
+    "summary": {
+      "laborCost": 11,
+      "materialCost": 9.581666666666667,
+      "total": 20.581666666666667
+    },
+    "time": "8/20/2025, 9:46:27 PM",
+    "total": 20.581666666666667,
+    "workedHours": 1
+  },
+  {
+    "archived": false,
+    "costs": [
+      {
+        "baseCost": 2,
+        "baseQty": 1,
+        "material": "Charm*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 55,
+        "baseQty": 250,
+        "material": "Tarjeta de presentacion*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 3.5,
+        "baseQty": 100,
+        "material": "Bolsita entrega plastica rosita TEMU*",
+        "usedQty": 1
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 70,
+        "material": "Jump 7mm plata ",
+        "usedQty": 12
+      },
+      {
+        "baseCost": 10,
+        "baseQty": 40,
+        "material": "Campanas plateadas varios tamanos UNICRAFTALE 7mm",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 16,
+        "baseQty": 40,
+        "material": "Perla dorada o plata Beebeecraft Amazon",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 2,
+        "baseQty": 2,
+        "material": "Charm*",
+        "usedQty": 2
+      },
+      {
+        "baseCost": 15,
+        "baseQty": 120,
+        "material": "Hook 12mm plateado Amazon Cadikez",
+        "usedQty": 1
+      }
+    ],
+    "favorite": false,
+    "id": 110,
+    "name": "Collar en bandana rosa de botas",
+    "notes": "<p>Bandana Hobby Lobby</p><p>vender 25$</p>",
+    "summary": {
+      "laborCost": 16.5,
+      "materialCost": 6.022857142857143,
+      "total": 22.52285714285714
+    },
+    "time": "8/20/2025, 9:53:32 PM",
+    "total": 22.52285714285714,
+    "workedHours": 1.5
+  }
+]

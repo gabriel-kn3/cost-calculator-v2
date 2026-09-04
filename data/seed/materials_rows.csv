@@ -1,0 +1,195 @@
+id,name,base_cost,base_qty,supplier,description,created_at,active,last_updated
+1,Cordon gris 4mm Alonso Sobrino,3.2,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+2,Cordon marron 4mm Alonso Sobrino,3.2,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+3,Cordon azul royal 4mm Casa de la Costurera,2.5,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+4,Cordon rojo 4mm Casa de la Costurera,2.5,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+5,Cordon negro 4mm Casa de la Costurera,2.5,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+6,Cordon multicolor 5mm Waggon Beads Olazabal,2,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+7,"Cordon negro,gris y blanco 5mm Waggon Beads Olazabal",2,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+8,"Cordon negro,gris, azul cielo y blanco 5mm Waggon Beads Olazabal",2,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+9,Cordon anaranjado 7mm Amazon 90 feet TECEUM,3,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+10,Cordon crema 7mm Amazon 90 feet TECEUM,3,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+11,Cordon azul royal 7mm Amazon 90 feet TECEUM,3,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+12,Cordon azul cielo 7mm Amazon 90 feet TECEUM,2,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+13,Cordon fucsia 4mm Amazon 100 feet HOKINETY,2.5,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+14,Cordon verde esmeralda oscuro 4mm Amazon  50 feet TECEUM,2,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+15,Cordon beige  4mm Amazon  100 feet TECEUM,2.5,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+16,Cordon rojo 4mm Amazon  100 feet WEREWOLVES,2,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+17,Cordon fucsia 4mm Temu 5 yardas,2,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+18,Cordon blanco 4mm Amazon 100 feet WEREWOLVES,2,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+19,Cordon negro 4mm Amazon 100 feet WEREWOLVES,2,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+20,Cordon nautica negro,4.25,1,Capri,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+21,"Cordon nautica lila con glitter ",4.25,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+22,Cordon negro 4mm TECEUM 100 feet Amazon,2,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+23,Cordon navy blue 4mm 100 feet TECEUM Amazon,2.5,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+24,Cordon verde monte HOKINETY 4mm 100 feet,2.25,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+25,Cordon Jungle Camouflage TEMU 4mm,1,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+26,Cordon Rose red purple blue camouflage TEMU 4mm,2,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+27,Cordon negro TEMU 4mm 100 feet,3.5,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+28,Cordon navy blue 4mm 5 yardas TEMU,1.5,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+29,Cordon dark red 4mm 5 yardas TEMU,1.45,1,Temu,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+30,Cordon verde 4mm 5 yardas TEMU,1.55,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+31,Cordon sky blue 4mm 5 yardas TEMU,1.5,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+32,Cordon khaki 4mm 5 yardas TEMU,1.5,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+33,Cordon rojo 4mm 5 yardas TEMU,1.55,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+34,Cordon violeta 4mm 5 yardas TEMU,1.4,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+35,Cordon mint green verde menta 4mm 5 yardas TEMU,1.5,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+36,Cordon anaranjado 4mm 5 yardas TEMU,1.5,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+37,"Cordon amarillo 5mm 100 pies Walmart ",1.5,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+38,"Cordon rojo 7mm Amazon TECEUM 90 pies ",2,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+39,Cordon negro 7mm TECEUM Amazon 90 pies,2,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+40,Cordon rosa 7mm TECEUM Amazon 90 pies,2,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+41,"Cordon verde brillante 7mm Amazon 90 pies ",2,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+42,Cordon verde monte 4mm 5 yardas TEMU,1.5,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+43,Campanas plateadas varios tamanos UNICRAFTALE 8mm,10,40,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+44,Campanas plateadas varios tamanos UNICRAFTALE 7mm,10,40,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+45,Campanas plateadas varios tamanos UNICRAFTALE 6mm,10,40,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+46,Campanas plateadas varios tamanos UNICRAFTALE 4mm,10,40,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+47,Bolsita Organza blanca pequena,3,50,,,2026-01-09 01:49:57.828957+00,false,2026-01-19 04:35:18.058702
+48,Bolsita Organza blanca grande*,2,6,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+49,Bolsita Organza blanca mediana,3.5,12,,,2026-01-09 01:49:57.828957+00,false,2026-01-19 04:35:18.058702
+50,Bolsa de entrega,3,5,,,2026-01-09 01:49:57.828957+00,false,2026-01-19 04:35:18.058702
+51,Papel triturado,1,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+52,Hook collar 12mm dorado Waggon Beads,13,50,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+53,Charm*,0,0,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+54,Hook 12mm plateado Amazon Cadikez,15,120,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+55,Hook 9mm plateado Waggon Beads,4.75,20,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+56,Campanas doradas UNICRAFTALE 5mm,10,30,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+57,Spacer Beads Amazon platas BEADIA 6x2mm,9,100,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+58,Spacer Beads Amazon doradas DICOSMETIC 6mm,12,50,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+59,"Oval Linking Rings Amazon UNICRAFTALE 10x3.5x2mm plata, dorado y rose gold",9,60,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+60,Spacer/Stopper Beads Rubber Inside 6mm plata Amazon UNICRAFTALE,11,30,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+61,Spacer/Stopper Beads Rubber Inside 6mm dorada Amazon UNICRAFTALE,11,30,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+62,Spacer/Stopper Beads Rubber Inside 8mm plata Amazon UNICRAFTALE,11,30,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+63,Spacer/Stopper Beads Rubber Inside 8mm dorada Amazon UNICRAFTALE,11,30,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+64,Spacer/Stopper Beads Rubber Inside 10mm plata Amazon UNICRAFTALE,11,30,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+65,Spacer/Stopper Beads Rubber Inside 10mm dorada Amazon UNICRAFTALE,11,30,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+66,Spacer Beads Amazon Loprome 7x4mm dorado (4mm hole),15,60,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+67,Spacer Beads Amazon Loprome 8x4.5mm plata (4.5mm hole),9,60,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+68,Rubber clear,1,25,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+69,Stud flat round blank pad dorado,11,100,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+70,Stud flat round blank pad plata,13,500,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+71,Jump 5mm dorado Waggon Beads Olazabal,1.25,100,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+72,Jump 7mm dorado  Waggon Beads Olazabal,3,10,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+73,"Jump 5mm plata ",1.25,100,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+74,"Jump 7mm plata ",2,70,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+75,Cadena dorada,1,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+76,Cadena plata,1,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+77,Hook earring plata Waggon Beads Olsazabal,1,12,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+78,Hook earring dorado Waggon Beads Olazabal,1,10,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+79,Maderas,1,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+80,Hilo rojo,1,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+81,Hilo azul,1,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+82,Hilo mostaza,1,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+83,Union plata,1,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+84,Union dorada,1,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+85,Tarjeta agradecimiento shipping *,30.09,250,Staples,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+86,Cap 4mm dorado,1,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+87,Cap 4mm plata,0.5,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+88,Jump 8mm dorado,3,30,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+89,Jump 10mm  PH Panda Hall Amazon varios tamaños,9,1000,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+90,Jump 9mm  PH Panda Hall Amazon varios tamaños,9,1000,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+91,Jump 8mm  PH Panda Hall Amazon varios tamaños,9,1000,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+92,Jump 6mm  PH Panda Hall Amazon varios tamaños,9,1000,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+93,Jump 5mm  PH Panda Hall Amazon varios tamaños,9,1000,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+94,Jump 4mm  PH Panda Hall Amazon varios tamaños,9,1000,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+95,Piedras Waterdrop Amazon LE SKY 6pcs,15,6,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+96,Cap plata Amazon UNICRAFTALE 3mm inner,8,24,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+97,Cap plata Amazon UNICRAFTALE 4mm inner,8,24,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+98,Cap plata Amazon UNICRAFTALE 5mm inner,8,24,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+99,Cap plata Amazon UNICRAFTALE 6mm inner,8,24,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+100,Melocotón 5 Frutas acrilicas Amazon KitBeads,11,30,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+101,Fresa 5 Frutas acrilicas Amazon KitBeads,11,30,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+102,Cherry 5 Frutas acrilicas Amazon KitBeads,11,30,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+103,Manzana 5 Frutas acrilicas Amazon KitBeads,11,30,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+104,China 5 Frutas acrilicas Amazon KitBeads,11,30,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+105,Llaveros plateado Temu 5 piezas Key Rings and Keychain,1.7,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+106,Conectores ovalados plata AMAZON UNICRAFTALE,9,60,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+107,Conectores ovalados dorado AMAZON UNICRAFTALE,9,60,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+108,Conectores ovalados rose gold AMAZON UNICRAFTALE,9,60,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+109,"Conectores ovalados plata large con rotitos TEMU ",1.5,5,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+110,"Conectores ovalados small plata con rotitos TEMU ",1.5,5,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+111,"Pulseras de colores TEMU ",3.4,6,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+112,Charm letras pequenas stainless steel,7,104,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+113,Bolsita entrega plastica rosita TEMU,3.5,100,Temu,,2026-01-09 01:49:57.828957+00,false,2026-01-19 04:35:18.058702
+114,Bolsita pequena organza TEMU,3,100,Temu,,2026-01-09 01:49:57.828957+00,false,2026-01-19 04:35:18.058702
+115,Bolsita grande organza TEMU,5.5,100,Temu,,2026-01-09 01:49:57.828957+00,false,2026-01-19 04:35:18.058702
+116,Bolsita entrega Kraft Paper TEMU,4,24,Temu,,2026-01-09 01:49:57.828957+00,false,2026-01-19 04:35:18.058702
+117,Sticker clear TEMU,5,80,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+118,Charm ovalado resina (varios colores),1,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+119,"Spacer plateado large TEMU 20 piezas ",2,20,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+120,Spacer dorado large TEMU 20 piezas,3,20,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+121,"Lazitos stainless steel plata o dorado Amazon HOBBIESAY Store ",10,10,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+122,Lazitos set rosita y dorado stainless steel Amazon Gosknor 4 estilos,6,40,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+123,"Charms de oceano dorado 5 estilos delfin, estrella de mar, pez, caballo de par y shell Amazon PH Panda Hall",13,50,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+124,"Cap dorado Amazon 3, 4, 5, 6mm UNICRAFTALE",10,24,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+125,"Cap plateado Amazon UNICFRATALE 4,5,6,7,8mm",16,100,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+126,Jump dorado Amazon PH Panda Hall 4-10mm,8,120,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+127,Campanas doradas 8mm UNICRAFTALE Amazon,10,10,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+128,"Campanas plateadas y doradas 3,4,5,6mm Amazon UNICRAFTALE 8 estilos",12,32,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+129,"Campanas doradas con diseño Amazon UNICRAFTALE 4 estilos 3,4,5mm",13,32,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+130,"Charm redondo plateado oceano, montana y nube UNICRAFTALE AMAZON",13,30,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+131,Pieza redonda o spring para llaveros plateados,7,16,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+132,Stud flat dorado Beebeecraft Amazon 6mm,4.5,200,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+133,Rubber clear 200pcs Beebeecraft Amazon 6mm,4.5,200,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+134,Charm de corazon grande dorado Beebeecraft Amazon,15,10,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+135,Cordon crema 4mm TECEUM Amazon 100 pies,2.5,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+136,Spacer beads doradas 4mm inner Loprome Amazon,13,60,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+137,Spacer beads plata 4.5mm inner Loprome Amazon,9,60,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+138,Spacer beads dorados alargados ovalados Dicosmetic Amazon 6mm,10,50,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+139,Cap dorado en set de 2 Waggon Beads Olazabal,1.25,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+140,Campanas redonditas set de 2 Waggon Beads Olazabal,1.25,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+141,Charm de corazon para pulsera con nudo alondra plata o dorado,1,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+142,Cordon verde menta TEMU 5 yardas 4mm,1.5,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+143,Cordon cuero,1,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+144,Cadena dorada ancha 1 yarda Waggon Beads,2.25,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+145,"Charm dorado océano caballo de mar, pez, estrella mar, delfin y seashell",13,50,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+146,"Charm lazo dorado o plateado HOBBIESAY Amazon ",10,10,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+147,Charm lazitos rosa 4 estilos,6,40,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+148,"Cap dorado 3,4,5,6mm UNICRAFTALE Amazon",10,24,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+149,Cap plata con diseño 5 tamaños UNICRAFTALE Amazon,16,100,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+150,Spring de llavero dorado,8,10,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+151,Perla dorada o plata Beebeecraft Amazon,16,40,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+152,Spacer a presion plata Mollensiuer Amazon,10,30,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+153,Campanas plata 5mm UNICRAFTALE Amazon,9,50,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+154,Charm amapola dorada,1.75,2,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+155,"Spacer o slidder negro,plata,dorado 48 pcs 2 tamaños Amazon UNICRAFTALE",13,48,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+156,Cordon rosa claro Alonso Sobrino,3.2,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+157,Cordon teal blue Alonso Sobrino,3.2,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+158,Cordon violeta Alonso Sobrino,3.2,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+159,Iman elegante pulsera hombre,3.5,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+160,"Cordon camouflage marron, crema, verde monte",2,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+161,Cordon azul cielo TEMU 5 yardas,2,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+162,"Mini shell dorado o plata UNICRAFTALE ",8,100,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+163,Aro dorado Alonso Sobrino,3,3,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+164,Cordon Green Wave TECEUM Amazon 90 feet,2,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+165,Cristales redondos de colores UNICRAFTALE Amazon 12 colores,13,24,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+166,"Charm de océano flat plata SUNNYCLUE ",11,10,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+167,Charm ola dorada redonda Amazon UNICRAFTALE,10,1,Amazon,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+168,Charm hojitas dorada y plata Amazon SUNNYCLUE,9,300,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+169,Cordón burgundy marron rojizo 4mm TECEUM Amazon,2.5,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+170,Cordon azul simple blue TECEUM 100 ft,10,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+171,Cordon generico,0,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+172,Spacer straps celu rectangulares plata Waggon Beads,1,2,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+173,Pestaña clear strap celu o Phone tether tab clear,7,10,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+174,Bandana,1,1,,,2026-01-09 01:49:57.828957+00,true,2026-01-19 04:35:18.058702
+178,Caja shipping 6x4x3 *,27,50,Amazon,Blanca por fuera y carton por dentro,2026-01-25 00:00:45.874814+00,true,2026-01-25 00:00:45.874814
+179,Pega *,0.023,1,Amazon,"Incluye costo por tijera, lighter",2026-01-25 00:03:34.915921+00,true,2026-01-25 00:03:34.915921
+180,Stickers logo 2''  *,25,60,Amazon,Stickers del logo circulares de 2 pulgadas,2026-01-25 00:07:07.860515+00,true,2026-01-25 00:07:07.860515
+181,Decoracion Shipping box *,1,1,"Amazon, Marshalls, Walmart","Confetti decorativo, tissue paper, papel triturado",2026-01-25 00:11:29.631014+00,true,2026-01-25 00:11:29.631014
+182,Jewelry Cleaner *,7,50,Amazon,Pañuelitos para limpieza de prendas. (Incluido en shipping box),2026-01-25 00:14:51.125771+00,true,2026-01-25 00:14:51.125771
+183,Bolsita shipping box 14.5x19 *,19,100,Amazon,Bolsitas rositas para shipping box.,2026-01-25 00:16:38.240305+00,true,2026-01-25 00:16:38.240305
+184,Bolsitas clear plasticas envios *,9,120,Amazon,Bolsitas clear para guardar las prendas (3 tamaños),2026-01-25 00:18:32.594829+00,true,2026-01-25 00:18:32.594829
+185,Campana plata 5mm UNICRAFTALE,9.5,50,Amazon,Simple paracord Earrings.,2026-01-25 01:51:07.751131+00,true,2026-01-25 01:51:07.751131
+186,Campana plata 5mm UNICRAFTALE,9.5,50,Amazon,Simple paracord Earrings.,2026-01-25 01:51:08.448142+00,true,2026-01-25 01:51:08.448142
+187,Hook Earrings plata (brand: Bylion),9,400,Amazon,,2026-01-25 01:52:15.629005+00,true,2026-01-25 01:52:15.629005
+188,"JumpRings 9,10,12mm  (Brand:YHYPOCI)",9,600,Amazon,Simple Paracord Earrings,2026-01-25 01:53:58.210749+00,true,2026-01-25 01:53:58.210749
+189,Jump ring dorada 10mm (Brand:HD Supplies),10,50,Amazon,,2026-01-25 02:06:47.71396+00,true,2026-01-25 02:06:47.71396
+190,"Spring Ring 1"" (Brand:JIEYAO)",7,16,Amazon,Llaveros Launch.,2026-01-25 02:33:10.234232+00,true,2026-01-25 02:33:10.234232
+191,Resin random Beads Llaveros,14,30,Amazon,,2026-01-25 02:37:07.343379+00,true,2026-01-25 02:37:07.343379
+192,Large Beads San Valentin Limited Edition,10,100,Amazon (brand: Zyehxed),"Pink, Rose Red, Red (mismo precio cada color)",2026-01-26 18:13:25.327557+00,true,2026-01-26 18:13:25.327557
+193,Heart Spring Ring llavero San Valentin Limited Ed,13,20,Amazon (Brand: PH Panda Hall),San Valentin Limited Edition 2026,2026-01-26 18:15:37.53847+00,true,2026-01-26 18:15:37.53847
+194,Jump Ring plata 6mm,7,800,Amazon (Brand: YHYPOCI),,2026-01-26 18:53:29.698533+00,true,2026-01-26 18:53:29.698533
+195,Campanas platas 5mm UNICRAFTALE,9.5,50,Amazon,,2026-01-26 18:56:23.216647+00,true,2026-01-26 18:56:23.216647
+196,Jump rings dorado 6mm UNICRAFTALE,12.5,500,"Amazon ",,2026-01-31 18:45:19.825929+00,true,2026-01-31 18:45:19.825929
+197,Jump ring 6mm dorado UNICRAFTALE,11.5,500,Amazon,,2026-01-31 18:46:11.319822+00,true,2026-01-31 18:46:11.319822

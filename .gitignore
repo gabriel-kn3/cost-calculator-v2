@@ -22,3 +22,14 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Environment / secrets — .env was previously committed; untracked in Phase 0
+.env
+.env.*
+!.env.example
+
+# Local business data. The recovered seed exports are the deliberate exception:
+# the source Supabase project was deleted, so data/seed/ is the only copy.
+data/*
+!data/seed/
+!data/seed/**

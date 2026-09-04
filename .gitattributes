@@ -1,2 +1,7 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Recovered business-data exports: the source database is deleted, so these are
+# the only copy. Preserve bytes exactly -- no EOL normalization -- so the
+# checksums in data/seed/SHA256SUMS.txt stay valid on any checkout.
+data/seed/** -text
