@@ -13,7 +13,9 @@
     "test:math": "tsx tests/characterization/verify-port.ts",
     "db:generate": "drizzle-kit generate",
     "db:seed": "tsx server/scripts/seed-from-csv.ts",
-    "db:verify": "tsx server/scripts/verify-migration.ts"
+    "db:verify": "tsx server/scripts/verify-migration.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "@node-rs/argon2": "^2.2.0",
