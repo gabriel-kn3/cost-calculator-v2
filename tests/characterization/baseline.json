@@ -1,0 +1,1234 @@
+{
+  "_README": "Golden master for the frozen cost math. Generated from the UNMODIFIED src/utils/calc/*.js against real recovered production data. The TypeScript port must reproduce this exactly; any diff is a port bug, not an improvement.",
+  "source": "data/seed/products_rows.csv",
+  "defaults": {
+    "laborRate": 12,
+    "tax": 7.5,
+    "profitPercent": 20,
+    "additionalFees": [
+      {
+        "serviceName": "Shopify",
+        "percentage": 2.9
+      },
+      {
+        "serviceName": "Credit Card",
+        "percentage": 2.9
+      }
+    ]
+  },
+  "productCount": 17,
+  "realProducts": [
+    {
+      "id": "14",
+      "name": "Silver Reverse Paracord Necklace 5 charms",
+      "storedCost": "29.51",
+      "workedHours": "1",
+      "laborRate": "12",
+      "bomLines": 16,
+      "totals": {
+        "materials": 15.45,
+        "labor": 12,
+        "subTotal": 27.45,
+        "tax": 2.06,
+        "productFees": 1.592080832380952,
+        "total": 31.1
+      },
+      "profitsCard": {
+        "cost": 31.1,
+        "profitPercent": 20,
+        "displayPrice": 37.32,
+        "profitAmount": 6.22,
+        "isLoss": false
+      }
+    },
+    {
+      "id": "15",
+      "name": "Adjustable Pearl Heart Bandana Bracelet",
+      "storedCost": "8.96",
+      "workedHours": "0.2",
+      "laborRate": "12",
+      "bomLines": 10,
+      "totals": {
+        "materials": 5.51,
+        "labor": 2.4,
+        "subTotal": 7.91,
+        "tax": 0.59,
+        "productFees": 0.45849154666666664,
+        "total": 8.96
+      },
+      "profitsCard": {
+        "cost": 8.96,
+        "profitPercent": 20,
+        "displayPrice": 10.75,
+        "profitAmount": 1.79,
+        "isLoss": false
+      }
+    },
+    {
+      "id": "16",
+      "name": "Turkish eye Adjustable Paracord Bracelet",
+      "storedCost": "8.96",
+      "workedHours": "0.2",
+      "laborRate": "12",
+      "bomLines": 10,
+      "totals": {
+        "materials": 5.51,
+        "labor": 2.4,
+        "subTotal": 7.91,
+        "tax": 0.59,
+        "productFees": 0.4584915466666667,
+        "total": 8.96
+      },
+      "profitsCard": {
+        "cost": 8.96,
+        "profitPercent": 20,
+        "displayPrice": 10.75,
+        "profitAmount": 1.79,
+        "isLoss": false
+      }
+    },
+    {
+      "id": "17",
+      "name": "Simple paracord Earrings",
+      "storedCost": "10.04",
+      "workedHours": "0.25",
+      "laborRate": "12",
+      "bomLines": 12,
+      "totals": {
+        "materials": 5.86,
+        "labor": 3,
+        "subTotal": 8.86,
+        "tax": 0.66,
+        "productFees": 0.5138815466666666,
+        "total": 10.04
+      },
+      "profitsCard": {
+        "cost": 10.04,
+        "profitPercent": 20,
+        "displayPrice": 12.05,
+        "profitAmount": 2.01,
+        "isLoss": false
+      }
+    },
+    {
+      "id": "18",
+      "name": "Mi Isla Burgundy Bandana Choker",
+      "storedCost": "17.03",
+      "workedHours": "0.5",
+      "laborRate": "12",
+      "bomLines": 14,
+      "totals": {
+        "materials": 9.04,
+        "labor": 6,
+        "subTotal": 15.04,
+        "tax": 1.13,
+        "productFees": 0.8720315466666666,
+        "total": 17.03
+      },
+      "profitsCard": {
+        "cost": 17.03,
+        "profitPercent": 20,
+        "displayPrice": 20.44,
+        "profitAmount": 3.41,
+        "isLoss": false
+      }
+    },
+    {
+      "id": "19",
+      "name": "White-Red and Fruits Bandana Necklace",
+      "storedCost": "29.76",
+      "workedHours": "1.25",
+      "laborRate": "12",
+      "bomLines": 15,
+      "totals": {
+        "materials": 11.27,
+        "labor": 15,
+        "subTotal": 26.27,
+        "tax": 1.97,
+        "productFees": 1.5233715466666666,
+        "total": 29.76
+      },
+      "profitsCard": {
+        "cost": 29.76,
+        "profitPercent": 20,
+        "displayPrice": 35.71,
+        "profitAmount": 5.95,
+        "isLoss": false
+      }
+    },
+    {
+      "id": "20",
+      "name": "Libélula Adjustable Necklace and Bracelet for girls",
+      "storedCost": "17.98",
+      "workedHours": "0.5",
+      "laborRate": "12",
+      "bomLines": 12,
+      "totals": {
+        "materials": 9.87,
+        "labor": 6,
+        "subTotal": 15.87,
+        "tax": 1.19,
+        "productFees": 0.9203648799999999,
+        "total": 17.98
+      },
+      "profitsCard": {
+        "cost": 17.98,
+        "profitPercent": 20,
+        "displayPrice": 21.58,
+        "profitAmount": 3.6,
+        "isLoss": false
+      }
+    },
+    {
+      "id": "21",
+      "name": "Gold Heart Adjustable Paracord Necklaces",
+      "storedCost": "17.79",
+      "workedHours": "0.75",
+      "laborRate": "12",
+      "bomLines": 11,
+      "totals": {
+        "materials": 6.71,
+        "labor": 9,
+        "subTotal": 15.71,
+        "tax": 1.18,
+        "productFees": 0.9108915466666666,
+        "total": 17.79
+      },
+      "profitsCard": {
+        "cost": 17.79,
+        "profitPercent": 20,
+        "displayPrice": 21.35,
+        "profitAmount": 3.56,
+        "isLoss": false
+      }
+    },
+    {
+      "id": "22",
+      "name": "Chain Bandana Necklace",
+      "storedCost": "24.03",
+      "workedHours": "1",
+      "laborRate": "12",
+      "bomLines": 14,
+      "totals": {
+        "materials": 9.21,
+        "labor": 12,
+        "subTotal": 21.21,
+        "tax": 1.59,
+        "productFees": 1.2298915466666667,
+        "total": 24.03
+      },
+      "profitsCard": {
+        "cost": 24.03,
+        "profitPercent": 20,
+        "displayPrice": 28.84,
+        "profitAmount": 4.81,
+        "isLoss": false
+      }
+    },
+    {
+      "id": "23",
+      "name": "Stainless steel Flower, Braided Bandana Necklace",
+      "storedCost": "21.73",
+      "workedHours": "1",
+      "laborRate": "12",
+      "bomLines": 14,
+      "totals": {
+        "materials": 7.18,
+        "labor": 12,
+        "subTotal": 19.18,
+        "tax": 1.44,
+        "productFees": 1.1121515466666667,
+        "total": 21.73
+      },
+      "profitsCard": {
+        "cost": 21.73,
+        "profitPercent": 20,
+        "displayPrice": 26.08,
+        "profitAmount": 4.35,
+        "isLoss": false
+      }
+    },
+    {
+      "id": "24",
+      "name": "Multicolor Bandana- Paracord Keychain",
+      "storedCost": "10.95",
+      "workedHours": "0.25",
+      "laborRate": "12",
+      "bomLines": 12,
+      "totals": {
+        "materials": 6.67,
+        "labor": 3,
+        "subTotal": 9.67,
+        "tax": 0.73,
+        "productFees": 0.5607165466666667,
+        "total": 10.95
+      },
+      "profitsCard": {
+        "cost": 10.95,
+        "profitPercent": 20,
+        "displayPrice": 13.14,
+        "profitAmount": 2.19,
+        "isLoss": false
+      }
+    },
+    {
+      "id": "25",
+      "name": "Mar Keychain",
+      "storedCost": "10.05",
+      "workedHours": "0.25",
+      "laborRate": "12",
+      "bomLines": 12,
+      "totals": {
+        "materials": 5.87,
+        "labor": 3,
+        "subTotal": 8.87,
+        "tax": 0.67,
+        "productFees": 0.5143165466666666,
+        "total": 10.05
+      },
+      "profitsCard": {
+        "cost": 10.05,
+        "profitPercent": 20,
+        "displayPrice": 12.06,
+        "profitAmount": 2.01,
+        "isLoss": false
+      }
+    },
+    {
+      "id": "26",
+      "name": "Llavero Limited Edition San Valentin  (2026)",
+      "storedCost": "13.84",
+      "workedHours": "0.25",
+      "laborRate": "12",
+      "bomLines": 12,
+      "totals": {
+        "materials": 9.21,
+        "labor": 3,
+        "subTotal": 12.21,
+        "tax": 0.92,
+        "productFees": 0.70837488,
+        "total": 13.84
+      },
+      "profitsCard": {
+        "cost": 13.84,
+        "profitPercent": 20,
+        "displayPrice": 16.61,
+        "profitAmount": 2.77,
+        "isLoss": false
+      }
+    },
+    {
+      "id": "27",
+      "name": "Pantallas (2 tonos) San Valentin Limited Edition 2026",
+      "storedCost": "13.02",
+      "workedHours": "0.5",
+      "laborRate": "12",
+      "bomLines": 13,
+      "totals": {
+        "materials": 5.49,
+        "labor": 6,
+        "subTotal": 11.49,
+        "tax": 0.86,
+        "productFees": 0.6662765466666667,
+        "total": 13.02
+      },
+      "profitsCard": {
+        "cost": 13.02,
+        "profitPercent": 20,
+        "displayPrice": 15.62,
+        "profitAmount": 2.6,
+        "isLoss": false
+      }
+    },
+    {
+      "id": "28",
+      "name": "Tobillera mami - Personalizada dorada con corazon y rhinestone rojo",
+      "storedCost": "8.62",
+      "workedHours": "0.25",
+      "laborRate": "12",
+      "bomLines": 10,
+      "totals": {
+        "materials": 4.61,
+        "labor": 3,
+        "subTotal": 7.61,
+        "tax": 0.57,
+        "productFees": 0.4410915466666666,
+        "total": 8.62
+      },
+      "profitsCard": {
+        "cost": 8.62,
+        "profitPercent": 20,
+        "displayPrice": 10.34,
+        "profitAmount": 1.72,
+        "isLoss": false
+      }
+    },
+    {
+      "id": "29",
+      "name": "Balloon Dog Braided Bandana Necklaces",
+      "storedCost": "19.75",
+      "workedHours": "0.75",
+      "laborRate": "12",
+      "bomLines": 14,
+      "totals": {
+        "materials": 8.43,
+        "labor": 9,
+        "subTotal": 17.43,
+        "tax": 1.31,
+        "productFees": 1.01113488,
+        "total": 19.75
+      },
+      "profitsCard": {
+        "cost": 19.75,
+        "profitPercent": 20,
+        "displayPrice": 23.7,
+        "profitAmount": 3.95,
+        "isLoss": false
+      }
+    },
+    {
+      "id": "30",
+      "name": "LLavero paracord (en forma U)",
+      "storedCost": "10.49",
+      "workedHours": "0.25",
+      "laborRate": "12",
+      "bomLines": 9,
+      "totals": {
+        "materials": 6.26,
+        "labor": 3,
+        "subTotal": 9.26,
+        "tax": 0.69,
+        "productFees": 0.5371298800000001,
+        "total": 10.49
+      },
+      "profitsCard": {
+        "cost": 10.49,
+        "profitPercent": 20,
+        "displayPrice": 12.59,
+        "profitAmount": 2.1,
+        "isLoss": false
+      }
+    }
+  ],
+  "provenance": [
+    {
+      "id": "14",
+      "name": "Silver Reverse Paracord Necklace 5 charms",
+      "storedCost": 29.51,
+      "reproducedBy": "tax7.5+noFees",
+      "taxPercent": 7.5,
+      "fees": []
+    },
+    {
+      "id": "15",
+      "name": "Adjustable Pearl Heart Bandana Bracelet",
+      "storedCost": 8.96,
+      "reproducedBy": "tax7.5+bothFees",
+      "taxPercent": 7.5,
+      "fees": [
+        {
+          "serviceName": "Shopify",
+          "percentage": 2.9
+        },
+        {
+          "serviceName": "Credit Card",
+          "percentage": 2.9
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Turkish eye Adjustable Paracord Bracelet",
+      "storedCost": 8.96,
+      "reproducedBy": "tax7.5+bothFees",
+      "taxPercent": 7.5,
+      "fees": [
+        {
+          "serviceName": "Shopify",
+          "percentage": 2.9
+        },
+        {
+          "serviceName": "Credit Card",
+          "percentage": 2.9
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Simple paracord Earrings",
+      "storedCost": 10.04,
+      "reproducedBy": "tax7.5+bothFees",
+      "taxPercent": 7.5,
+      "fees": [
+        {
+          "serviceName": "Shopify",
+          "percentage": 2.9
+        },
+        {
+          "serviceName": "Credit Card",
+          "percentage": 2.9
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Mi Isla Burgundy Bandana Choker",
+      "storedCost": 17.03,
+      "reproducedBy": "tax7.5+bothFees",
+      "taxPercent": 7.5,
+      "fees": [
+        {
+          "serviceName": "Shopify",
+          "percentage": 2.9
+        },
+        {
+          "serviceName": "Credit Card",
+          "percentage": 2.9
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "White-Red and Fruits Bandana Necklace",
+      "storedCost": 29.76,
+      "reproducedBy": "tax7.5+bothFees",
+      "taxPercent": 7.5,
+      "fees": [
+        {
+          "serviceName": "Shopify",
+          "percentage": 2.9
+        },
+        {
+          "serviceName": "Credit Card",
+          "percentage": 2.9
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Libélula Adjustable Necklace and Bracelet for girls",
+      "storedCost": 17.98,
+      "reproducedBy": "tax7.5+bothFees",
+      "taxPercent": 7.5,
+      "fees": [
+        {
+          "serviceName": "Shopify",
+          "percentage": 2.9
+        },
+        {
+          "serviceName": "Credit Card",
+          "percentage": 2.9
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Gold Heart Adjustable Paracord Necklaces",
+      "storedCost": 17.79,
+      "reproducedBy": "tax7.5+bothFees",
+      "taxPercent": 7.5,
+      "fees": [
+        {
+          "serviceName": "Shopify",
+          "percentage": 2.9
+        },
+        {
+          "serviceName": "Credit Card",
+          "percentage": 2.9
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "name": "Chain Bandana Necklace",
+      "storedCost": 24.03,
+      "reproducedBy": "tax7.5+bothFees",
+      "taxPercent": 7.5,
+      "fees": [
+        {
+          "serviceName": "Shopify",
+          "percentage": 2.9
+        },
+        {
+          "serviceName": "Credit Card",
+          "percentage": 2.9
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Stainless steel Flower, Braided Bandana Necklace",
+      "storedCost": 21.73,
+      "reproducedBy": "tax7.5+bothFees",
+      "taxPercent": 7.5,
+      "fees": [
+        {
+          "serviceName": "Shopify",
+          "percentage": 2.9
+        },
+        {
+          "serviceName": "Credit Card",
+          "percentage": 2.9
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Multicolor Bandana- Paracord Keychain",
+      "storedCost": 10.95,
+      "reproducedBy": "tax7.5+bothFees",
+      "taxPercent": 7.5,
+      "fees": [
+        {
+          "serviceName": "Shopify",
+          "percentage": 2.9
+        },
+        {
+          "serviceName": "Credit Card",
+          "percentage": 2.9
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "Mar Keychain",
+      "storedCost": 10.05,
+      "reproducedBy": "tax7.5+bothFees",
+      "taxPercent": 7.5,
+      "fees": [
+        {
+          "serviceName": "Shopify",
+          "percentage": 2.9
+        },
+        {
+          "serviceName": "Credit Card",
+          "percentage": 2.9
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Llavero Limited Edition San Valentin  (2026)",
+      "storedCost": 13.84,
+      "reproducedBy": "tax7.5+bothFees",
+      "taxPercent": 7.5,
+      "fees": [
+        {
+          "serviceName": "Shopify",
+          "percentage": 2.9
+        },
+        {
+          "serviceName": "Credit Card",
+          "percentage": 2.9
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Pantallas (2 tonos) San Valentin Limited Edition 2026",
+      "storedCost": 13.02,
+      "reproducedBy": "tax7.5+bothFees",
+      "taxPercent": 7.5,
+      "fees": [
+        {
+          "serviceName": "Shopify",
+          "percentage": 2.9
+        },
+        {
+          "serviceName": "Credit Card",
+          "percentage": 2.9
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Tobillera mami - Personalizada dorada con corazon y rhinestone rojo",
+      "storedCost": 8.62,
+      "reproducedBy": "tax7.5+bothFees",
+      "taxPercent": 7.5,
+      "fees": [
+        {
+          "serviceName": "Shopify",
+          "percentage": 2.9
+        },
+        {
+          "serviceName": "Credit Card",
+          "percentage": 2.9
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Balloon Dog Braided Bandana Necklaces",
+      "storedCost": 19.75,
+      "reproducedBy": "tax7.5+bothFees",
+      "taxPercent": 7.5,
+      "fees": [
+        {
+          "serviceName": "Shopify",
+          "percentage": 2.9
+        },
+        {
+          "serviceName": "Credit Card",
+          "percentage": 2.9
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "LLavero paracord (en forma U)",
+      "storedCost": 10.49,
+      "reproducedBy": "tax7.5+bothFees",
+      "taxPercent": 7.5,
+      "fees": [
+        {
+          "serviceName": "Shopify",
+          "percentage": 2.9
+        },
+        {
+          "serviceName": "Credit Card",
+          "percentage": 2.9
+        }
+      ]
+    }
+  ],
+  "provenanceSummary": {
+    "tax7.5+noFees": 1,
+    "tax7.5+bothFees": 16
+  },
+  "totalCostMatrix": [
+    [
+      "subtotal basis, tax 7.5",
+      {
+        "materials": 7.5,
+        "labor": 18,
+        "subTotal": 25.5,
+        "tax": 1.91,
+        "productFees": 1.4789999999999999,
+        "total": 28.89
+      }
+    ],
+    [
+      "sale_price basis, tax 7.5, price 100",
+      {
+        "materials": 7.5,
+        "labor": 18,
+        "subTotal": 25.5,
+        "tax": 7.5,
+        "productFees": 1.4789999999999999,
+        "total": 34.48
+      }
+    ],
+    [
+      "no options (all defaults)",
+      {
+        "materials": 7.5,
+        "labor": 18,
+        "subTotal": 25.5,
+        "tax": 0,
+        "productFees": 1.4789999999999999,
+        "total": 26.98
+      }
+    ],
+    [
+      "zero fees",
+      {
+        "materials": 7.5,
+        "labor": 18,
+        "subTotal": 25.5,
+        "tax": 1.91,
+        "productFees": 0,
+        "total": 27.41
+      }
+    ],
+    [
+      "empty rows",
+      {
+        "materials": 0,
+        "labor": 18,
+        "subTotal": 18,
+        "tax": 1.35,
+        "productFees": 1.044,
+        "total": 20.39
+      }
+    ]
+  ],
+  "edgeCases": {
+    "toNumber": [
+      [
+        "null",
+        0
+      ],
+      [
+        "undefined",
+        0
+      ],
+      [
+        "0",
+        0
+      ],
+      [
+        "1",
+        1
+      ],
+      [
+        "-1",
+        -1
+      ],
+      [
+        "0.1",
+        0.1
+      ],
+      [
+        "1.005",
+        1.005
+      ],
+      [
+        "1e-9",
+        1e-9
+      ],
+      [
+        "1000000000",
+        1000000000
+      ],
+      [
+        "1,000",
+        1000
+      ],
+      [
+        "12.5",
+        12.5
+      ],
+      [
+        "abc",
+        0
+      ],
+      [
+        "",
+        0
+      ],
+      [
+        "NaN",
+        0
+      ],
+      [
+        "Infinity",
+        0
+      ]
+    ],
+    "round2": [
+      [
+        "null",
+        0
+      ],
+      [
+        "undefined",
+        null
+      ],
+      [
+        "0",
+        0
+      ],
+      [
+        "1",
+        1
+      ],
+      [
+        "-1",
+        -1
+      ],
+      [
+        "0.1",
+        0.1
+      ],
+      [
+        "1.005",
+        1.01
+      ],
+      [
+        "1e-9",
+        0
+      ],
+      [
+        "1000000000",
+        1000000000
+      ],
+      [
+        "1,000",
+        null
+      ],
+      [
+        "12.5",
+        12.5
+      ],
+      [
+        "abc",
+        null
+      ],
+      [
+        "",
+        0
+      ],
+      [
+        "NaN",
+        null
+      ],
+      [
+        "Infinity",
+        null
+      ]
+    ],
+    "roundMoney": [
+      [
+        "null",
+        0
+      ],
+      [
+        "undefined",
+        0
+      ],
+      [
+        "0",
+        0
+      ],
+      [
+        "1",
+        1
+      ],
+      [
+        "-1",
+        -1
+      ],
+      [
+        "0.1",
+        0.1
+      ],
+      [
+        "1.005",
+        1
+      ],
+      [
+        "1e-9",
+        0
+      ],
+      [
+        "1000000000",
+        1000000000
+      ],
+      [
+        "1,000",
+        1000
+      ],
+      [
+        "12.5",
+        12.5
+      ],
+      [
+        "abc",
+        0
+      ],
+      [
+        "",
+        0
+      ],
+      [
+        "NaN",
+        0
+      ],
+      [
+        "Infinity",
+        0
+      ]
+    ],
+    "money": [
+      [
+        "null",
+        "$0.00"
+      ],
+      [
+        "undefined",
+        "$0.00"
+      ],
+      [
+        "0",
+        "$0.00"
+      ],
+      [
+        "1",
+        "$1.00"
+      ],
+      [
+        "-1",
+        "$-1.00"
+      ],
+      [
+        "0.1",
+        "$0.10"
+      ],
+      [
+        "1.005",
+        "$1.00"
+      ],
+      [
+        "1e-9",
+        "$0.00"
+      ],
+      [
+        "1000000000",
+        "$1000000000.00"
+      ],
+      [
+        "1,000",
+        "$1000.00"
+      ],
+      [
+        "12.5",
+        "$12.50"
+      ],
+      [
+        "abc",
+        "$0.00"
+      ],
+      [
+        "",
+        "$0.00"
+      ],
+      [
+        "NaN",
+        "$0.00"
+      ],
+      [
+        "Infinity",
+        "$0.00"
+      ]
+    ],
+    "qty": [
+      [
+        "null",
+        "0"
+      ],
+      [
+        "undefined",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "1"
+      ],
+      [
+        "-1",
+        "-1"
+      ],
+      [
+        "0.1",
+        "0.1"
+      ],
+      [
+        "1.005",
+        "1.005"
+      ],
+      [
+        "1e-9",
+        "0"
+      ],
+      [
+        "1000000000",
+        "1000000000"
+      ],
+      [
+        "1,000",
+        "1000"
+      ],
+      [
+        "12.5",
+        "12.5"
+      ],
+      [
+        "abc",
+        "0"
+      ],
+      [
+        "",
+        "0"
+      ],
+      [
+        "NaN",
+        "0"
+      ],
+      [
+        "Infinity",
+        "0"
+      ]
+    ],
+    "safeDiv": [
+      [
+        "1/0",
+        0
+      ],
+      [
+        "0/0",
+        0
+      ],
+      [
+        "10/4",
+        2.5
+      ],
+      [
+        "1/3",
+        0.3333333333333333
+      ],
+      [
+        "1,000/2",
+        500
+      ],
+      [
+        "null/2",
+        0
+      ],
+      [
+        "2/null",
+        0
+      ]
+    ],
+    "unitCost": [
+      [
+        "10|4",
+        2.5
+      ],
+      [
+        "10|0",
+        0
+      ],
+      [
+        "0|5",
+        0
+      ],
+      [
+        "10|4",
+        2.5
+      ],
+      [
+        "-10|4",
+        -2.5
+      ]
+    ],
+    "lineCost": [
+      [
+        "{\"base_cost\":10,\"base_qty\":4,\"used_qty\":2}",
+        5
+      ],
+      [
+        "{\"base_cost\":10,\"base_qty\":0,\"used_qty\":2}",
+        0
+      ],
+      [
+        "{\"base_cost\":\"1,000\",\"base_qty\":\"2\",\"used_qty\":\"3\"}",
+        1500
+      ],
+      [
+        "{\"base_cost\":3,\"base_qty\":1,\"used_qty\":null}",
+        0
+      ]
+    ],
+    "laborCost": [
+      [
+        "1|12",
+        12
+      ],
+      [
+        "2|12.5",
+        25
+      ],
+      [
+        "0|12",
+        0
+      ],
+      [
+        "null|12",
+        0
+      ]
+    ],
+    "taxAmount": [
+      [
+        "100|7.5",
+        7.5
+      ],
+      [
+        "0|7.5",
+        0
+      ],
+      [
+        "100|0",
+        0
+      ],
+      [
+        "1,000|7.5",
+        75
+      ]
+    ],
+    "salePriceFromProfitPercent": [
+      [
+        "100|20",
+        120
+      ],
+      [
+        "0|20",
+        0
+      ],
+      [
+        "100|0",
+        100
+      ],
+      [
+        "100|-10",
+        90
+      ]
+    ],
+    "profitPercentFromSalePrice": [
+      [
+        "100|120",
+        20
+      ],
+      [
+        "0|120",
+        0
+      ],
+      [
+        "100|0",
+        -100
+      ],
+      [
+        "100|90",
+        -10
+      ]
+    ],
+    "calculateProductFees": [
+      [
+        "[]",
+        0
+      ],
+      [
+        "defaults@100",
+        5.8
+      ],
+      [
+        "defaults@0",
+        0
+      ]
+    ],
+    "sumLineCosts": [
+      [
+        "[]",
+        0
+      ],
+      [
+        "undefined-arg",
+        0
+      ]
+    ]
+  }
+}
