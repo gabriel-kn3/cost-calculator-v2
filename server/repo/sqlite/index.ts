@@ -393,7 +393,8 @@ export function createSqliteStore(db: Db, sqlite: Database.Database): DataStore 
         .where(eq(schema.products.nameNorm, norm))
         .get();
       if (match) return (await products.update(match.id, input))!;
-      return products.create(input);
+      // Only a fresh product gets empty rows as a default; an update must not.
+      return products.create({ ...input, rows: input.rows ?? [] });
     },
 
     async replaceAll(items) {

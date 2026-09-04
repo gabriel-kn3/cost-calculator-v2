@@ -2,15 +2,11 @@
 // Uses fetch to avoid extra dependencies (axios optional).
 
 function defaultApiBaseUrl() {
-  // const isLocal =
-  //   window.location.hostname === "localhost" ||
-  //   window.location.hostname === "127.0.0.1";
-  // // local dev: FastAPI running on :8000
-  // if (isLocal) return "http://localhost:8000";
-  // // production (Vercel): same origin, route API under /api
-  // return "/api";
-  const { protocol, hostname } = window.location;
-  return `${protocol}//${hostname}:8000`;
+  // Same-origin. The API is served under /api by the same Node process that
+  // serves this app, so there is no second port, no CORS, and no cookie
+  // SameSite problem. The previous `${protocol}//${hostname}:8000` form is
+  // why this app could never work behind a tunnel: a tunnel exposes 443 only.
+  return "/api";
 }
 
 export function createHttpClient({ baseUrl = "" } = {}) {

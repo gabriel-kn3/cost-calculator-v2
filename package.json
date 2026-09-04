@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "cross-env NODE_ENV=development tsx watch server/index.ts",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
@@ -15,7 +15,10 @@
     "db:seed": "tsx server/scripts/seed-from-csv.ts",
     "db:verify": "tsx server/scripts/verify-migration.ts",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "dev:vite-only": "vite",
+    "start": "cross-env NODE_ENV=production tsx server/index.ts",
+    "share": "cross-env NODE_ENV=production TUNNEL_MODE=true tsx server/index.ts"
   },
   "dependencies": {
     "@node-rs/argon2": "^2.2.0",

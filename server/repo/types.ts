@@ -47,8 +47,13 @@ export interface ProductsRepo {
   create(input: ProductInput): Promise<Product>;
   update(id: string, patch: Partial<ProductInput>): Promise<Product | null>;
   delete(id: string): Promise<boolean>;
-  /** Honours the normalised-name uniqueness rule ported from v2. */
-  upsertByName(input: ProductInput): Promise<Product>;
+  /**
+   * Honours the normalised-name uniqueness rule ported from v2. Takes a PATCH:
+   * when a product already exists, fields the caller omitted are left alone
+   * rather than reset -- otherwise a save that sends only a name would wipe
+   * the bill of materials.
+   */
+  upsertByName(input: Partial<ProductInput> & { name: string }): Promise<Product>;
   replaceAll(items: ProductInput[]): Promise<BulkResult>;
 }
 

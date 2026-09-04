@@ -208,6 +208,41 @@ export function runDataStoreContract(name: string, makeStore: () => Promise<Data
       expect(await store.products.delete(p.id)).toBe(false);
     });
 
+    it("upsert leaves omitted fields alone instead of resetting them", async () => {
+      // Regression: the route used to fill defaults before calling the store,
+      // so a save that sent only a name wiped sale_price and the whole BOM.
+      const created = await store.products.create({
+        name: "Patchy",
+        salePrice: 99.99,
+        taxPercent: 0, fees: [], laborRate: 0, workedHours: 0,
+        rows: [{ name: "Cordon", baseCost: 2.5, baseQty: 1, usedQty: 2 }],
+      });
+      expect(created.salePrice).toBe(99.99);
+
+      const upserted = await store.products.upsertByName({ name: "  patchy  " });
+
+      expect(upserted.id).toBe(created.id);
+      expect(upserted.salePrice).toBe(99.99);
+      expect(upserted.rows).toHaveLength(1);
+      expect(upserted.cost).toBe(5);
+    });
+
+    it("applies an explicit zero rather than treating it as absent", async () => {
+      const p = await store.products.create({
+        name: "Zeroable", salePrice: 50,
+        taxPercent: 0, fees: [], laborRate: 0, workedHours: 0,
+        rows: [{ name: "x", baseCost: 1, baseQty: 1, usedQty: 1 }],
+      });
+      const updated = await store.products.update(p.id, { salePrice: 0 });
+      expect(updated?.salePrice).toBe(0);
+    });
+
+    it("upsert creates when nothing matches, defaulting rows to empty", async () => {
+      const p = await store.products.upsertByName({ name: "Brand New" });
+      expect(p.rows).toEqual([]);
+      expect(p.cost).toBe(0);
+    });
+
     // -------------------------------------------------------------- settings
 
     it("treats settings as a singleton", async () => {
