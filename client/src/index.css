@@ -220,8 +220,12 @@
   --color-chart-4: var(--chart-4);
   --color-chart-5: var(--chart-5);
 
-  --font-sans: "DM Sans", system-ui, -apple-system, sans-serif;
-  --font-serif: "Cormorant Garamond", Georgia, serif;
+  /* Inter throughout, chosen for readability rather than character: tall
+     x-height, distinct letterforms at small sizes, and real tabular figures.
+     `--font-serif` still exists so every existing `font-serif` class keeps
+     working -- it now points at the display face rather than a serif. */
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-serif: "Inter", system-ui, -apple-system, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, monospace;
 }
 
@@ -233,18 +237,25 @@
   body {
     @apply bg-background text-foreground;
     font-family: var(--font-sans);
-    /* 14px base, matching hmbb-admin: this is a dense data tool. */
-    font-size: 14px;
+    /* 15px, up from hmbb-admin's 14px. This is read on a phone in a workshop,
+       not on a designer's monitor; the extra pixel is the cheapest legibility
+       win available. */
+    font-size: 15px;
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
+    font-optical-sizing: auto;
+    /* Inter's disambiguated glyphs: slashed zero and a straight-tailed l,
+       so 0/O and 1/l/I cannot be confused in a cost or a quantity. */
+    font-feature-settings: "cv01", "cv02", "ss01";
   }
 
-  /* Serif for display, sans for UI -- the split that gives the boutique feel. */
+  /* Headings differ by weight and size rather than by family -- the serif
+     display face read as too formal for a workshop tool. */
   h1,
   h2 {
     font-family: var(--font-serif);
-    font-weight: 500;
-    letter-spacing: -0.01em;
+    font-weight: 600;
+    letter-spacing: -0.02em;
   }
 
   h3,
@@ -268,8 +279,10 @@
   }
 
   /* Numeric fields: tabular figures so columns of money line up. */
+  /* Money and quantity columns. Lining + tabular figures so digits share a
+     width and decimal points stack down a column. */
   .tabular {
-    font-variant-numeric: tabular-nums;
+    font-variant-numeric: tabular-nums lining-nums;
   }
 }
 
