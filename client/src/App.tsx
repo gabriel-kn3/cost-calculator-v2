@@ -4,6 +4,7 @@ import DashboardPage from "@/pages/DashboardPage";
 import InventoryPage from "@/pages/InventoryPage";
 import ProductsPage from "@/pages/ProductsPage";
 import CalculatorPage from "@/pages/CalculatorPage";
+import SettingsPage from "@/pages/SettingsPage";
 import ComingSoonPage from "@/pages/ComingSoonPage";
 
 export default function App() {
@@ -14,15 +15,7 @@ export default function App() {
         <Route path="/calculator" element={<CalculatorPage />} />
         <Route path="/inventory" element={<InventoryPage />} />
         <Route path="/products" element={<ProductsPage />} />
-        <Route
-          path="/settings"
-          element={
-            <ComingSoonPage
-              title="Settings"
-              detail="Labor rate, tax, fees and default profit live in the database with v2's values; this screen makes them editable."
-            />
-          }
-        />
+        <Route path="/settings" element={<SettingsPage />} />
         <Route path="/home" element={<Navigate to="/" replace />} />
         <Route
           path="*"

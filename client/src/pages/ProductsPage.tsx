@@ -13,7 +13,7 @@ import { useMemo, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { toast } from "sonner";
 import { useQueryClient } from "@tanstack/react-query";
-import { Search, Upload, Download, Trash2, FolderOpen } from "lucide-react";
+import { Search, Upload, Download, Trash2, FolderOpen, FileSpreadsheet } from "lucide-react";
 import { PageHeader } from "@/components/layout/AppShell";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -23,6 +23,7 @@ import { ConfirmDialog } from "@/components/ui/alert-dialog";
 import { useProducts, useDeleteProduct, useSettings, keys } from "@/lib/queries";
 import { api } from "@/lib/api";
 import { draft } from "@/lib/draft";
+import { ShopifyExportDialog } from "@/components/products/ShopifyExportDialog";
 import { money } from "@shared/money";
 import type { WireProduct } from "@shared/types";
 
@@ -58,6 +59,7 @@ export default function ProductsPage() {
   const [sort, setSort] = useState<SortValue>("date_desc");
   const [pendingDelete, setPendingDelete] = useState<WireProduct | null>(null);
   const [pendingLoad, setPendingLoad] = useState<WireProduct | null>(null);
+  const [shopifyOpen, setShopifyOpen] = useState(false);
   const fileInput = useRef<HTMLInputElement>(null);
 
   const all = data ?? [];
@@ -156,6 +158,9 @@ export default function ProductsPage() {
             <Button variant="outline" onClick={exportJson}>
               <Download className="size-4" /> Export
             </Button>
+            <Button variant="outline" onClick={() => setShopifyOpen(true)}>
+              <FileSpreadsheet className="size-4" /> Shopify CSV
+            </Button>
             <input
               ref={fileInput}
               type="file"
@@ -243,6 +248,8 @@ export default function ProductsPage() {
           ))}
         </div>
       )}
+
+      <ShopifyExportDialog open={shopifyOpen} onOpenChange={setShopifyOpen} products={all} />
 
       <ConfirmDialog
         open={pendingDelete !== null}

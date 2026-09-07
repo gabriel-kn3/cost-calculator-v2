@@ -121,7 +121,14 @@ export const settings = sqliteTable("settings", {
   /** v2 hardcoded America/New_York in ProductCard.jsx. */
   timezone: text("timezone").notNull().default("America/New_York"),
   theme: text("theme", { enum: ["light", "dark", "system"] }).notNull().default("system"),
+  baseFontPx: integer("base_font_px").notNull().default(15),
   sessionMinutes: integer("session_minutes").notNull().default(480),
+  /**
+   * Rich-text product notes on wide screens. Below lg the plain textarea is
+   * always used regardless -- both edit the same Markdown string, so there is
+   * no format to diverge.
+   */
+  richNotesEnabled: integer("rich_notes_enabled", { mode: "boolean" }).notNull().default(true),
   updatedAt: text("updated_at").notNull(),
 });
 

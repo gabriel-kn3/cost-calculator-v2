@@ -28,6 +28,8 @@ import {
 } from "@/components/ui/dialog";
 import { LineItems } from "@/components/calculator/LineItems";
 import { LaborCard, TotalsCard, ProfitsCard } from "@/components/calculator/Cards";
+import { RichNotesEditor, PlainNotesEditor } from "@/components/notes/NotesEditor";
+import { useIsWideScreen } from "@/hooks/useMediaQuery";
 import { draft, useDraft, type DraftState } from "@/lib/draft";
 import { useMaterials, useSettings, useSaveProduct } from "@/lib/queries";
 import { totalCost } from "@shared/costMath";
@@ -38,6 +40,10 @@ export default function CalculatorPage() {
   const materials = useMaterials();
   const settings = useSettings();
   const saveProduct = useSaveProduct();
+
+  // Rich notes need BOTH the room and the opt-in; a phone always gets plain.
+  const wide = useIsWideScreen();
+  const useRichNotes = wide && (settings.data?.settings.richNotesEnabled ?? true);
 
   const [clearOpen, setClearOpen] = useState(false);
   const [saveOpen, setSaveOpen] = useState(false);
@@ -208,8 +214,8 @@ export default function CalculatorPage() {
           <h3 className="text-sm font-semibold">Product Draft</h3>
           <p className="mt-0.5 text-xs text-muted-foreground">Name, notes, and line-items</p>
 
-          <div className="mt-4 grid gap-3 sm:grid-cols-2">
-            <div className="flex flex-col gap-1.5">
+          <div className="mt-4 flex flex-col gap-3">
+            <div className="flex max-w-md flex-col gap-1.5">
               <Label htmlFor="p-name">Product Name</Label>
               <Input
                 id="p-name"
@@ -219,13 +225,24 @@ export default function CalculatorPage() {
             </div>
             <div className="flex flex-col gap-1.5">
               <Label htmlFor="p-notes">Notes</Label>
-              <textarea
-                id="p-notes"
-                rows={1}
-                value={state.notes}
-                onChange={(e) => draft.setField("notes", e.target.value)}
-                className="min-h-9 rounded-md border border-input bg-card px-3 py-2 text-sm outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50"
-              />
+              {useRichNotes ? (
+                <RichNotesEditor
+                  value={state.notes}
+                  onChange={(md) => draft.setField("notes", md)}
+                  placeholder="Notes"
+                />
+              ) : (
+                <PlainNotesEditor
+                  value={state.notes}
+                  onChange={(v) => draft.setField("notes", v)}
+                  rows={3}
+                />
+              )}
+              <p className="text-xs text-muted-foreground">
+                {useRichNotes
+                  ? "Saved as Markdown, so the same note stays editable on a phone."
+                  : "Markdown — the wide-screen editor writes the same format."}
+              </p>
             </div>
           </div>
         </div>

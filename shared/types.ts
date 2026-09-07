@@ -87,7 +87,9 @@ export interface Settings {
   locale: string;
   timezone: string;
   theme: "light" | "dark" | "system";
+  baseFontPx: number;
   sessionMinutes: number;
+  richNotesEnabled: boolean;
   updatedAt: string;
 }
 

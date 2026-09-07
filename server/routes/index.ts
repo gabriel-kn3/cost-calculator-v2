@@ -418,7 +418,9 @@ export function createApiRouter(store: DataStore, auth: Auth): Router {
             locale: z.string().optional(),
             timezone: z.string().optional(),
             theme: z.enum(["light", "dark", "system"]).optional(),
+            baseFontPx: num.optional(),
             sessionMinutes: num.optional(),
+            richNotesEnabled: z.boolean().optional(),
           })
           .strict(),
         req.body,

@@ -84,16 +84,20 @@ because the product page can then show *"1 open note"*.
 - **Rich structure imposed up front** — start free-form; add structure only if
   the entries turn out to have a shape.
 
-### Open questions for you
+### Decided
 
-1. **One entry per day (a daybook), or many free entries with dates?** I lean
-   free entries grouped by day on the index — closer to how a notebook actually
-   fills up.
-2. **Should completing a checkbox be editable from the Open items panel**, or
-   only inside its entry? Editing in place is convenient but makes the panel a
-   second write path into the same Markdown.
-3. Does she want entries **searchable across products/materials** (one search box
-   over everything) or is a journal-only search enough?
+1. **Free entries tied to a day**, grouped by day on the index and easy to search
+   back through — not one fixed entry per day.
+2. **Checkboxes are ticked inside their entry only.** The Open items panel links
+   to the entry rather than writing to it, so there is exactly one write path
+   into the Markdown.
+3. **Search spans journal, products and materials** — one box over everything.
+   Entries, products and materials are expected to behave as one ecosystem:
+   cross-links in both directions, and a global search that reaches all three.
+
+That third point raises the scope slightly: it implies a **global search**
+surface (⌘K or a header field) rather than a journal-only filter. Worth building
+once, over all three entities, rather than three separate search boxes.
 
 **Effort:** ~1.5 days once the Markdown editor exists.
 
@@ -255,11 +259,22 @@ Dependency-driven, respecting the stated priorities:
 Roughly **10–11 working days**. Items 1–3 are independently shippable; 4 is the
 one that must land whole.
 
-## Open questions
+## Decisions
 
-1. Journal shape — the three questions in §2.
-2. `source_url` on materials — worth it, or scope creep? (§6)
-3. Shopify sync — manual button only, or a daily background refresh too?
-4. Photos — cap per entity? Any need to reorder them, or is upload order fine?
-5. Does the CSV export need to cover **all** products, or only ones not yet
-   linked to Shopify?
+- **Journal shape** — settled in §2.
+- **`source_url` on materials** — yes, optional field. Lands with the material
+  detail page (§6).
+- **Photos** — upload order is the display order, no cap per entity.
+- **CSV export** — may cover a subset (e.g. only products not yet linked to
+  Shopify). An export is *not* a backup.
+- **Backups must include every detail** — materials, products, the bill of
+  materials, settings, fees, journal entries and **photo files**. The current
+  bundle covers everything that exists today; when photos land, the backup must
+  carry the files themselves, not just their metadata rows. This is the one
+  place where "good enough" is not acceptable, since a database has already been
+  lost once on this project.
+
+## Still open
+
+1. Shopify sync — manual button only, or a daily background refresh as well?
+2. Global search (from §2) — ⌘K palette, or a persistent field in the header?
