@@ -21,6 +21,7 @@ import { Card } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
 import { ConfirmDialog } from "@/components/ui/alert-dialog";
 import { MaterialDialog } from "@/components/inventory/MaterialDialog";
+import { LinkCell } from "@/components/inventory/LinkCell";
 import { useMaterials, useDeleteMaterial } from "@/lib/queries";
 import { api } from "@/lib/api";
 import { useQueryClient } from "@tanstack/react-query";
@@ -266,6 +267,7 @@ export default function InventoryPage() {
                       Base Qty
                     </th>
                     <th className="px-4 py-2.5 text-xs font-medium text-muted-foreground">Supplier</th>
+                    <th className="px-4 py-2.5 text-xs font-medium text-muted-foreground">Link</th>
                     <th className="px-4 py-2.5 text-xs font-medium text-muted-foreground">Status</th>
                     <th className="px-4 py-2.5" />
                   </tr>
@@ -296,6 +298,9 @@ export default function InventoryPage() {
                         {qty(m.base_qty)}
                       </td>
                       <td className="px-4 py-2.5 text-muted-foreground">{m.supplier || "–"}</td>
+                      <td className="max-w-40 px-4 py-2.5">
+                        <LinkCell url={m.source_url} materialName={m.name} />
+                      </td>
                       <td className="px-4 py-2.5">
                         <span className={cn("text-xs", m.active ? "text-success" : "text-muted-foreground")}>
                           {m.active ? "Active" : "Disabled"}
@@ -328,6 +333,7 @@ export default function InventoryPage() {
                           per {qty(m.base_qty)}
                         </span>
                         {m.supplier ? <span>{m.supplier}</span> : null}
+                        {m.source_url ? <LinkCell url={m.source_url} materialName={m.name} /> : null}
                         {!m.active ? <span>Disabled</span> : null}
                       </div>
                     </div>

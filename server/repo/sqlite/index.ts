@@ -41,6 +41,7 @@ const toMaterial = (r: MaterialRow): Material => ({
   unit: r.unit,
   supplier: r.supplier,
   description: r.description,
+  sourceUrl: r.sourceUrl,
   active: r.active,
   isCommon: r.isCommon,
   createdAt: r.createdAt,
@@ -90,6 +91,45 @@ const toProduct = (r: ProductRow, rows: PmRow[]): Product => ({
   updatedAt: r.updatedAt,
   rows: rows.sort((a, b) => a.position - b.position).map(toProductMaterial),
 });
+
+const sameNum = (a: unknown, b: unknown) => Math.abs(toNumber(a, 0) - toNumber(b, 0)) < 1e-9;
+
+/** True when an update would leave the stored product exactly as it is. */
+function isUnchanged(
+  existing: Product,
+  merged: ProductInput,
+  p: { laborRate: number; taxPercent: number; taxBasis: TaxBasis; profitPercent: number; fees: Fee[]; cost: number },
+): boolean {
+  if (merged.name !== existing.name) return false;
+  if ((merged.notes ?? "") !== existing.notes) return false;
+  if (!sameNum(merged.workedHours, existing.workedHours)) return false;
+  if (!sameNum(p.laborRate, existing.laborRate)) return false;
+  if (!sameNum(p.taxPercent, existing.taxPercent)) return false;
+  if (p.taxBasis !== existing.taxBasis) return false;
+  if (!sameNum(p.profitPercent, existing.profitPercent)) return false;
+  if (!sameNum(merged.salePrice, existing.salePrice)) return false;
+  if (!sameNum(p.cost, existing.cost)) return false;
+  if ((merged.active ?? true) !== existing.active) return false;
+  if (!sameNum(merged.qty, existing.qty)) return false;
+  if (JSON.stringify(merged.photos ?? []) !== JSON.stringify(existing.photos)) return false;
+
+  const feesA = p.fees.map((f) => [f.serviceName ?? "", toNumber(f.percentage, 0)]);
+  const feesB = existing.fees.map((f) => [f.serviceName ?? "", toNumber(f.percentage, 0)]);
+  if (JSON.stringify(feesA) !== JSON.stringify(feesB)) return false;
+
+  if (merged.rows.length !== existing.rows.length) return false;
+  return merged.rows.every((r, i) => {
+    const e = existing.rows[i]!;
+    return (
+      (r.materialId ?? null) === e.materialId &&
+      (r.name ?? "") === e.name &&
+      (r.supplier ?? null) === e.supplier &&
+      sameNum(r.baseCost, e.baseCost) &&
+      sameNum(r.baseQty, e.baseQty) &&
+      sameNum(r.usedQty, e.usedQty)
+    );
+  });
+}
 
 const toSettings = (r: SettingsRow): Settings => ({ ...r });
 const toFeeRecord = (r: FeeRow): FeeRecord => ({ ...r });
@@ -198,6 +238,7 @@ export function createSqliteStore(db: Db, sqlite: Database.Database): DataStore 
         unit: input.unit ?? null,
         supplier: input.supplier ?? null,
         description: input.description ?? null,
+        sourceUrl: input.sourceUrl ?? null,
         active: input.active ?? true,
         isCommon: isCommonName(input.name),
         createdAt: ts,
@@ -218,6 +259,7 @@ export function createSqliteStore(db: Db, sqlite: Database.Database): DataStore 
         unit: patch.unit === undefined ? existing.unit : patch.unit,
         supplier: patch.supplier === undefined ? existing.supplier : patch.supplier,
         description: patch.description === undefined ? existing.description : patch.description,
+        sourceUrl: patch.sourceUrl === undefined ? existing.sourceUrl : patch.sourceUrl,
         active: patch.active ?? existing.active,
         // Always re-derived: renaming a material can change its "common" status.
         isCommon: isCommonName(name),
@@ -258,6 +300,7 @@ export function createSqliteStore(db: Db, sqlite: Database.Database): DataStore 
               unit: input.unit ?? null,
               supplier: input.supplier ?? null,
               description: input.description ?? null,
+              sourceUrl: input.sourceUrl ?? null,
               active: input.active ?? true,
               isCommon: isCommonName(input.name),
               createdAt: ts,
@@ -352,6 +395,11 @@ export function createSqliteStore(db: Db, sqlite: Database.Database): DataStore 
           })),
       };
       const p = price(merged);
+
+      // No-op guard. Saving an unchanged product used to bump updated_at --
+      // jumping it to the top of "Newest first" with a new date -- and churn
+      // every line item. If nothing differs, write nothing.
+      if (isUnchanged(existing, merged, p)) return existing;
 
       sqlite.transaction(() => {
         db.update(schema.products)

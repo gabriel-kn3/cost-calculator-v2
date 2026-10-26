@@ -12,7 +12,7 @@
  */
 import { useEffect, useMemo, useRef, useState } from "react";
 import { toast } from "sonner";
-import { Save, Sparkles, Upload, Download, Eraser } from "lucide-react";
+import { Save, Sparkles, Upload, Download, Eraser, Check } from "lucide-react";
 import { PageHeader } from "@/components/layout/AppShell";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -30,8 +30,9 @@ import { LineItems } from "@/components/calculator/LineItems";
 import { LaborCard, TotalsCard, ProfitsCard } from "@/components/calculator/Cards";
 import { RichNotesEditor, PlainNotesEditor } from "@/components/notes/NotesEditor";
 import { useIsWideScreen } from "@/hooks/useMediaQuery";
-import { draft, useDraft, type DraftState } from "@/lib/draft";
-import { useMaterials, useSettings, useSaveProduct } from "@/lib/queries";
+import { draft, useDraft, buildSavePayload, type DraftState } from "@/lib/draft";
+import { useMaterials, useSettings, useSaveProduct, useProducts } from "@/lib/queries";
+import { normalizeName } from "@shared/normalize";
 import { totalCost } from "@shared/costMath";
 import { money, toNumber } from "@shared/money";
 
@@ -48,6 +49,9 @@ export default function CalculatorPage() {
   const [clearOpen, setClearOpen] = useState(false);
   const [saveOpen, setSaveOpen] = useState(false);
   const [saveName, setSaveName] = useState("");
+  const [pendingOverwrite, setPendingOverwrite] = useState<string | null>(null);
+  const saving = useRef(false);
+  const products = useProducts();
   const fileInput = useRef<HTMLInputElement>(null);
 
   // Server settings seed a pristine draft only; they never overwrite work
@@ -89,6 +93,7 @@ export default function CalculatorPage() {
         name: m.name,
         base_cost: m.base_cost,
         base_qty: m.base_qty,
+        supplier: m.supplier,
       })),
     );
     toast.success(
@@ -96,47 +101,67 @@ export default function CalculatorPage() {
     );
   };
 
+  // Bound to a saved product and identical to what was stored: nothing to do.
+  const unchanged = draft.isUnchangedSinceSave();
+
   const openSave = () => {
+    if (unchanged) {
+      toast.info("No changes to save — this product is already up to date.");
+      return;
+    }
     setSaveName(state.name);
     setSaveOpen(true);
   };
 
-  const doSave = () => {
+  /**
+   * Deduplication. Saving a NEW draft under the name of an existing product
+   * updates that product rather than creating a second one (v2's rule, now
+   * enforced by a UNIQUE index). v2 did that silently, which could quietly
+   * overwrite a product's line items -- so it is now confirmed first.
+   */
+  const nameClash = (name: string) => {
+    if (state.activeProductId) return null;
+    const norm = normalizeName(name);
+    return (products.data ?? []).find((p) => normalizeName(p.name) === norm) ?? null;
+  };
+
+  const doSave = (confirmedOverwrite = false) => {
+    // Double-submit lock. A ref, not saveProduct.isPending: Enter, Enter and a
+    // click can all fire before React re-renders, and each would still read
+    // the stale isPending=false captured at render time.
+    if (saving.current) return;
     const name = saveName.trim();
     if (!name) return;
+
+    const clash = nameClash(name);
+    if (clash && !confirmedOverwrite) {
+      setPendingOverwrite(clash.name);
+      return;
+    }
+
+    saving.current = true;
     saveProduct.mutate(
       {
+        ...buildSavePayload(state),
         ...(state.activeProductId ? { id: state.activeProductId } : {}),
         name,
-        notes: state.notes,
-        worked_hours: toNumber(state.workedHours),
-        labor_rate: toNumber(state.laborRate),
-        tax_percent: toNumber(state.taxPercent),
-        tax_basis: "subtotal",
-        profit_percent: toNumber(state.profitPercent),
-        // sale_price is persisted now; v2 dropped it on every save.
-        sale_price: toNumber(state.salePrice),
-        fees: state.fees,
-        materials: rows.map((r) => ({
-          material_id: r.materialId,
-          name: r.name,
-          base_cost: toNumber(r.base_cost),
-          base_qty: toNumber(r.base_qty),
-          used_qty: toNumber(r.used_qty),
-        })),
       },
       {
         onSuccess: (p) => {
-          draft.setField("activeProductId", String(p.id));
-          draft.setField("name", p.name);
+          draft.markSaved(String(p.id), p.name);
           setSaveOpen(false);
+          setPendingOverwrite(null);
           toast.success(`Saved ${p.name}`);
         },
         onError: (err: unknown) =>
           toast.error(err instanceof Error ? err.message : "Could not save product"),
+        onSettled: () => {
+          saving.current = false;
+        },
       },
     );
   };
+
 
   const exportDraft = () => {
     const payload = {
@@ -171,6 +196,32 @@ export default function CalculatorPage() {
     }
   };
 
+  /** One definition, rendered at the top and the bottom, so they cannot drift. */
+  const toolbar = (
+    <>
+      <Button variant="outline" onClick={addCommon}>
+        <Sparkles className="size-4" /> Add Common (*)
+      </Button>
+      <Button
+        onClick={openSave}
+        variant={unchanged ? "outline" : "default"}
+        title={unchanged ? "No changes since the last save" : undefined}
+      >
+        {unchanged ? <Check className="size-4" /> : <Save className="size-4" />}
+        {unchanged ? "Saved" : "Save"}
+      </Button>
+      <Button variant="outline" onClick={() => fileInput.current?.click()}>
+        <Upload className="size-4" /> Import Draft
+      </Button>
+      <Button variant="outline" onClick={exportDraft}>
+        <Download className="size-4" /> Export Draft
+      </Button>
+      <Button variant="outline" onClick={() => setClearOpen(true)}>
+        <Eraser className="size-4" /> Clear Draft
+      </Button>
+    </>
+  );
+
   return (
     <>
       <PageHeader
@@ -180,33 +231,20 @@ export default function CalculatorPage() {
             ? "Editing a saved product — saving updates it."
             : "Build a draft product and compute totals"
         }
-        actions={
-          <>
-            <Button variant="outline" onClick={addCommon}>
-              <Sparkles className="size-4" /> Add Common (*)
-            </Button>
-            <Button onClick={openSave}>
-              <Save className="size-4" /> Save
-            </Button>
-            <Button variant="outline" onClick={() => fileInput.current?.click()}>
-              <Upload className="size-4" /> Import Draft
-            </Button>
-            <Button variant="outline" onClick={exportDraft}>
-              <Download className="size-4" /> Export Draft
-            </Button>
-            <input
-              ref={fileInput}
-              type="file"
-              accept="application/json"
-              className="hidden"
-              onChange={(e) => {
-                const f = e.target.files?.[0];
-                if (f) void importDraft(f);
-                e.target.value = "";
-              }}
-            />
-          </>
-        }
+        actions={toolbar}
+      />
+
+      {/* Shared by both toolbars. */}
+      <input
+        ref={fileInput}
+        type="file"
+        accept="application/json"
+        className="hidden"
+        onChange={(e) => {
+          const f = e.target.files?.[0];
+          if (f) void importDraft(f);
+          e.target.value = "";
+        }}
       />
 
       <Card className="mb-6 overflow-hidden">
@@ -249,10 +287,10 @@ export default function CalculatorPage() {
 
         <LineItems rows={rows} />
 
-        <div className="border-t border-card-border p-4">
-          <Button variant="outline" size="sm" onClick={() => setClearOpen(true)}>
-            <Eraser className="size-4" /> Clear Draft
-          </Button>
+        {/* The full toolbar again, so a long list never means scrolling back
+            up to save. */}
+        <div className="flex flex-wrap items-center justify-end gap-2 border-t border-card-border p-4">
+          {toolbar}
         </div>
       </Card>
 
@@ -272,6 +310,15 @@ export default function CalculatorPage() {
           <span className="text-lg font-semibold tabular">{money(totals.total)}</span>
         </div>
       </div>
+
+      <ConfirmDialog
+        open={pendingOverwrite !== null}
+        onOpenChange={(o) => !o && setPendingOverwrite(null)}
+        title={`"${pendingOverwrite}" already exists`}
+        description="Saving will update that product with this draft rather than create a duplicate. Its current line items will be replaced. To keep both, cancel and choose a different name."
+        confirmLabel="Update existing product"
+        onConfirm={() => doSave(true)}
+      />
 
       <ConfirmDialog
         open={clearOpen}
@@ -299,6 +346,7 @@ export default function CalculatorPage() {
               value={saveName}
               onChange={(e) => setSaveName(e.target.value)}
               onKeyDown={(e) => e.key === "Enter" && doSave()}
+              disabled={saveProduct.isPending}
               placeholder="e.g. Roof Panel v1"
             />
             <p className="text-xs text-muted-foreground">
@@ -309,7 +357,7 @@ export default function CalculatorPage() {
             <Button variant="outline" onClick={() => setSaveOpen(false)}>
               Cancel
             </Button>
-            <Button onClick={doSave} disabled={!saveName.trim() || saveProduct.isPending}>
+            <Button onClick={() => doSave()} disabled={!saveName.trim() || saveProduct.isPending}>
               {saveProduct.isPending ? "Saving…" : "Save"}
             </Button>
           </DialogFooter>

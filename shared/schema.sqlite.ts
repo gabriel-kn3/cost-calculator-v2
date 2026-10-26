@@ -27,6 +27,11 @@ export const materials = sqliteTable(
     unit: text("unit"),
     supplier: text("supplier"),
     description: text("description"),
+    /**
+     * Optional link to where the material is bought -- in practice almost
+     * always an Amazon listing. http(s) only; validated at the API edge.
+     */
+    sourceUrl: text("source_url"),
     active: integer("active", { mode: "boolean" }).notNull().default(true),
     /**
      * Derived by the adapter on every write from name.includes("*").

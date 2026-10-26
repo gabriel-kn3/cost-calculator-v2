@@ -24,6 +24,7 @@ export interface Material {
   unit: string | null;
   supplier: string | null;
   description: string | null;
+  sourceUrl: string | null;
   active: boolean;
   /** Derived from name.includes("*") on every write. */
   isCommon: boolean;
@@ -113,6 +114,7 @@ export interface WireMaterial {
   base_qty: number;
   supplier: string | null;
   description: string | null;
+  source_url: string | null;
   active: boolean;
   created_at: string;
   last_updated: string;
@@ -158,6 +160,7 @@ export function materialToWire(m: Material): WireMaterial {
     base_qty: m.baseQty,
     supplier: m.supplier,
     description: m.description,
+    source_url: m.sourceUrl,
     active: m.active,
     created_at: m.createdAt,
     last_updated: m.updatedAt,
@@ -202,6 +205,7 @@ export interface MaterialInput {
   unit?: string | null;
   supplier?: string | null;
   description?: string | null;
+  sourceUrl?: string | null;
   active?: boolean;
 }
 

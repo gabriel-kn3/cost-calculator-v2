@@ -259,6 +259,43 @@ Dependency-driven, respecting the stated priorities:
 Roughly **10–11 working days**. Items 1–3 are independently shippable; 4 is the
 one that must land whole.
 
+---
+
+## 8. Agent access (MCP) — backlog, requested Oct 2026
+
+Let ChatGPT, Claude and other assistants drive the tool on the operator's
+behalf, with a panel showing what they are doing as they do it.
+
+**Tools with UI parity.** Every route is already a thin, zod-validated wrapper
+over a `DataStore` method, so tools map almost one-to-one: `search_materials`,
+`get_material`, `create_material`, `update_material`, `list_products`,
+`get_product`, `price_product` (runs the frozen math without saving),
+`save_product`, `get_settings`, `export_shopify_csv`, `needs_attention`.
+
+**Zero deletion — which is broader than "no DELETE tool".** These destroy data
+too, and must not be reachable by an agent:
+- `replaceAll` (bulk import) deletes everything it does not re-create
+- backup **restore** replaces the whole database
+- `upsertByName` overwrites a product that happens to share a name
+- an update that sends an empty bill of materials erases every line item
+
+Enforce it on the server, not just by leaving tools out: agent requests carry
+their own scope, and the API refuses destructive operations for that scope
+whatever the client claims. Saving over a product the agent did not create
+should require the same "update existing?" confirmation the UI now shows.
+
+**Live activity panel.** Every agent call recorded in an `agent_activity` table
+(tool, arguments, result, duration, which client) and streamed to the UI over
+SSE. A side panel shows calls as they happen; the table doubles as an audit log.
+It belongs in backups like everything else.
+
+**Transport.** stdio for Claude Desktop on this PC; streamable HTTP for
+assistants that run in the cloud. The installed app is deliberately bound to
+127.0.0.1, so remote assistants need the tunnel *and* a per-client token —
+never the password-free localhost path.
+
+**Effort:** ~3 days. Depends on nothing outstanding.
+
 ## Decisions
 
 - **Journal shape** — settled in §2.

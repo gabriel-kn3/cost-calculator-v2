@@ -32,6 +32,7 @@ function applyMaterial(rowId: string, m: WireMaterial) {
     name: m.name,
     base_cost: String(m.base_cost),
     base_qty: String(m.base_qty),
+    supplier: m.supplier ?? null,
   });
 }
 

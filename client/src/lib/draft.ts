@@ -14,6 +14,7 @@
 import { useSyncExternalStore } from "react";
 import type { Fee } from "@shared/costMath";
 import type { WireProduct } from "@shared/types";
+import { toNumber } from "@shared/money";
 
 export interface DraftRow {
   rowId: string;
@@ -22,6 +23,8 @@ export interface DraftRow {
   base_cost: string;
   base_qty: string;
   used_qty: string;
+  /** Snapshot of the material's supplier, so saving records where it came from. */
+  supplier?: string | null;
 }
 
 export interface DraftState {
@@ -37,6 +40,12 @@ export interface DraftState {
   fees: Fee[];
   rowsById: Record<string, DraftRow>;
   rowOrder: string[];
+  /**
+   * Fingerprint of the draft as it was last saved or loaded. When the current
+   * fingerprint matches, there is nothing to save -- so Save does not resend
+   * an unchanged product.
+   */
+  savedSignature: string | null;
 }
 
 const STORAGE_KEY = "costcalc.draft.v1";
@@ -57,7 +66,40 @@ export const INITIAL: DraftState = {
   ],
   rowsById: {},
   rowOrder: [],
+  savedSignature: null,
 };
+
+/**
+ * The exact payload Save sends. Shared by the Save button and the change
+ * fingerprint, so "unchanged" means unchanged in what would be persisted --
+ * not merely unchanged in what is on screen.
+ */
+export function buildSavePayload(s: DraftState): Partial<WireProduct> {
+  const rows = s.rowOrder.map((id) => s.rowsById[id]).filter(Boolean) as DraftRow[];
+  return {
+    name: s.name.trim(),
+    notes: s.notes,
+    worked_hours: toNumber(s.workedHours),
+    labor_rate: toNumber(s.laborRate),
+    tax_percent: toNumber(s.taxPercent),
+    tax_basis: "subtotal",
+    profit_percent: toNumber(s.profitPercent),
+    sale_price: toNumber(s.salePrice),
+    fees: s.fees.map((f) => ({ serviceName: f.serviceName, percentage: toNumber(f.percentage) })),
+    materials: rows.map((r) => ({
+      material_id: r.materialId,
+      name: r.name,
+      supplier: r.supplier ?? null,
+      base_cost: toNumber(r.base_cost),
+      base_qty: toNumber(r.base_qty),
+      used_qty: toNumber(r.used_qty),
+    })),
+  };
+}
+
+export function signatureOf(s: DraftState): string {
+  return JSON.stringify(buildSavePayload(s));
+}
 
 function uid(prefix = "row") {
   return `${prefix}_${Math.random().toString(16).slice(2)}_${Date.now().toString(16)}`;
@@ -140,7 +182,9 @@ export const draft = {
    * Adds every common ("*") material, SKIPPING any already present by
    * materialId -- matching v2, so pressing it twice does not duplicate.
    */
-  addCommon(materials: Array<{ id: string; name: string; base_cost: number; base_qty: number }>) {
+  addCommon(
+    materials: Array<{ id: string; name: string; base_cost: number; base_qty: number; supplier?: string | null }>,
+  ) {
     const present = new Set(draft.rows().map((r) => r.materialId).filter(Boolean));
     const toAdd = materials.filter((m) => !present.has(String(m.id)));
     if (!toAdd.length) return 0;
@@ -156,6 +200,7 @@ export const draft = {
         base_cost: String(m.base_cost),
         base_qty: String(m.base_qty),
         used_qty: "1",
+        supplier: m.supplier ?? null,
       };
       rowOrder.push(rowId);
     }
@@ -189,6 +234,7 @@ export const draft = {
         base_cost: String(m.base_cost ?? 0),
         base_qty: String(m.base_qty ?? 1),
         used_qty: String(m.used_qty ?? 0),
+        supplier: m.supplier ?? null,
       };
       rowOrder.push(rowId);
     }
@@ -204,7 +250,22 @@ export const draft = {
       fees: p.fees ?? INITIAL.fees,
       rowsById,
       rowOrder,
+      savedSignature: null,
     };
+    // A freshly loaded product is, by definition, already saved.
+    state.savedSignature = signatureOf(state);
+    emit();
+  },
+
+  /** True when the draft is bound to a product and matches what was saved. */
+  isUnchangedSinceSave(): boolean {
+    return !!state.activeProductId && state.savedSignature === signatureOf(state);
+  },
+
+  /** Record that the current draft is now what is stored. */
+  markSaved(productId: string, name: string) {
+    state = { ...state, activeProductId: productId, name };
+    state.savedSignature = signatureOf(state);
     emit();
   },
 
@@ -216,7 +277,8 @@ export const draft = {
 
   /** Replaces the draft wholesale (used by Import Draft). */
   replace(next: Partial<DraftState>) {
-    state = { ...INITIAL, ...next };
+    // An imported file is never assumed to match what is stored.
+    state = { ...INITIAL, ...next, savedSignature: null };
     emit();
   },
 

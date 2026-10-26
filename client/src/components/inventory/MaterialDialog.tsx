@@ -24,6 +24,7 @@ const EMPTY = {
   base_qty: "1",
   supplier: "",
   description: "",
+  source_url: "",
   active: true,
 };
 
@@ -37,6 +38,7 @@ function toForm(m: WireMaterial | null): FormState {
     base_qty: String(m.base_qty ?? 1),
     supplier: m.supplier ?? "",
     description: m.description ?? "",
+    source_url: m.source_url ?? "",
     active: m.active ?? true,
   };
 }
@@ -77,6 +79,7 @@ export function MaterialDialog({
         base_qty: form.base_qty as unknown as number,
         supplier: form.supplier || null,
         description: form.description || null,
+        source_url: form.source_url.trim() || null,
         active: form.active,
       },
       {
@@ -145,6 +148,21 @@ export function MaterialDialog({
               onChange={(e) => set("supplier", e.target.value)}
               placeholder="Optional"
             />
+          </div>
+
+          <div className="flex flex-col gap-1.5">
+            <Label htmlFor="m-link">Link</Label>
+            <Input
+              id="m-link"
+              type="url"
+              inputMode="url"
+              value={form.source_url}
+              onChange={(e) => set("source_url", e.target.value)}
+              placeholder="Optional — e.g. the Amazon listing"
+            />
+            {form.source_url.trim() && !/^https?:\/\//i.test(form.source_url.trim()) ? (
+              <p className="text-xs text-urgent">Links must start with http:// or https://</p>
+            ) : null}
           </div>
 
           <div className="flex flex-col gap-1.5">

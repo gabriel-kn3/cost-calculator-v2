@@ -17,6 +17,7 @@ import type { Auth } from "../auth.js";
 import { describeUser, isTrustedLocal, isUnconfigured } from "../auth.js";
 import { env } from "../env.js";
 import { materialToWire, productToWire } from "../../shared/types.js";
+import { getLinkPreview } from "../linkPreview.js";
 import type { MaterialInput, ProductInput } from "../../shared/types.js";
 
 /** Numbers arrive from text inputs, so accept numeric strings everywhere. */
@@ -24,6 +25,24 @@ const num = z.union([z.number(), z.string()]).transform((v) => {
   const n = typeof v === "number" ? v : Number(String(v).replace(/,/g, ""));
   return Number.isFinite(n) ? n : 0;
 });
+
+/**
+ * An optional http(s) link. Blank clears it. Anything else -- javascript:,
+ * file:, data: -- is rejected, because the UI renders this as a clickable link.
+ */
+const httpUrl = z
+  .string()
+  .nullish()
+  .transform((v) => (v == null || v.trim() === "" ? null : v.trim()))
+  .refine((v) => {
+    if (v === null) return true;
+    try {
+      const u = new URL(v);
+      return u.protocol === "http:" || u.protocol === "https:";
+    } catch {
+      return false;
+    }
+  }, "must be an http(s) link");
 
 const materialBody = z
   .object({
@@ -35,6 +54,8 @@ const materialBody = z
     supplier: z.string().nullish(),
     description: z.string().nullish(),
     unit: z.string().nullish(),
+    source_url: httpUrl,
+    sourceUrl: httpUrl,
     active: z.boolean().optional(),
   })
   .passthrough();
@@ -54,6 +75,8 @@ function toMaterialPatch(body: z.infer<typeof materialBody>): Partial<MaterialIn
   if (body.supplier !== undefined) patch.supplier = body.supplier ?? null;
   if (body.description !== undefined) patch.description = body.description ?? null;
   if (body.unit !== undefined) patch.unit = body.unit ?? null;
+  const sourceUrl = body.source_url !== undefined ? body.source_url : body.sourceUrl;
+  if (sourceUrl !== undefined) patch.sourceUrl = sourceUrl;
   if (body.active !== undefined) patch.active = body.active;
   return patch;
 }
@@ -323,6 +346,22 @@ export function createApiRouter(store: DataStore, auth: Auth): Router {
       const body = parseOr400(res, z.array(materialBody), req.body);
       if (!body) return;
       res.json(await store.materials.replaceAll(body.map(toMaterialPatch)));
+    }),
+  );
+
+  // Hover previews for material links. Behind auth on purpose: an open
+  // URL-fetcher on a tunnelled instance would be an SSRF gift.
+  api.get(
+    "/link-preview",
+    wrap(async (req, res) => {
+      const url = typeof req.query.url === "string" ? req.query.url : "";
+      try {
+        new URL(url);
+      } catch {
+        res.status(400).json({ error: "A valid url is required" });
+        return;
+      }
+      res.json(await getLinkPreview(url));
     }),
   );
 

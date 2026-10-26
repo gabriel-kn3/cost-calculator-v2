@@ -58,6 +58,17 @@ export interface HealthResponse {
   latencyMs: number;
 }
 
+export interface LinkPreview {
+  url: string;
+  finalUrl: string;
+  host: string;
+  ok: boolean;
+  title: string | null;
+  description: string | null;
+  image: string | null;
+  siteName: string | null;
+}
+
 export interface CurrentUser {
   email: string;
   mode: "local" | "tunnel";
@@ -67,6 +78,9 @@ export interface CurrentUser {
 
 export const api = {
   health: () => get<HealthResponse>("/health"),
+
+  linkPreview: (url: string) =>
+    get<LinkPreview>(`/link-preview?url=${encodeURIComponent(url)}`),
 
   auth: {
     me: () => get<{ user: CurrentUser }>("/auth/me"),
