@@ -25,6 +25,7 @@ import { api } from "@/lib/api";
 import { draft } from "@/lib/draft";
 import { ShopifyExportDialog } from "@/components/products/ShopifyExportDialog";
 import { money } from "@shared/money";
+import { formatDuration } from "@shared/duration";
 import type { WireProduct } from "@shared/types";
 
 const SORT_OPTIONS = [
@@ -222,7 +223,7 @@ export default function ProductsPage() {
                 Updated: {formatUpdated(p.last_updated, tz, locale)}
               </p>
               <p className="mt-2 text-xs text-muted-foreground">
-                Materials: {p.materials?.length ?? 0} | Worked hours: {p.worked_hours}
+                Materials: {p.materials?.length ?? 0} | Worked hours: {formatDuration(p.worked_hours)}
               </p>
               {p.sale_price === 0 ? (
                 <p className="mt-2 text-xs text-warning">No sale price set</p>

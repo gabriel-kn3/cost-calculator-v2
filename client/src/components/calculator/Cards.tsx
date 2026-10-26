@@ -15,6 +15,9 @@ import { NumericInput } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { draft, type DraftState } from "@/lib/draft";
 import { money, round2, toNumber } from "@shared/money";
+import { formatDuration } from "@shared/duration";
+import { laborCost } from "@shared/costMath";
+import { DurationInput } from "./DurationInput";
 import type { Totals } from "@shared/types";
 import { cn } from "@/lib/utils";
 
@@ -26,11 +29,17 @@ export function LaborCard({ state }: { state: DraftState }) {
       <div className="mt-4 flex flex-col gap-3">
         <div className="flex flex-col gap-1.5">
           <Label htmlFor="worked-hours">Worked Hours</Label>
-          <NumericInput
+          <DurationInput
             id="worked-hours"
             value={state.workedHours}
-            onChange={(e) => draft.setField("workedHours", e.target.value)}
+            onChange={(v) => draft.setField("workedHours", v)}
           />
+          {toNumber(state.workedHours) > 0 ? (
+            <p className="text-xs text-muted-foreground tabular">
+              {formatDuration(state.workedHours)} × {money(state.laborRate)}/hr ={" "}
+              {money(laborCost(state.workedHours, state.laborRate))}
+            </p>
+          ) : null}
         </div>
         <div className="flex flex-col gap-1.5">
           <Label htmlFor="labor-rate">Labor Rate (per hour)</Label>
