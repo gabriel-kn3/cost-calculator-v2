@@ -60,6 +60,28 @@ Preferred order: **Tailscale Funnel** → **Cloudflare Tunnel + Access** →
 **ngrok with basic auth** → a Cloudflare quick tunnel (fully public — password
 on, brief use only).
 
+## Deploying to the installed copy
+
+The desktop shortcut runs a separate copy in `C:\ProgramData\HMBB Cost Calculator`,
+shared by every Windows account on this PC. That copy holds the real data.
+
+```bash
+npm run deploy:local
+```
+
+Close the app first — the script refuses to run while it is up. It backs up
+`app.db`, `app.db-wal` and `app.db-shm` **together** to two places and verifies
+them before touching anything, swaps the code folders while keeping the previous
+ones beside them for rollback, and never writes under `data\`. Migrations apply
+the next time the app is launched.
+
+> **Never back up or copy `app.db` on its own.** Recent work can live only in
+> `app.db-wal` — in October 2026 that file held two weeks of entries the main
+> file did not. The three files are only meaningful together.
+
+To prove a deploy changed nothing, run `npm run db:fingerprint -- "<data folder>"`
+before and after. It reads a copy, never the live file.
+
 ## Architecture
 
 Vite + React 19 + TypeScript, Tailwind v4, Express 5, SQLite via
